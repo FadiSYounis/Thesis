@@ -1,0 +1,51 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1711.11008
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CR
+< prev  |  next >
+new  | recent  | 1711
+Change to browse by:
+cs
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Qixue Xiao
+Kang Li
+Deyue Zhang
+Weilin Xu
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Cryptography and Security
+Title: Security Risks in Deep Learning Implementations
+Authors: Qixue Xiao , Kang Li , Deyue Zhang , Weilin Xu
+(Submitted on 29 Nov 2017)
+
+    Abstract: Advance in deep learning algorithms overshadows their security risk in software implementations. This paper discloses a set of vulnerabilities in popular deep learning frameworks including Caffe, TensorFlow, and Torch. Contrast to the small code size of deep learning models, these deep learning frameworks are complex and contain heavy dependencies on numerous open source packages. This paper considers the risks caused by these vulnerabilities by studying their impact on common deep learning applications such as voice recognition and image classifications. By exploiting these framework implementations, attackers can launch denial-of-service attacks that crash or hang a deep learning application, or control-flow hijacking attacks that cause either system compromise or recognition evasions. The goal of this paper is to draw attention on the software implementations and call for the community effort to improve the security of deep learning frameworks. 
+
+Subjects: 	Cryptography and Security (cs.CR)
+Cite as: 	arXiv:1711.11008 [cs.CR]
+  	(or arXiv:1711.11008v1 [cs.CR] for this version)
+Submission history
+From: Kang Li [ view email ]
+[v1] Wed, 29 Nov 2017 18:33:27 GMT (341kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

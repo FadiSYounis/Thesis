@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html class="no-js js is_not_retina fa-events-icons-ready" style="" lang="en"><head><script type="text/javascript" async="" src="munchkin.js"></script><script type="text/javascript" async="" src="insight.js"></script><script src="identity.js" async=""></script><script src="1646638862321038" async=""></script><script src="https://connect.facebook.net/signals/config/1655390594740684?v=2.8.12&amp;r=stable" async=""></script><script type="text/javascript" async="" src="fbevents.js"></script><script type="text/javascript" async="" src="roundtrip.js"></script><script type="text/javascript" async="" src="analytics.js"></script><script type="text/javascript" async="" src="gtm_002.js"></script><script type="text/javascript" async="" src="conversion_async.js"></script><script type="text/javascript" async="" src="uwt.js"></script><script type="text/javascript" async="" src="roundtrip.js"></script><script type="text/javascript" async="" src="analytics.js"></script><script type="text/javascript" async="" src="conversion_async.js"></script><script type="text/javascript" async="" src="munchkin_002.js"></script><script async="" src="uwt.js"></script><script type="text/javascript" async="" src="insight.js"></script><script type="text/javascript" async="" src="bf-munchkin.js"></script><script async="" src="gtm.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="ei.js"></script><script type="text/javascript" async="" src="analytics_002.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="description" content="The Docker platform leverages Docker containers to enable IT operations teams and Developement teams to build, ship and run any application, anywhere.">
+<meta name="abstract" content="The Docker platform leverages Docker containers to enable IT operations teams and Developer teams to build, ship and run any application, anywhere">
+<meta name="keywords" content="what is docker, docker container, docker linux, linux docker, docker getting started, docker technology, docker vm, docker virtualization, docker explained, what is a docker container, docker how to, docker quickstart, how to docker">
+<link rel="canonical" href="https://www.docker.com/what-docker">
+<link rel="shortlink" href="https://www.docker.com/node/3">
+<meta property="og:site_name" content="Docker">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.docker.com/what-docker">
+<meta property="og:title" content="What is Docker?">
+<meta property="og:description" content="Docker is an open platform to build, ship and run distributed applications anywhere.">
+<meta property="og:updated_time" content="2018-02-02T05:46:14-08:00">
+<meta property="og:image" content="https://www.docker.com/sites/default/files/social/docker_facebook_share.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@docker">
+<meta name="twitter:url" content="https://www.docker.com/what-docker">
+<meta name="twitter:title" content="What is Docker?">
+<meta name="twitter:description" content="Docker is an open platform to build, ship and run distributed applications anywhere.">
+<meta name="twitter:image" content="https://www.docker.com/sites/default/files/social/docker_twitter_share_new.png?4362984378">
+<meta property="article:published_time" content="2015-05-14T16:17:40-07:00">
+<meta property="article:modified_time" content="2018-02-02T05:46:14-08:00">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>What is Docker?</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="https://www.docker.com/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://www.docker.com/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://www.docker.com/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://www.docker.com/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://www.docker.com/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://www.docker.com/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://www.docker.com/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://www.docker.com/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.docker.com/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.docker.com/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.docker.com/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://www.docker.com/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.docker.com/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://www.docker.com/favicon/manifest.json">
+  <link rel="mask-icon" href="https://www.docker.com/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content=" What is Docker?">
+	<link type="text/css" rel="stylesheet" href="css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all">
+<link type="text/css" rel="stylesheet" href="css_5YbdHr5Ydl82DxADBrSxdn1QRG2JoYejHCFqvNm0E3w.css" media="all">
+<link type="text/css" rel="stylesheet" href="css_MnXiytJtb186Ydycnpwpw34cuUsHaKc80ey5LiQXhSY.css" media="all">
+<link type="text/css" rel="stylesheet" href="css.css" media="all">
+<link type="text/css" rel="stylesheet" href="css_oi4miyiebMIZuiZvsYzPOUJH2KK_1PkmnlbJT9Gr-Lk.css" media="all">
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.before_hero_section .container{}.inner-wrap{position:inherit;}.heronav_section.affix+.before_hero_section{top:-600px;margin:0 0 -600px 0;}.it_next_step .container>h2:after{height:4px;width:64px;opacity:0.2;background-color:#066DA5;content:"";display:block;margin:auto;margin-top:20px;}.it_next_step .container>p:nth-of-type(2){border-top:1px solid rgba(68,93,110,0.2);padding-top:40px;}#details_section .details_tip{width:23px;padding:0px 7px;font-family:Open Sans,sans-serif;font-weight:700;}.node-type-legal .title_section p{max-width:600px;}.sidebarnav_section ul li{max-width:200px;}.page-node-17497 .legal_content_section table{border:none;}.page-node-17497 .legal_content_section tbody{border:none;}.page-node-17497 .legal_content_section table td,.page-node-17497  .legal_content_section table th{border:none;padding:10px 10px 10px 0;}.page-node-17497 .legal_content_section table td img{display:block;}@media (max-width:600px){.page-node-17497 .legal_content_section table td{display:block;width:90%;}.page-node-17497 .legal_content_section table{width:100%!important;}}.home_middle_section .company_items li a img{max-width:100%;max-height:40px;}#dockercon_banner_wrap{}.page-node-1 #dockercon_banner_wrap{}#dockercon_banner_wrap img{max-width:300px;}.page-node-1 #dockercon_banner_wrap img{max-width:415px;}@media (max-width:500px){.page-node-1 #dockercon_banner_wrap img{max-width:100%;}}.title_section.with_heronav  #dockercon_banner_wrap{bottom:49px!important;}.title_section.without_heronav  #dockercon_banner_wrap{bottom:-1px!important;}.node-type-it-page .animation_slides #dockercon_banner_wrap{bottom:49px!important;}.animation_slides .kubernetes_gradient{background-image:radial-gradient(circle at 47% 9%,#3e825f,#1a4172);}.animation_slides .red_gradient{background-image:radial-gradient(circle at 47% -28%,#ef544b,#282b43);background-image:radial-gradient(circle at 47% 0%,#ef544b -15%,#282b43 60%);}.title_section.kubernetes_gradient img{max-height:800px;width:150%;max-width:inherit;left:-50%;top:-150px;position:absolute;z-index:-1;}.title_section.red_gradient img{width:100%;max-width:480px;left:3%;top:-50px;position:absolute;z-index:-1;}.title_section.red_gradient .main-button{background-color:rgba(255,255,255,0.3);box-shadow:0 1px 0 0 rgba(255,255,255,0.1);}.title_section.red_gradient .main-button:hover{background-color:rgba(255,255,255,0.2);}@media (max-width:680px){.animation_slides .title_section h1{margin-left:auto;margin-right:auto;}.animation_slides .slick-dots{}}@media (max-width:767px){.before_hero_section{padding:130px 0 200px 0;}#dockercon_banner_wrap{bottom:-50px!important;margin-top:0px;position:initial;height:90px;}#dockercon_banner_wrap a{position:absolute;bottom:0;right:0;}.title_section.with_heronav  #dockercon_banner_wrap a{bottom:49px;}.title_section.without_heronav  #dockercon_banner_wrap a{bottom:0px;}.partner_inside .content{padding:0 15px 20px;}}.career_job_openings_section ul.items>li .left{min-height:90px;}@media (max-width:1199px){.title_section .button{margin:20px 20px 0 0!important;}.main-header .desktop div>.nav-main>li{padding:15px 14px;}}.animation_slides .slick-slide.slick-current .container{display:block;}.heronav_section .arrow{height:50px;margin-top:-25px;}.node-type-page-alibaba p{font-size:16px;line-height:26px;}.partner_inside_overview{padding:50px 0;}.partner_inside_overview h2{font-size:36px;line-height:40px;max-width:800px;}.partner_inside_overview .logo{max-width:290px;}.partner_inside_overview .col-md-6+.col-md-6{text-align:right;}.partner_inside_overview .button{max-width:300px;}.partner_inside_overview .col-md-12 .button{max-width:inherit;width:initial;}.partner_inside_resources_section{padding:20px 0;}.partner_inside_resources_section .item{max-width:200px;margin:auto;}.partner_inside_resources_section ul.items>li+li{border-left:1px solid #ccc;}.partner_inside_get_started_section{padding:20px 0;}.partner_inside_about_section{padding:20px 0 100px 0;}.partner_inside_about_section h2{font-size:36px;}.partners_tabs ul li{max-width:20%;}.resource_sorting{display:none;}.logged-in .resource_sorting{display:block;}.resources_section .resource_sorting .resources_link img{display:none;}.resource_sorting .views-table{width:100%;border:1px solid #ccc;}.resource_sorting .views-table thead{display:none;}.resource_sorting .draggable a.tabledrag-handle{position:absolute;width:100%;height:100%;top:0;z-index:100;opacity:0;}.resource_sorting .views-table tr.even,.resource_sorting .views-table tr.odd{padding:6px 10px 6px 20px;width:100%;display:inline-block;float:left;position:relative;}.resources_section .resource_sorting .resources_link{width:100%;margin-bottom:2px;}.resources_section .resource_sorting .resources_link span{text-align:left;padding:0px 10px;}.view_resource .view tbody{border-top:none;}.view_resource .views-table{width:100%;}.view_resource .views-table thead{display:none;}.view_resource .views-table tr.even,.view_resource .views-table tr.odd{background-color:transparent;border-bottom:none;padding:0;width:25%;display:inline-block;float:left;position:relative;}.page-node-4199 .view_resource .views-table tr:nth-child(n+5){display:none;}.view_resource .views-table tr.even .resources_link,.view_resource .views-table tr.odd .resources_link{width:100%;max-width:200px;}.view_resource .draggable a.tabledrag-handle{position:absolute;opacity:0;}.view_resource .form-actions{display:none;}.resources_items>.resources_link{display:none;}.tabledrag-toggle-weight-wrapper{display:none;}.resources_section .view .form-submit{text-decoration:none;outline:0;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;transition:all .4s ease-in-out;font-family:'Geomanist Book';font-size:14px;padding:8px 60px 8px 60px;display:inline-block;min-width:150px;text-align:center;border-radius:1px;margin-bottom:20px;box-shadow:0 1px 0 0 rgba(0,0,0,0.2);border:1px solid rgba(0,0,0,0.1);color:#FFF;text-shadow:0 1px 0 rgba(0,0,0,0.2);background-color:#009bff;}.resources_section .view .form-submit:hover{background-color:#106C9E;box-shadow:0 1px 0 0 rgba(0,0,0,0.1);border:1px solid rgba(0,0,0,0.1);color:#FFFFFF;}.page-node-17573{}.page-node-17573 h2{font-family:Geomanist Light;font-size:36px;text-transform:uppercase;}.page-node-17573 .section .container>h2:after{display:none;}.page-node-17573 .other_resources .media_image{height:86px;}.page-node-17573 .other_resources .media_image img{max-width:80px;max-height:70px;}.page-node-17573 .section ul.items.other_resources li h3{font-family:'Open Sans',sans-serif;line-height:18px;font-size:14px;font-weight:bold;}.page-node-17573 ul.items.other_resources li p{font-size:14px;line-height:18px;}.page-node-17573 .it_hello_world_section .hello-world-text{max-width:360px;margin:0 auto;text-align:left;}.page-node-17573 .it_hello_world_section .hello-world-text p{max-width:inherit;margin:inherit;}.page-node-17573 ul.items.other_resources>li .media_content{max-width:240px;}.page-node-17573 section.section .container>ul.items{max-width:1030px;margin-left:auto;margin-right:auto;margin-bottom:0;}.page-node-17573 section.it_start_section{padding-top:80px;}.page-node-17573 section.it_save_section{padding-bottom:80px;position:relative;}.page-node-17573 section.it_save_section:before{content:"";position:absolute;left:0;right:0;top:0;height:50%;background-color:#f3f3f3;z-index:-1;}.page-node-17573 .it_save_section .container>p{max-width:800px;margin-left:auto;margin-right:auto;max-width:490px;}.page-node-17573 .it_save_section .it_save_item{background-color:#061F2F;padding:60px 16px;color:#FFFFFF;}.page-node-17573 .it_save_section .it_save_item h2{font-family:Geomanist;font-size:64px;margin-bottom:0;text-align:center;color:#FFFFFF;}.page-node-17573 .it_save_section .it_save_item h3{font-family:'Open Sans',sans-serif;color:#3AAFEF;max-width:110px;margin-left:auto;margin-right:auto;}.page-node-17573 .it_windows_section{text-align:center;}.page-node-17573 .it_windows_section .container>h2{max-width:490px;margin-left:auto;margin-right:auto;}.page-node-17573 .it_windows_section .container>p{max-width:490px;margin-left:auto;margin-right:auto;}.node-type-it-page.page-node-17573 .title_section img{margin:0;max-height:initial;max-width:inherit;position:absolute;width:120%;top:-50px;right:0;left:-50px;}.page-node-17573 .animation_slides .title_section{background-image:radial-gradient(circle,#00c7d0 0%,#0075b5 100%);}.page-node-17597 .flexible_content .text_center{text-align:left;}.page-node-17597 .flexible_content hr{margin-top:50px;margin-bottom:50px;}.page-node-17597 .flexible_content h4{margin-bottom:20px;}.page-node-17597 .flexible_content ul{margin-bottom:20px;}.page-node-17597 .flexible_content ul li{margin:5px 0;}.career_job_openings_section ul.items{max-width:800px;margin:auto;}.career_job_openings_section ul.items>li{padding:30px 30px 30px;display:inline-block;float:none;margin-left:-2px;margin-right:-2px;}@media (min-width:992px){.career_job_openings_section ul.items>li{width:33.33%;}}.career_job_openings_section ul.items>li .left{text-align:center;}.fedsummitpage #agenda #agenda_table .agenda-row .detail{font-size:13px;color:#445d6e;line-height:22px;}.fedsummitpage #agenda #agenda_table .agenda-row .detail p{font-size:13px;line-height:22px;padding:0 10px 0 0;}.fedsummitpage #agenda #agenda_table .agenda-row .detail ul{font-weight:300;}#agenda_table .agenda-row .session_details{margin-left:120px;width:calc(100% - 250px);float:left;padding:20px 0px 0px 0;}.fedsummitpage #agenda #agenda_table .agenda-row .detail .two-event{padding-right:15px;}#agenda_table .agenda-row .session_details .session_tem{width:50%;padding-right:15px;display:inline-block;margin-left:-1px;margin-right:-1px;vertical-align:top;}#agenda_table .agenda-row .session_details ul{font-family:Open Sans;font-size:13px;line-height:1.85;font-weight:500;}#agenda_table .agenda-row .session_details p{margin-bottom:0;}.fedsummitpage #agenda #agenda_table .agenda-row .detail .two-event{padding-right:0;}
+
+/*]]>*/-->
+</style>
+  <script type="text/javascript" src="jquery-1.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="js_V1ZuwJK9uzfm6fFffOcHHubfxnimoxnbgG58pvTQdpY.js"></script>
+<script type="text/javascript" src="8a432be07c.js"></script><link href="8a432be07c.css" media="all" rel="stylesheet">
+<script type="text/javascript" src="forms2.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"docker","theme_token":"2MVhg2Nz0t0CWfvpIPHqEXu6X1-DW1mI7QrXN6jORGk","js":{"sites\/all\/themes\/docker\/assets\/js\/jquery-1.11.3.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/jquery-migrate-1.4.1.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/bootstrap.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/affix.js":1,"sites\/all\/themes\/docker\/assets\/js\/jquery.ba-bbq.js":1,"sites\/all\/themes\/docker\/assets\/js\/jquery.smooth-scroll.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/jquery.cubeportfolio.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/jquery.magnific-popup.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/jquery.flexslider-min.js":1,"sites\/all\/themes\/docker\/assets\/js\/jquery.matchHeight.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/wow.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/slick.min.js":1,"sites\/all\/themes\/docker\/assets\/js\/script.js":1,"0":1,"\/\/code.jquery.com\/jquery-1.10.2.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/use.fontawesome.com\/8a432be07c.js":1,"\/\/app-sj05.marketo.com\/js\/forms2\/js\/forms2.min.js":1,"2":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"https:\/\/fonts.googleapis.com\/css?family=Open+Sans:300,400,700":1,"sites\/all\/themes\/docker\/assets\/css\/bootstrap.min.css":1,"sites\/all\/themes\/docker\/assets\/css\/cubeportfolio.min.css":1,"sites\/all\/themes\/docker\/assets\/css\/magnific-popup.css":1,"sites\/all\/themes\/docker\/assets\/css\/animate.css":1,"sites\/all\/themes\/docker\/assets\/css\/flexslider.css":1,"sites\/all\/themes\/docker\/assets\/css\/slick.css":1,"sites\/all\/themes\/docker\/assets\/css\/style.css":1,"sites\/all\/themes\/docker\/assets\/css\/style-a.css":1,"sites\/all\/themes\/docker\/assets\/css\/responsive.css":1,"sites\/all\/themes\/docker\/assets\/css\/style-dane.css":1,"0":1}}});
+//--><!]]>
+</script>
+  
+  
+    	
+  <script type="application/ld+json"> 
+  {
+    "@context": "http://www.schema.org",
+    "@type": "WebSite",
+    "name": "Docker",
+    "url": "https://www.docker.com"
+  }
+  </script>
+  <!-- Start Analytics.js Code -->
+  <script type="text/javascript">
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+    analytics.load("IyBu5RsBo9R8UuqWPhCkO8yEHXeZYnKa");
+    analytics.page();
+    }}();
+  </script>
+  <!-- End Analytics.js Code -->
+<style>
+<!--/*--><![CDATA[/* ><!--*/
+
+
+
+/*--><!]]>*/
+</style><!-- Global site tag (gtag.js) - Google AdWords: 842916875 -->
+<script async="" src="js.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-842916875');
+</script>
+<script type="text/javascript">
+(function() {
+var didInit = false;
+function initMunchkin() {
+if(didInit === false)
+{ didInit = true; Munchkin.init('929-FJL-178'); }
+}
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true;
+s.src = '//munchkin.marketo.net/munchkin.js';
+s.onreadystatechange = function() {
+if (this.readyState == 'complete' || this.readyState == 'loaded')
+{ initMunchkin(); }
+};
+s.onload = initMunchkin;
+document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script><script type="text/javascript" async="" src="munchkin.js"></script>
+<script async="true" type="text/javascript" src="SC67VPE7UZFTXBS5QTGXWO"></script><script async="true" type="text/javascript" src="SC67VPE7UZFTXBS5QTGXWO"></script><link id="mktoForms2BaseStyle" rel="stylesheet" type="text/css" href="forms2.css"><link id="mktoForms2ThemeStyle" rel="stylesheet" type="text/css" href="forms2-theme-simple.css"><script type="text/javascript" src="ei_track_all_packed.js"></script><script type="text/javascript" src="//s.adroll.com/j/sendrolling.js"></script><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/aol/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/index/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/n/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/outbrain/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/pubmatic/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/taboola/out" width="1" height="1"></div><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/r/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/b/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/x/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/l/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/o/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/g/out?google_nid=adroll5" width="1" height="1">
+</div><script type="text/javascript" src="//s.adroll.com/j/sendrolling.js"></script><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/aol/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/index/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/n/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/outbrain/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/pubmatic/out" width="1" height="1"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/taboola/out" width="1" height="1"></div><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img style="border-style:none;" alt="" src="https://d.adroll.com/cm/r/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/b/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/x/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/l/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/o/out" width="1" height="1">
+<img style="border-style:none;" alt="" src="https://d.adroll.com/cm/g/out?google_nid=adroll5" width="1" height="1">
+</div></head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-3 node-type-what-is-docker path-what-docker" ng-app="Docker" data-spy="scroll" data-target=".heronav_section" data-offset="70">
+<div itemscope="" itemprop="organization" itemtype="http://schema.org/Organization">
+  <meta itemprop="url" content="https://www.docker.com">
+  <meta itemprop="name" content="Docker">
+  <meta itemprop="sameAs" content="https://www.linkedin.com/company/docker">
+  <meta itemprop="sameAs" content="https://twitter.com/docker">
+  <meta itemprop="logo" content="https://www.docker.com/sites/all/themes/docker/assets/images/brand-full.svg">
+</div>
+<div itemscope="" itemtype="http://schema.org/WebSite">
+  <meta itemprop="url" content="https://www.docker.com/">
+  <meta itemprop="name" content="Docker">
+</div>
+
+		<div class="off-canvas-wrap" data-offcanvas="">
+		<div class="inner-wrap">
+										<header class="main-header">
+	<!-- navigation -->
+	<!-- mobile navigation -->
+	<div class="header">
+		<div class="fixed_div">
+			<div class="burger-container">
+				<div id="burger">
+					<div class="bar topBar"></div>
+					<div class="bar btmBar"></div>
+				</div>
+			</div>
+			<div class="icon icon-apple">
+				<a href="https://www.docker.com/"><img class="brand-full" src="brand-full.svg" alt="Docker" title="Docker"></a>
+				<a href="https://www.docker.com/"><img class="brand-simple" src="brand.svg" alt="Docker" title="Docker"></a>
+			</div> 
+		</div> 
+		<div class="scroll_div">
+			
+			<ul class="nav-main"><li class="first leaf"><a href="https://www.docker.com/what-docker" class="active">What is Docker?</a></li>
+<li class="leaf"><a href="https://www.docker.com/get-docker">Product</a></li>
+<li class="leaf"><a href="https://www.docker.com/docker-community">Community</a></li>
+<li class="last expanded has-submenu"><a href="https://www.docker.com/" class="nolinkhere">Support</a><ul class="nav-main"><li class="first leaf"><a href="https://success.docker.com/" target="_blank">Customer Portal</a></li>
+<li class="leaf"><a href="https://docs.docker.com/" target="_blank">Documentation</a></li>
+<li class="leaf"><a href="https://success.docker.com/support" target="_blank">Support</a></li>
+<li class="leaf"><a href="https://training.docker.com/instructor-led-training" target="_blank">Training</a></li>
+<li class="last leaf"><a href="https://success.docker.com/certification" target="_blank">Certification</a></li>
+</ul></li>
+</ul> 
+			<ul class="nav-user"><li class="first leaf"><a href="https://hub.docker.com/">Create Docker ID</a></li>
+<li class="last leaf"><a href="https://hub.docker.com/sso/start/?next=https://www.docker.com/">Sign In</a></li>
+</ul> 
+			<div class="shop icon icon-bag"></div>
+		</div>
+	</div>
+	<!-- mobile navigation end -->
+	<!-- full width navigation -->
+	<div class="container">
+		<div class="row desktop">
+			<div class="col-xs-2">
+				<a href="https://www.docker.com/"><img class="logo" src="brand-full.svg" alt="Docker" title="Docker"></a>
+				<a href="https://www.docker.com/"><img class="logo_safari" src="brand-full.svg" alt="Docker" title="Docker"></a>
+			</div>
+			<div class="col-xs-10">
+				<ul class="nav-user"><li class="first leaf"><a href="https://hub.docker.com/">Create Docker ID</a></li>
+<li class="last leaf"><a href="https://hub.docker.com/sso/start/?next=https://www.docker.com/">Sign In</a></li>
+</ul> 
+				 
+        <form action="/what-docker" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input id="edit-search-block-form--2" name="search_block_form" size="15" maxlength="128" class="form-text" required="" type="text">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input id="edit-submit" name="op" value="Search" class="form-submit" type="submit"></div><input name="form_build_id" value="form-rITsJljcal4QSbhRkK4DBRu5lKf5zOqWF7xHrtlPnNc" type="hidden">
+<input name="form_id" value="search_block_form" type="hidden">
+  <input id="edit-close" name="op" value="Close" class="form-submit" type="submit">
+</div>
+</div></form><a class="search_box_icon" id="search_box_icon" href="#"></a> 
+				<a class="nav_xb" href="#" title=""></a>
+				<ul class="nav-main"><li class="first leaf"><a href="https://www.docker.com/what-docker" class="active">What is Docker?</a></li>
+<li class="leaf"><a href="https://www.docker.com/get-docker">Product</a></li>
+<li class="leaf"><a href="https://www.docker.com/docker-community">Community</a></li>
+<li class="last expanded has-submenu"><a href="https://www.docker.com/" class="nolinkhere">Support</a><ul class="nav-main"><li class="first leaf"><a href="https://success.docker.com/" target="_blank">Customer Portal</a></li>
+<li class="leaf"><a href="https://docs.docker.com/" target="_blank">Documentation</a></li>
+<li class="leaf"><a href="https://success.docker.com/support" target="_blank">Support</a></li>
+<li class="leaf"><a href="https://training.docker.com/instructor-led-training" target="_blank">Training</a></li>
+<li class="last leaf"><a href="https://success.docker.com/certification" target="_blank">Certification</a></li>
+</ul></li>
+</ul>			</div>
+		</div>
+	</div>
+	<!-- full width navigation end -->
+
+</header>						 
+<section class="title_section what_is_docker?_class _class with_heronav" style="padding-top: 32px; padding-bottom: 100px;">
+<div class="header_padding"></div>
+  <div class="container">
+  	<div class="banner_slides">   
+  	<ul class="slides slick-initialized slick-slider">   
+					<div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1140px; transform: translate3d(0px, 0px, 0px);" role="listbox"><li class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1140px;" tabindex="-1" role="option" aria-describedby="slick-slide00"> 
+								<h1>What is Docker</h1>				<p class="max-width800">Docker is the world’s leading software containerization platform.</p>																		<a class="button second-button" target="_blank" href="https://trial.docker.com/" tabindex="0">Try Docker Enterprise Edition</a>
+																											<a class="button main-button" target="_self" href="https://www.docker.com/enterprise" tabindex="0">Learn More</a>
+																				</li></div></div>
+			</ul>
+	</div>
+  </div>
+  <!-- ************** Start DockerCon CTA  ************** -->
+  <div id="dockercon_banner_wrap">
+		<a href="https://2018.dockercon.com/" target="_blank">
+			<img src="DockerConBannerDocs.svg" alt="DockerCon Europe 2018">
+		</a>
+  </div> 
+  <!-- ************** End DockerCon CTA  ************** -->
+</section>
+<div class="heronav_section affix-top">
+  <div class="container">
+	<ul class="nav">
+						<li class="nav-item  "><a class="nav-link" href="#overview">Overview</a></li>
+							<li class="nav-item "><a class="nav-link" href="#modern-app">Platform</a></li>
+							<li class="nav-item "><a class="nav-link" href="#journey">Journey</a></li>
+				</ul>
+  </div>
+</div>
+<section id="overview" class="section whatisdocker_overview_section LeftDev">
+ <div class="container">
+	<div class="midContent">
+		<h2>Overview</h2>		<p>Docker is the company driving the container 
+movement and the only container platform provider to address every 
+application across the hybrid cloud. Today’s businesses are under 
+pressure to digitally transform but are constrained by existing 
+applications and infrastructure while rationalizing an increasingly 
+diverse portfolio of clouds, datacenters and application architectures. 
+Docker enables true independence between applications and infrastructure
+ and developers and IT ops to unlock their potential and creates a model
+ for better collaboration and innovation. </p> 							<a class="button second-button" target="_self" href="https://www.docker.com/what-container">LEARN MORE ABOUT CONTAINERS</a>
+					</div>
+  </div>
+</section>
+ 
+<section id="" class="section whatisdocker_box1_section whatisdocker_box">
+	  			<ul class="items widthcol2">
+				
+					<li>
+						<div class="item blue">
+															<div data-mh="mh_whatisdocker_box1_img" style="height: 25px;">
+									<img src="agility2x_1.png" alt="AGILITY">
+								</div>														<div data-mh="mh_whatisdocker_box1_con" style="height: 127px;">
+								<h3>AGILITY</h3>								<p>Accelerate software development and deployment by 13X and respond instantly to customer needs.</p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item gray">
+															<div data-mh="mh_whatisdocker_box1_img" style="height: 25px;">
+									<img src="portability2x_1.png" alt="PORTABILITY">
+								</div>														<div data-mh="mh_whatisdocker_box1_con" style="height: 127px;">
+								<h3>PORTABILITY</h3>								<p>Eliminate the “works on my machine” once and for all. Gain independence across on-prem and cloud environments.</p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item gray">
+															<div data-mh="mh_whatisdocker_box1_img" style="height: 25px;">
+									<img src="security2x_1.png" alt="SECURITY">
+								</div>														<div data-mh="mh_whatisdocker_box1_con" style="height: 151px;">
+								<h3>SECURITY</h3>								<p>Deliver applications safer across the entire lifecycle with built in security capabilities and configurations out of the box.</p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item blue">
+															<div data-mh="mh_whatisdocker_box1_img" style="height: 25px;">
+									<img src="cost-savings2x.png" alt="COST SAVINGS">
+								</div>														<div data-mh="mh_whatisdocker_box1_con" style="height: 151px;">
+								<h3>COST SAVINGS</h3>								<p>Optimize the use of your infrastructure resources and streamline operations to save 50% in total costs.</p>							</div>
+													</div>
+					</li>
+						</ul>
+						</section>
+<section id="modern-app" class="section whatisdocker_section5_section LeftDev">
+ <div class="container">
+	<div class="midContent">
+		<h2>Modern app platform</h2>		<p>The Docker platform is the only 
+container platform to build, secure and manage the widest array of 
+applications from development to production both on premises and in the 
+cloud.  Docker Community Edition [CE] empowers developers with tools to 
+build applications and Docker Enterprise Edition [EE] provides IT with 
+multi-architecture operations at scale. Docker delivers both an engine 
+for innovation that modernizes without disruption while reducing total 
+costs by more than 50%. Unlike other solutions that specialize in a 
+narrow slice of the enterprise IT portfolio, Docker delivers operations 
+at scale by addressing a diverse set of applications and infrastructure 
+for both developers and IT.</p>	</div>
+	  			<ul class="items widthcol3">
+				
+					<li>
+						<div class="item left">
+							<div data-mh="mh_whatisdocker_section5_img" style="height: 25px;">
+								<img src="simplicity.png" alt="Simplicity">
+							</div>							<div data-mh="mh_whatisdocker_section5_con" style="height: 140px;">
+								<h3>Simplicity</h3>								<p></p><p>Docker makes powerful tools for application creation and orchestration, accessible to everyone.</p><p></p>							</div>
+						</div>
+					</li>
+				
+					<li>
+						<div class="item left">
+							<div data-mh="mh_whatisdocker_section5_img" style="height: 25px;">
+								<img src="openness.png" alt="Openness">
+							</div>							<div data-mh="mh_whatisdocker_section5_con" style="height: 140px;">
+								<h3>Openness</h3>								<p></p><p>Built with open source technology and a modular design makes it easy to integrate into your existing environment.</p><p></p>							</div>
+						</div>
+					</li>
+				
+					<li>
+						<div class="item left">
+							<div data-mh="mh_whatisdocker_section5_img" style="height: 25px;">
+								<img src="independence_0.png" alt="Independence">
+							</div>							<div data-mh="mh_whatisdocker_section5_con" style="height: 140px;">
+								<h3>Independence</h3>								<p></p><p>Docker creates a 
+separation of concerns between developers and IT and between 
+applications and infrastructure to unlock innovation.</p><p></p>							</div>
+						</div>
+					</li>
+						</ul>
+														<!-- <a class="button main-button" target="_self" href="https://www.docker.com/enterprise">LEARN MORE</a> -->
+					<a class="button second-button" target="_self" href="https://www.docker.com/enterprise">LEARN MORE</a>
+																			<!-- <a class="button second-button" target="_blank" href="https://trial.docker.com/">TEST DRIVE DOCKER</a> -->
+					<a class="button second-button" target="_blank" href="https://trial.docker.com/">TEST DRIVE DOCKER</a>
+									  </div>
+</section>
+
+
+<section id="" class="section whatisdocker_box2_section whatisdocker_box">
+	  			<ul class="items widthcol3">
+				
+					<li>
+						<div class="item gray">
+															<div data-mh="mh_whatisdocker_box2_img" style="height: 25px;">
+									<img src="devs2x_2.png" alt="DEVS">
+								</div>														<div data-mh="mh_whatisdocker_box2_con" style="height: 248px;">
+								<h3>DEVS</h3>								<p></p><p>Docker empowers developer freedom, creativity and to ship more software faster.</p>
+<p>Try Docker today on your <a target="_blank" href="https://store.docker.com/editions/community/docker-ce-desktop-mac">Mac</a> or <a target="_blank" href="https://store.docker.com/editions/community/docker-ce-desktop-windows">Windows</a> desktop and <a target="_blank" href="http://training.play-with-docker.com/">learn Docker</a> today.</p><p></p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item blue">
+															<div data-mh="mh_whatisdocker_box2_img" style="height: 25px;">
+									<img src="ops2x.png" alt="OPS">
+								</div>														<div data-mh="mh_whatisdocker_box2_con" style="height: 248px;">
+								<h3>OPS</h3>								<p></p><p>Gain visibility, management and security from a universal control plane across all your containerized applications and services.</p>
+<p><a href="https://www.docker.com/itpro">Learn more about how Docker streamlines IT.</a></p><p></p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item gray">
+															<div data-mh="mh_whatisdocker_box2_img" style="height: 25px;">
+									<img src="ecosystem2x.png" alt="ECOSYSTEM">
+								</div>														<div data-mh="mh_whatisdocker_box2_con" style="height: 248px;">
+								<h3>ECOSYSTEM</h3>								<p></p><p>An open and extensible 
+platform, Docker easily integrates into existing environments and 
+fosters a vibrant ecosystem of technology, business partners worldwide.</p>
+<p><a href="https://www.docker.com/find-partner">Find a Docker partner</a>, browse the <a target="_blank" href="https://store.docker.com/">Docker Store</a> or join our <a href="https://www.docker.com/partners/partner-program">partner program.</a></p><p></p>							</div>
+													</div>
+					</li>
+						</ul>
+		</section>
+
+
+
+<section id="journey" class="section whatisdocker_journey_section LeftDev">
+ <div class="container">
+	<div class="midContent">
+		<h2>the docker journey</h2>		<p>The container journey starts with the 
+existing applications that run your business. By making them faster, 
+more secure and cheaper to operate, Docker helps free up time and 
+resources to build new applications for your customers.  Transform IT 
+without having to re-tool, re-code or re-educate existing applications, 
+policies or staff. Once containerized and on the secure supply chain, 
+Docker uniquely addresses the needs across your IT organization -- from 
+bringing the legacy forward to enabling future development. Accelerate 
+your time to market, time to value and increase return on investment 
+(ROI).</p>			</div>
+  </div>
+</section>
+
+<section id="" class="section whatisdocker_box3_section whatisdocker_box">
+ <div class="container">
+	<div class="midContent">
+	  			<ul class="items ">
+				
+					<li>
+						<div class="item ">
+															<div class="whatisdocker_box3_img">
+									<img src="modernize-traditional-apps2x.png" alt="Modernize Traditional Apps [MTA]">
+								</div>														<div class="whatisdocker_box3_text">
+								<h3>Modernize Traditional Apps [MTA]</h3>								<p></p><p>The 
+first step with Docker is to modernize the existing application 
+portfolio. Packaging existing apps into containers immediately improves 
+security, reduce costs, and gain cloud portability. This transformation 
+applies modern properties to legacy applications - all without changing a
+ single line of code.</p>
+<p><a target="_blank" href="https://goto.docker.com/mtakit">DOWNLOAD THE MTA KIT</a></p><p></p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item ">
+															<div class="whatisdocker_box3_img">
+									<img src="hybrid-clouds2x.png" alt="Hybrid Cloud ">
+								</div>														<div class="whatisdocker_box3_text">
+								<h3>Hybrid Cloud </h3>								<p></p><p>Cloud migration, 
+multi-cloud or hybrid cloud infrastructure require frictionless 
+portability of applications. Docker packages applications and their 
+dependencies together into an isolated container making them portable to
+ any infrastructure. Eliminate the “works on my machine” problem once 
+and for all.  Docker certified infrastructure ensures the containerized 
+applications work consistently.</p>
+<p><a href="http://www.docker.com/enterprise">LEARN ABOUT CERTIFIED INFRASTRUCTURE</a></p><p></p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item ">
+															<div class="whatisdocker_box3_img">
+									<img src="devops2x.png" alt="Continuous Integration and Deployment [DevOps]">
+								</div>														<div class="whatisdocker_box3_text">
+								<h3>Continuous Integration and Deployment [DevOps]</h3>								<p></p><p>Integrate
+ modern methodologies and automate development pipelines with the 
+integration of Docker and DevOps. The isolated nature of containers make
+ it conducive to rapidly changing environments by eliminating app 
+conflicts and increasing developer productivity.  Docker enables a true 
+separation of concerns to accelerate the adoption of DevOps processes.</p>
+<p><a target="_blank" href="https://www.docker.com/sites/default/files/WP_Docker%20and%20the%203%20ways%20devops.pdf" class=" bf_ungated_init">WHITE PAPER - DOCKER AND DEVOPS</a></p><p></p>							</div>
+													</div>
+					</li>
+				
+					<li>
+						<div class="item ">
+															<div class="whatisdocker_box3_img">
+									<img src="microservices2x.png" alt="Microservices ">
+								</div>														<div class="whatisdocker_box3_text">
+								<h3>Microservices </h3>								<p></p><p>Docker containers are 
+lightweight by design and ideal for enabling microservices application 
+development. Accelerate development, deployment and rollback of tens or 
+hundreds of containers composed as a single application. Whether 
+building new microservices or transitioning monoliths to smaller 
+services, simple to use tools make it easy to compose, deploy and 
+maintain complex applications. </p><p></p>							</div>
+													</div>
+					</li>
+						</ul>
+			</div>
+ </div>
+</section>
+			<a class="exit-off-canvas"></a>
+		</div>
+	</div>
+			<section class="newsletter_section">
+	<div class="container">
+		<div class="newsletter">
+			<form id="mktoForm_1038" novalidate="novalidate" style="font-family: Helvetica,Arial,sans-serif; font-size: 13px; color: rgb(51, 51, 51); width: 251px;" class="mktoForm mktoHasWidth mktoLayoutLeft"><style type="text/css">.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+color:#fff;
+border:1px solid #75ae4c;
+padding:0.4em 1em;
+font-size:1em;
+background-color:#99c47c;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#99c47c), to(#75ae4c));
+background-image: -webkit-linear-gradient(top, #99c47c, #75ae4c);
+background-image: -moz-linear-gradient(top, #99c47c, #75ae4c);
+background-image: linear-gradient(to bottom, #99c47c, #75ae4c);
+}
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+border:1px solid #447f19;
+}
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:focus {
+outline:none;
+border:1px solid #447f19;
+}
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:active{
+background-color:#75ae4c;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#75ae4c), to(#99c47c));
+background-image: -webkit-linear-gradient(top, #75ae4c, #99c47c);
+background-image: -moz-linear-gradient(top, #75ae4c, #99c47c);
+background-image: linear-gradient(to bottom, #75ae4c, #99c47c);
+}
+</style><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="Email" class="mktoLabel mktoHasWidth" style="width: 100px;"><div class="mktoAsterix">*</div>Email Address:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="Email" name="Email" maxlength="255" class="mktoField mktoEmailField mktoHasWidth mktoRequired" style="width: 150px;" placeholder="Subscribe to our newsletter" type="email"><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><input name="list_1019" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value="subscribed" type="hidden"><div class="mktoClear"></div></div><div class="mktoButtonRow"><span class="mktoButtonWrap mktoSimple" style="margin-left: 120px;"><button type="submit" class="mktoButton">Subscribe</button></span></div><input name="formid" class="mktoField mktoFieldDescriptor" value="1038" type="hidden"><input name="munchkinId" class="mktoField mktoFieldDescriptor" value="929-FJL-178" type="hidden"></form>
+		</div>
+	</div>
+</section>
+<footer class="main_footer">
+	<div class="container">
+		<div class="top_footer">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<ul class="footer_links links_1"><li class="first leaf"><a href="https://www.docker.com/what-docker" class="active">What is Docker</a><span> </span></li>
+<li class="leaf"><a href="https://www.docker.com/what-container">What is a Container</a></li>
+<li class="leaf"><a href="https://www.docker.com/customers">Customers</a></li>
+<li class="leaf"><a href="https://www.docker.com/industry-government">For Government</a></li>
+<li class="leaf"><a href="https://www.docker.com/itpro">For IT Pros</a></li>
+<li class="leaf"><a href="https://www.docker.com/find-partner">Find a Partner</a></li>
+<li class="leaf"><a href="https://www.docker.com/partners/partner-program">Become a Partner</a></li>
+<li class="leaf"><a href="https://www.docker.com/company">About Docker</a></li>
+<li class="leaf"><a href="https://www.docker.com/company/management">Management</a></li>
+<li class="leaf"><a href="https://www.docker.com/news-and-press">Press &amp; News</a></li>
+<li class="last leaf"><a href="https://www.docker.com/careers">Careers</a></li>
+</ul> 
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<ul class="footer_links links_2"><li class="first leaf"><a href="https://www.docker.com/get-docker">Product</a><span> </span></li>
+<li class="leaf"><a href="https://www.docker.com/pricing">Pricing</a></li>
+<li class="leaf"><a href="https://www.docker.com/community-edition">Community Edition</a></li>
+<li class="leaf"><a href="https://www.docker.com/enterprise-edition">Enterprise Edition </a></li>
+<li class="leaf"><a href="https://cloud.docker.com/" target="_blank">Docker Cloud</a></li>
+<li class="last leaf"><a href="https://store.docker.com/" target="_blank">Docker Store</a></li>
+</ul> 
+				</div>
+				<!--<div class=" hide col-xs-12 col-sm-3 col-md-3">
+					 
+				</div>-->
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<ul class="footer_links links_5"><li class="first leaf"><a href="https://docs.docker.com/" target="_blank">Documentation</a><span> </span></li>
+<li class="leaf"><a href="https://blog.docker.com/" target="_blank">Blog</a></li>
+<li class="leaf"><a href="https://blog.docker.com/feed/" target="_blank">RSS Feed</a></li>
+<li class="leaf"><a href="https://training.docker.com/" target="_blank">Training</a></li>
+<li class="leaf"><a href="https://success.docker.com/kbase" target="_blank">Knowledge Base</a></li>
+<li class="last leaf"><a href="https://www.docker.com/products/resources">Resources</a></li>
+</ul> 
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3">
+					<ul class="footer_links links_4"><li class="first leaf"><a href="https://events.docker.com/">Events</a><span> </span></li>
+<li class="leaf"><a href="https://www.docker.com/docker-community">Community</a></li>
+<li class="leaf"><a href="https://www.docker.com/open-source-0">Open Source</a></li>
+<li class="leaf"><a href="https://forums.docker.com/" target="_blank">Forums</a></li>
+<li class="leaf"><a href="https://www.docker.com/docker-captains">Docker Captains</a></li>
+<li class="leaf"><a href="https://www.docker.com/community-partnerships">Scholarships</a></li>
+<li class="last leaf"><a href="https://blog.docker.com/curated/" target="_blank">Community News</a></li>
+</ul> 
+				</div>
+			</div>
+			<div class="footer-nav">
+				<nav class="footer_sub_nav">
+					<ul class="menu"><li class="first leaf"><a href="http://status.docker.com/">Status</a></li>
+<li class="leaf"><a href="https://www.docker.com/docker-security">Security</a></li>
+<li class="leaf"><a href="https://www.docker.com/legal">Legal</a></li>
+<li class="last leaf"><a href="https://www.docker.com/company/contact">Contact</a></li>
+</ul>				</nav>
+			</div>
+		</div>
+		<div class="bottom_footer">
+			<div class="footer-copyright">
+				<p class="copyright">
+					Copyright © 2018 Docker Inc. All rights reserved.				</p>
+			</div>
+			<div class="footer_social_nav">
+				<ul class="nav-social"><li class="first leaf"><a href="http://twitter.com/docker" class="fa fa-twitter">Twitter</a></li>
+<li class="leaf"><a href="http://www.youtube.com/user/dockerrun" class="fa fa-youtube">Youtube</a></li>
+<li class="leaf"><a href="https://plus.google.com/u/0/communities/108146856671494713993" class="fa fa-google-plus">Google</a></li>
+<li class="leaf"><a href="https://github.com/docker/docker" class="fa fa-github">Github</a></li>
+<li class="leaf"><a href="https://www.linkedin.com/company/docker" class="fa fa-linkedin">Linkedin</a></li>
+<li class="leaf"><a href="https://www.facebook.com/docker.run" class="fa fa-facebook">Facebook</a></li>
+<li class="leaf"><a href="http://www.reddit.com/r/docker" class="fa fa-reddit-alien">Reddit</a></li>
+<li class="last leaf"><a href="http://www.slideshare.net/docker" class="fa fa-slideshare">Slideshare</a></li>
+</ul> 
+			</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript" charset="utf-8">
+  var _eiq = _eiq || [];
+  var _engagio_settings = {
+    accountId: "0381e85d5b97e7a3954996fedd3cbfcb68c98e1e"
+  };
+  (function() {
+    var ei = document.createElement('script'); ei.type = 'text/javascript'; ei.async = true;
+    ei.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'web-analytics.engagio.com/js/ei.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ei, s);
+  })();
+</script>
+			
+	<script type="text/javascript" src="js_b8tpEfzvJ0uR9YhDDa_ym-wD1KOrSh8nRe0uAjA8MkI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+//--><!]]>
+</script>
+	<script>var $ = jQuery.noConflict();</script>
+  <script>
+				MktoForms2.loadForm("//app-sj05.marketo.com", "929-FJL-178", 1038, function(form) {
+					form.onSuccess(function(values, followUpUrl) {
+						location.href = "/thank-you-subscribing-docker-newsletter";
+						return false;
+					});
+				});
+				MktoForms2.whenReady(function(form){
+				/*	$('#mktoForm_1038 #Email').attr('placeholder', 'Enter your email'); */
+				$('.newsletter').find("#Email").each(function(ev){
+					if(!$(this).val()) { 
+						$(this).attr("placeholder", "Subscribe to our newsletter");
+					}
+				});   
+				$(".newsletter button.mktoButton").text('Subscribe');
+				});
+  </script>
+	<!-- Google Tag Manager --> 
+	<noscript><iframe 
+src="//www.googletagmanager.com/ns.html?id=GTM-PSVHG8" height="0" 
+width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PSVHG8');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- AdRoll Pixel Code -->
+	<script type="text/javascript">
+			adroll_adv_id = "DQN5LU2LWJERZKNXIV22Z2";
+			adroll_pix_id = "SC67VPE7UZFTXBS5QTGXWO";
+			/* OPTIONAL: provide email to improve user identification */
+			/* adroll_email = "username@example.com"; */
+			(function () {
+					var _onload = function(){
+							if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+							if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+							var scr = document.createElement("script");
+							var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+							scr.setAttribute('async', 'true');
+							scr.type = "text/javascript";
+							scr.src = host + "/j/roundtrip.js";
+							((document.getElementsByTagName('head') || [null])[0] ||
+									document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+					};
+					if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+					else {window.attachEvent('onload', _onload)}
+			}());
+	</script>
+	<!-- End AdRoll Pixel Code -->
+
+	<!-- BrightFunnel Digital Attribution Code -->
+	<script type="text/javascript">
+		var bfId="fQUlbcLzIiHXC91h",
+					bfSession = 0.041666666666666664;
+		(function() {
+					var script = document.createElement('script');
+					script.type = 'text/javascript';
+					script.async = true;
+					script.src = ('https:' === document.location.protocol ? 'https://' :
+ 'http://' ) + 
+'munchkin.brightfunnel.com/js/build/bf-munchkin.min.js?tstamp=' + new 
+Date().getTime();
+					var top = document.getElementsByTagName('script')[0];
+					top.parentNode.insertBefore(script, top);
+			})();
+		</script>
+	<!-- end Digital Attribution Code -->
+
+	
+	<!-- LinkedIn Pixel Code -->
+	<script type="text/javascript"> _linkedin_data_partner_id = "20029"; </script><script type="text/javascript">
+ (function(){var s = document.getElementsByTagName("script")[0]; var b =
+ document.createElement("script"); b.type = "text/javascript";b.async = 
+true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; 
+s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=20029&fmt=gif" /> </noscript>
+	<!-- End LinkedIn Pixel Code -->
+
+	<!-- Twitter universal website tag code -->
+	<script>
+	!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+	},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+	a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+	// Insert Twitter Pixel ID and Standard Event data below
+	twq('init','nv75j');
+	twq('track','PageView');
+	</script>
+	<!-- End Twitter universal website tag code -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f419820c87","applicationID":"50935071","transactionName":"YAdQNkZRD0FSUkVZDFlNcwFAWQ5cHF9eVAZoElMFUW8XW1ZG","queueTime":0,"applicationTime":693,"atts":"TEBTQA5LHE8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<script type="text/javascript" id="" src="track.js"></script>
+<script type="text/javascript" src="spx.js"></script><script type="text/javascript" src="https://px.steelhousemedia.com/st?fdx=1&amp;shaid=12352&amp;plh=https%3A%2F%2Fwww.docker.com%2Fwhat-docker&amp;dxver=4.0.0&amp;cb=11247441021491932&amp;shadditional=%2Cga_tracking_id%3D%2Cga_client_id%3D%2Cshpt%3DWhat%20is%20Docker%3F"></script><script type="text/javascript" id="">(function(){var
+ 
+g="4.0.0",h="12352",k="",d,a,c;try{d=""!==top.document.referer?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(f){d=null!==document.referrer?document.referrer.toString().substring(0,2048):""}try{a=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(f){a=document.location}try{c=""!==parent.location.href?encodeURIComponent(parent.location.href.toString().substring(0,
+2048)):""}catch(f){try{c=null!==a?encodeURIComponent(a.toString().substring(0,2048)):""}catch(l){c=""}}var
+ e;a=document.createElement("script");var 
+b=document.getElementsByTagName("script"),b=Number(b.length)-1,b=document.getElementsByTagName("script")[b];"undefined"===typeof
+ 
+e&&(e=Math.floor(1E17*Math.random()));a.type="text/javascript";a.src=("https:"===document.location.protocol?"https://":"http://")+("dx.steelhousemedia.com/spx?dxver\x3d"+g+"\x26shaid\x3d"+h+"\x26tdr\x3d"+d+"\x26plh\x3d"+c+"\x26cb\x3d"+
+e+k);b.parentNode.insertBefore(a,b)})();</script><div id="mktoStyleLoaded" style="display: none; border-top-color: rgb(18, 52, 86);"></div><form novalidate="novalidate" style="font-family: Helvetica,Arial,sans-serif; font-size: 13px; color: rgb(51, 51, 51); visibility: hidden; position: absolute; top: -500px; left: -1000px; width: 1855px;" class="mktoForm mktoHasWidth mktoLayoutLeft"></form><iframe name="mktoFormsXDIframe0.09066007811296606" id="MktoForms2XDIframe" style="display: none;" src="https://app-sj05.marketo.com/index.php/form/XDFrame"></iframe></body></html>

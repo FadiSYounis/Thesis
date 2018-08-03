@@ -1,0 +1,170 @@
+
+Skip to content
+
+    Features
+    Business
+    Explore
+    Marketplace
+    Pricing
+
+This repository
+Sign in or Sign up
+
+    Watch 12
+    Star 92
+    Fork 12
+
+0x4D31 / honeybits
+Code Issues 2 Pull requests 1 Projects 0 Wiki Insights
+Dismiss
+Join GitHub today
+
+GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.
+
+Sign up
+A simple tool designed to enhance the effectiveness of your traps by spreading breadcrumbs & honeytokens across your systems to lure the attacker toward your honeypots
+golang go honeybits honeypot honeytrap deception honeytoken security breadcrumbs trap
+
+    17 commits
+    1 branch
+    0 releases
+    1 contributor
+    GPL-3.0
+
+    Go 100.0%
+
+Go
+Clone or download
+Clone with HTTPS
+
+Use Git or checkout with SVN using the web URL.
+Download ZIP
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching Xcode ...
+
+If nothing happens, download Xcode and try again.
+
+Go back
+Launching Visual Studio ...
+
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+
+Go back
+Find file
+Branch: master
+Switch branches/tags
+
+    Branches
+    Tags
+
+master
+Nothing to show
+Nothing to show
+New pull request
+Fetching latest commit…
+Cannot retrieve the latest commit at this time.
+Permalink
+	Failed to load latest commit information.
+	contentgen 	LICENSE notice 	Jul 13, 2017
+	docs 	docs - diagram added 	Mar 5, 2017
+	template 	template for content generator added 	Apr 9, 2017
+	.gitignore 	initial commit 	Mar 5, 2017
+	LICENSE 	Update LICENSE 	Jul 13, 2017
+	README.md 	Update README.md 	Jul 14, 2017
+	hbconf.yaml 	fixed a typo 	Apr 30, 2017
+	honeybits.go 	LICENSE notice 	Jul 13, 2017
+README.md
+Honeybits
+
+A simple tool designed to enhance the effectiveness of your traps by spreading breadcrumbs & honeytokens across your production servers and workstations to lure the attacker toward your honeypots.
+
+Author: Adel "0x4D31" Karimi.
+Background
+
+The problem with the traditional implementation of honeypots in production environments is that the bad guys can ONLY discover the honeypots by network scanning which is noisy! The only exception I can think of is Beeswarm (it intentionally leaks credentials in the network traffic and then looks for the unexpected reuse of these honey credentials).
+
+If you take a look at the Mitre ATT&CK Matrix , you will see that 'Network Service Scanning' is only one of the many different Post-breach activities of attackers. The more you plant false or misleading information in response to the post-compromise techniques (specially the techniques under ‘credential access’, ‘Discovery’, and ‘Lateral movement’ tactics in ATT&CK matrix), the greater the chance of catching the attackers . Honeybits helps you automate the creation of breadcrumbs/honeytokens on your production Servers and Workstations. These honeytokens or breadcrumbs include:
+
+    Fake bash_history commands (such as ssh, ftp, rsync, scp, mysql, wget, awscli)
+    Fake AWS credentials and config files (you required to create fake AWS IAM users with no permissions and generate access keys for them)
+    Configuration, backup and connection files such as RDP and VPN
+    Fake entries in hosts, ARP table, etc.
+    Fake browser history, bookmarks and saved passwords
+    Injected fake credentials into LSASS
+    Fake registry keys
+
+This is a small but crusial component of your deception system which should also include honeypots (ideally high-interaction ones), Log collection and analysis system, alerting, and so on.
+
+Honeybits
+Features
+
+    Creating honeyfiles and monitoring the access to these traps using go-audit or auditd
+    Template based content generator for honeyfiles
+    Insert honeybits into AWS config and credentials file
+    Insert honeybits into /etc/hosts
+    Reading config from a Remote Key/Value Store such as Consul or etcd
+    Insert different honeybits into "bash_history", including the following sample commands:
+        ssh (sshpass -p '123456' ssh -p 2222 root@192.168.1.66)
+        ftp (ftp ftp://backup:b123@192.168.1.66:2121)
+        rsync (rsync -avz -e 'ssh -p 2222' root@192.168.1.66:/var/db/backup.tar.gz /tmp/backup.tar.gz)
+        scp (scp -P 2222 root@192.168.1.66:/var/db/backup.tar.gz /tmp/backup.tar.gz)
+        mysql (mysql -h 192.168.1.66 -P 3306 -u dbadmin -p12345 -e "show databases")
+        wget (wget http://192.168.1.66:8080/backup.zip)
+        any custom commands: (nano /tmp/backup/credentials.txt)
+        aws:
+
+ export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY aws ec2 describe-instances --profile devops --region us-east-2  
+
+Requirements
+
+    Go Lang 1.7+
+    Viper ( go get github.com/spf13/viper )
+    crypt ( go get github.com/xordataexchange/crypt/config )
+    go-audit or auditd (if you want to monitor the honeyfiles)
+
+Usage:
+
+ $ go build $ sudo ./honeybits Failed reading remote config. Reading the local config file... Local config file loaded. [failed] honeyfile already exists at this path: /tmp/secret.txt [done] go-audit rule for /home/test/secret.txt is added [done] honeyfile is created (/home/test/secret.txt) [done] go-audit rule for /opt/secret.txt is added [done] sshpass honeybit is inserted [done] wget honeybit is inserted [done] ftp honeybit is inserted [done] rsync honeybit is inserted [done] scp honeybit is inserted [done] mysql honeybit is inserted [failed] aws honeybit already exists [done] hostsconf honeybit is inserted [done] awsconf honeybit is inserted [done] awscred honeybit is inserted [done] custom honeybit is inserted  
+
+TODO:
+
+    Improve the Content generator
+    More traps, including:
+        Beacon documents
+        KeePass file with entries (.kdbx)
+        Database files/backups: SQLite, MySQL
+        Fake security scan results such as Nmap output
+        Binary files with hardcoded IP / credentials
+    More network traps
+        Fake PCAP / network traffic containing credentials and etc.
+        Fake ARP Table entries
+        Monitoring network traps using go-audit
+    Complete the Windows version (honeybits-win)
+    Documentation
+
+    © 2018 GitHub , Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
+You can't perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session.
+Press h to open a hovercard with more details.

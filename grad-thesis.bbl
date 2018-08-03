@@ -1,0 +1,255 @@
+\begin{thebibliography}{10}
+
+\bibitem{noauthor_what_2015}
+What is {Docker}?, May 2015.
+
+\bibitem{akiyama_honeycirculator:_2018}
+M.~Akiyama, T.~Yagi, T.~Hariu, and Y.~Kadobayashi.
+\newblock {HoneyCirculator}: {Distributing} {Credential} {Honeytoken} for
+  {Introspection} of {Web}-based {Attack} {Cycle}.
+\newblock {\em Int. J. Inf. Secur.}, 17(2):135--151, Apr. 2018.
+
+\bibitem{campbell_survey_2015}
+R.~M. Campbell, K.~Padayachee, and T.~Masombuka.
+\newblock A survey of honeypot research: {Trends} and opportunities.
+\newblock In {\em 2015 10th {International} {Conference} for {Internet}
+  {Technology} and {Secured} {Transactions} ({ICITST})}, pages 208--212, Dec.
+  2015.
+
+\bibitem{carlini_defensive_nodate}
+N.~Carlini and D.~Wagner.
+\newblock Defensive {Distillation} is {Not} {Robust} to {Adversarial}
+  {Examples}.
+\newblock {\em International Conference on Learning Representations (ICLR),
+  2017}, page~3.
+
+\bibitem{carlini_adversarial_2017}
+N.~Carlini and D.~Wagner.
+\newblock Adversarial {Examples} {Are} {Not} {Easily} {Detected}: {Bypassing}
+  {Ten} {Detection} {Methods}.
+\newblock In {\em Proceedings of the 10th {ACM} {Workshop} on {Artificial}
+  {Intelligence} and {Security}}, {AISec} '17, pages 3--14, New York, NY, USA,
+  2017. ACM.
+
+\bibitem{dowling_zigbee_2017}
+S.~Dowling, M.~Schukat, and H.~Melvin.
+\newblock A {ZigBee} honeypot to assess {IoT} cyberattack behaviour.
+\newblock In {\em 2017 28th {Irish} {Signals} and {Systems} {Conference}
+  ({ISSC})}, pages 1--6, June 2017.
+
+\bibitem{egupov_development_2017}
+A.~A. Egupov, S.~V. Zareshin, I.~M. Yadikin, and D.~S. Silnov.
+\newblock Development and implementation of a {Honeypot}-trap.
+\newblock In {\em 2017 {IEEE} {Conference} of {Russian} {Young} {Researchers}
+  in {Electrical} and {Electronic} {Engineering} ({EIConRus})}, pages 382--385,
+  Feb. 2017.
+
+\bibitem{francia_viper:_2018}
+S.~Francia.
+\newblock viper: {Go} configuration with fangs, Apr. 2018.
+\newblock original-date: 2014-04-02.
+
+\bibitem{goodfellow_explaining_2015}
+I.~J. Goodfellow, J.~Shlens, and C.~Szegedy.
+\newblock {EXPLAINING} {AND} {HARNESSING} {ADVERSARIAL} {EXAMPLES}.
+\newblock {\em International Conference on Learning Representations, 2017},
+  page~11, 2015.
+
+\bibitem{guarnizo_siphon:_2017}
+J.~D. Guarnizo, A.~Tambe, S.~S. Bhunia, M.~Ochoa, N.~O. Tippenhauer,
+  A.~Shabtai, and Y.~Elovici.
+\newblock {SIPHON}: {Towards} {Scalable} {High}-{Interaction} {Physical}
+  {Honeypots}.
+\newblock In {\em Proceedings of the 3rd {ACM} {Workshop} on {Cyber}-{Physical}
+  {System} {Security}}, {CPSS} '17, pages 57--68, New York, NY, USA, 2017. ACM.
+
+\bibitem{hosseini_blocking_2017}
+H.~Hosseini, Y.~Chen, S.~Kannan, B.~Zhang, and R.~Poovendran.
+\newblock Blocking {Transferability} of {Adversarial} {Examples} in
+  {Black}-{Box} {Learning} {Systems}.
+\newblock {\em arXiv:1703.04318 [cs]}, Mar. 2017.
+\newblock arXiv: 1703.04318.
+
+\bibitem{huang_adversarial_2011}
+L.~Huang, A.~D. Joseph, B.~Nelson, B.~I. Rubinstein, and J.~D. Tygar.
+\newblock Adversarial {Machine} {Learning}.
+\newblock In {\em Proceedings of the 4th {ACM} {Workshop} on {Security} and
+  {Artificial} {Intelligence}}, {AISec} '11, pages 43--58, New York, NY, USA,
+  2011. ACM.
+
+\bibitem{irvene_honeybot:_2018}
+C.~Irvene, D.~Formby, S.~Litchfield, and R.~Beyah.
+\newblock {HoneyBot}: {A} {Honeypot} for {Robotic} {Systems}.
+\newblock {\em Proceedings of the IEEE}, 106(1):61--70, Jan. 2018.
+
+\bibitem{ka_honeybits:_2018}
+A.~Ka.
+\newblock honeybits: {A} simple tool designed to enhance the effectiveness of
+  your traps by spreading breadcrumbs \& honeytokens across your systems to
+  lure the attacker toward your honeypots, Mar. 2018.
+\newblock original-date: 2017-03-05.
+
+\bibitem{kedrowitsch_first_2017}
+A.~Kedrowitsch, D.~D. Yao, G.~Wang, and K.~Cameron.
+\newblock A {First} {Look}: {Using} {Linux} {Containers} for {Deceptive}
+  {Honeypots}.
+\newblock In {\em Proceedings of the 2017 {Workshop} on {Automated} {Decision}
+  {Making} for {Active} {Cyber} {Defense}}, {SafeConfig} '17, pages 15--22, New
+  York, NY, USA, 2017. ACM.
+
+\bibitem{kurakin_adversarial_2017}
+A.~Kurakin, I.~J. Goodfellow, and S.~Bengio.
+\newblock {ADVERSARIAL} {EXAMPLES} {IN} {THE} {PHYSICAL} {WORLD}.
+\newblock {\em International Conference on Learning Representations (ICLR),
+  2017}, page~14, 2017.
+
+\bibitem{lihet_how_2015}
+M.~A. Lihet and V.~Dadarlat.
+\newblock How to build a honeypot {System} in the cloud.
+\newblock In {\em 2015 14th {RoEduNet} {International} {Conference} -
+  {Networking} in {Education} and {Research} ({RoEduNet} {NER})}, pages
+  190--194, Sept. 2015.
+
+\bibitem{liu_delving_2017}
+Y.~Liu, X.~Chen, C.~Liu, and D.~Song.
+\newblock {DELVING} {INTO} {TRANSFERABLE} {ADVERSARIAL} {EX}- {AMPLES} {AND}
+  {BLACK}-{BOX} {ATTACKS}.
+\newblock {\em International Conference on Learning Representations, 2017},
+  page~14, 2017.
+
+\bibitem{madry_towards_nodate}
+A.~Madry, A.~Makelov, L.~Schmidt, D.~Tsipras, and A.~Vladu.
+\newblock Towards {Deep} {Learning} {Models} {Resistant} to {Adversarial}
+  {Attacks}.
+\newblock {\em International Conference on Learning Representations
+  (ICLR),2018}, page~10.
+
+\bibitem{nawrocki_survey_2016}
+M.~Nawrocki, M.~Wählisch, T.~C. Schmidt, C.~Keil, and J.~Schönfelder.
+\newblock A {Survey} on {Honeypot} {Software} and {Data} {Analysis}.
+\newblock {\em arXiv:1608.06249 [cs]}, Aug. 2016.
+\newblock arXiv: 1608.06249.
+
+\bibitem{nguyen_deep_2015}
+A.~Nguyen, J.~Yosinski, and J.~Clune.
+\newblock Deep neural networks are easily fooled: {High} confidence predictions
+  for unrecognizable images.
+\newblock In {\em 2015 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 427--436, June 2015.
+
+\bibitem{papernot_cleverhans_2016}
+N.~Papernot, N.~Carlini, I.~Goodfellow, R.~Feinman, F.~Faghri, A.~Matyasko,
+  K.~Hambardzumyan, Y.-L. Juang, A.~Kurakin, R.~Sheatsley, A.~Garg, and Y.-C.
+  Lin.
+\newblock cleverhans v2.0.0: an adversarial machine learning library.
+\newblock {\em arXiv:1610.00768 [cs, stat]}, Oct. 2016.
+\newblock arXiv: 1610.00768.
+
+\bibitem{papernot_transferability_2016}
+N.~Papernot, P.~McDaniel, and I.~Goodfellow.
+\newblock Transferability in {Machine} {Learning}: from {Phenomena} to
+  {Black}-{Box} {Attacks} using {Adversarial} {Samples}.
+\newblock {\em arXiv:1605.07277 [cs]}, May 2016.
+\newblock arXiv: 1605.07277.
+
+\bibitem{papernot_practical_2017}
+N.~Papernot, P.~McDaniel, I.~Goodfellow, S.~Jha, Z.~B. Celik, and A.~Swami.
+\newblock Practical {Black}-{Box} {Attacks} {Against} {Machine} {Learning}.
+\newblock In {\em Proceedings of the 2017 {ACM} on {Asia} {Conference} on
+  {Computer} and {Communications} {Security}}, {ASIA} {CCS} '17, pages
+  506--519, New York, NY, USA, 2017. ACM.
+
+\bibitem{papernot_limitations_2016}
+N.~Papernot, P.~McDaniel, S.~Jha, M.~Fredrikson, Z.~B. Celik, and A.~Swami.
+\newblock The {Limitations} of {Deep} {Learning} in {Adversarial} {Settings}.
+\newblock In {\em 2016 {IEEE} {European} {Symposium} on {Security} and
+  {Privacy} ({EuroS} {P})}, pages 372--387, Mar. 2016.
+
+\bibitem{papernot_distillation_2016}
+N.~Papernot, P.~McDaniel, X.~Wu, S.~Jha, and A.~Swami.
+\newblock Distillation as a {Defense} to {Adversarial} {Perturbations}
+  {Against} {Deep} {Neural} {Networks}.
+\newblock In {\em 2016 {IEEE} {Symposium} on {Security} and {Privacy} ({SP})},
+  pages 582--597, May 2016.
+
+\bibitem{rauti_survey_2017}
+S.~Rauti and V.~Leppänen.
+\newblock A {Survey} on {Fake} {Entities} as a {Method} to {Detect} and
+  {Monitor} {Malicious} {Activity}.
+\newblock In {\em 2017 25th {Euromicro} {International} {Conference} on
+  {Parallel}, {Distributed} and {Network}-based {Processing} ({PDP})}, pages
+  386--390, Mar. 2017.
+
+\bibitem{ribeiro_mlaas:_2015}
+M.~Ribeiro, K.~Grolinger, and M.~A.~M. Capretz.
+\newblock {MLaaS}: {Machine} {Learning} as a {Service}.
+\newblock In {\em 2015 {IEEE} 14th {International} {Conference} on {Machine}
+  {Learning} and {Applications} ({ICMLA})}, pages 896--902, Dec. 2015.
+
+\bibitem{robert_griesemer_go:_2018}
+{Robert Griesemer}.
+\newblock go: {The} {Go} programming language, Apr. 2018.
+\newblock original-date: 2014-08-19.
+
+\bibitem{rozsa_towards_2016}
+A.~Rozsa, M.~Gunther, and T.~E. Boult.
+\newblock Towards {Robust} {Deep} {Neural} {Networks} with {BANG}.
+\newblock {\em IEEE Winter Conference on Applications of Computer Vision
+  (WACV), 2018}, Nov. 2016.
+\newblock arXiv: 1612.00138.
+
+\bibitem{smith_goenv:_2018}
+C.~Smith.
+\newblock goenv: {Isolated} development environments for {Go}, Mar. 2018.
+\newblock original-date: 2014-07-21.
+
+\bibitem{soule_enabling_2016}
+N.~Soule, P.~Pal, S.~Clark, B.~Krisler, and A.~Macera.
+\newblock Enabling defensive deception in distributed system environments.
+\newblock In {\em 2016 {Resilience} {Week} ({RWS})}, pages 73--76, Aug. 2016.
+
+\bibitem{steve_grubb_audit-userspace:_2018}
+{Steve, Grubb}.
+\newblock audit-userspace: {Linux} audit userspace repository, Mar. 2018.
+\newblock original-date: 2016-02-24T18:31:30Z.
+
+\bibitem{suo_research_2014}
+X.~Suo, X.~Han, and Y.~Gao.
+\newblock Research on the application of honeypot technology in intrusion
+  detection system.
+\newblock In {\em 2014 {IEEE} {Workshop} on {Advanced} {Research} and
+  {Technology} in {Industry} {Applications} ({WARTIA})}, pages 1030--1032,
+  Sept. 2014.
+
+\bibitem{tramer_space_2017}
+F.~Tramèr, N.~Papernot, I.~Goodfellow, D.~Boneh, and P.~McDaniel.
+\newblock The {Space} of {Transferable} {Adversarial} {Examples}.
+\newblock {\em arXiv:1704.03453 [cs, stat]}, Apr. 2017.
+\newblock arXiv: 1704.03453.
+
+\bibitem{xiao_security_2017}
+Q.~Xiao, K.~Li, D.~Zhang, and W.~Xu.
+\newblock Security {Risks} in {Deep} {Learning} {Implementations}.
+\newblock {\em arXiv:1711.11008 [cs]}, Nov. 2017.
+\newblock arXiv: 1711.11008.
+
+\bibitem{xor_data_exchange_crypt_2018}
+{XOR Data Exchange}.
+\newblock crypt, Mar. 2018.
+\newblock original-date: 2014-10-17T21:08:33Z.
+
+\bibitem{yuan_adversarial_2017}
+X.~Yuan, P.~He, Q.~Zhu, R.~R. Bhat, and X.~Li.
+\newblock Adversarial {Examples}: {Attacks} and {Defenses} for {Deep}
+  {Learning}.
+\newblock {\em arXiv:1712.07107 [cs, stat]}, Dec. 2017.
+\newblock arXiv: 1712.07107.
+
+\bibitem{zantedeschi_efficient_2017}
+V.~Zantedeschi, M.-I. Nicolae, and A.~Rawat.
+\newblock Efficient {Defenses} {Against} {Adversarial} {Attacks}.
+\newblock In {\em Proceedings of the 10th {ACM} {Workshop} on {Artificial}
+  {Intelligence} and {Security}}, {AISec} '17, pages 39--49, New York, NY, USA,
+  2017. ACM.
+
+\end{thebibliography}

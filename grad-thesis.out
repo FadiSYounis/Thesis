@@ -1,0 +1,103 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Setting}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{The Problem at a Glance}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Thesis Goals and Contributions}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Overview}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Security of Deep Learning Network}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Deep Neural Networks}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Adversarial Deep Learning}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.3}{Deep Learning Threats}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Adversarial Examples}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{Adversarial Example Definition}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Adversarial Example Properties}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.3}{Adversarial Example Origins}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.4}{Generating Adversarial Examples}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.5}{The Adversarial Optimization Problem}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.6}{Impact of Adversarial Examples on Deep Neural Networks}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.7}{Combating Adversarial Examples - defences}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{Transferability and black-box Learning Systems}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Adversarial Transferability}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{black-box Threat Model}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.3}{Black-box Threat Model Vs. Blind Threat Model}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.4}{Transferability in black-box Attacks}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.5}{Transferability of Adversarial Examples in black-box Attacks}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.6}{black-box Attack Approach}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.7}{Defence Strategies Against black-box Attacks}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{Honeypots}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.4.1}{Concept of Honeypots}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.2}{Classification of Honeypots}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.3}{Honeypot Deployment Modes}{section.2.4}% 31
+\BOOKMARK [2][-]{subsection.2.4.4}{Honeypot Role and Responsibilities}{section.2.4}% 32
+\BOOKMARK [2][-]{subsection.2.4.5}{Honeypots Level of Interaction}{section.2.4}% 33
+\BOOKMARK [2][-]{subsection.2.4.6}{Uses of Honeypots}{section.2.4}% 34
+\BOOKMARK [1][-]{section.2.5}{Honeypots in our Solution}{chapter.2}% 35
+\BOOKMARK [0][-]{chapter.3}{Related Work}{}% 36
+\BOOKMARK [0][-]{chapter.4}{Proposed defence Approach}{}% 37
+\BOOKMARK [1][-]{section.4.1}{Problem Definition}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.2}{Assumptions}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.3}{Design Decisions}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.4}{The Threat model}{chapter.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.1}{Attack Specificity}{section.4.4}% 42
+\BOOKMARK [2][-]{subsection.4.4.2}{Exploited Vulnerability}{section.4.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.3}{Attacker Capabilities}{section.4.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.4}{Attack Setting}{section.4.4}% 45
+\BOOKMARK [1][-]{section.4.5}{Adversarial Honeypot Network \(Adversarial Honeynet\)}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.5.1}{Overview and General Architecture}{section.4.5}% 47
+\BOOKMARK [2][-]{subsection.4.5.2}{Functional System Components}{section.4.5}% 48
+\BOOKMARK [2][-]{subsection.4.5.3}{HoneyPeer Node Inter-communication}{section.4.5}% 49
+\BOOKMARK [1][-]{section.4.6}{Individual Honeypot Node}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.6.1}{Node Overview and Architecture}{section.4.6}% 51
+\BOOKMARK [2][-]{subsection.4.6.2}{Critical Components}{section.4.6}% 52
+\BOOKMARK [1][-]{section.4.7}{Attracting The Adversary}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.7.1}{Phase 1: Adversarial HoneyTokens}{section.4.7}% 54
+\BOOKMARK [2][-]{subsection.4.7.2}{Phase 2: Accessible Honeypot }{section.4.7}% 55
+\BOOKMARK [2][-]{subsection.4.7.3}{Phase 3: Decoy Target Model}{section.4.7}% 56
+\BOOKMARK [1][-]{section.4.8}{Monitoring and Detecting the Adversary}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.9}{Launching the Attack}{chapter.4}% 58
+\BOOKMARK [2][-]{subsection.4.9.1}{Accessing the Honeypot}{section.4.9}% 59
+\BOOKMARK [2][-]{subsection.4.9.2}{Initiating the Attack}{section.4.9}% 60
+\BOOKMARK [2][-]{subsection.4.9.3}{Defining the Architecture F}{section.4.9}% 61
+\BOOKMARK [2][-]{subsection.4.9.4}{Labeling the Initial Training Set S0}{section.4.9}% 62
+\BOOKMARK [2][-]{subsection.4.9.5}{Training the Substitute Model F\(S0\)}{section.4.9}% 63
+\BOOKMARK [2][-]{subsection.4.9.6}{Generating the Example }{section.4.9}% 64
+\BOOKMARK [2][-]{subsection.4.9.7}{Example Transfer }{section.4.9}% 65
+\BOOKMARK [2][-]{subsection.4.9.8}{Flipping the Target Label}{section.4.9}% 66
+\BOOKMARK [1][-]{section.4.10}{Defending Against the Attack}{chapter.4}% 67
+\BOOKMARK [2][-]{subsection.4.10.1}{Luring and Baiting the Adversary}{section.4.10}% 68
+\BOOKMARK [2][-]{subsection.4.10.2}{Inside the Honeypot}{section.4.10}% 69
+\BOOKMARK [2][-]{subsection.4.10.3}{Hard Optimization Problem}{section.4.10}% 70
+\BOOKMARK [1][-]{section.4.11}{Significance and Novelty}{chapter.4}% 71
+\BOOKMARK [0][-]{chapter.5}{Implementation of Adversarial HoneyTokens Component}{}% 72
+\BOOKMARK [1][-]{section.5.1}{Background}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.2}{Project Structure}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.3}{Architecture}{chapter.5}% 75
+\BOOKMARK [1][-]{section.5.4}{Features}{chapter.5}% 76
+\BOOKMARK [1][-]{section.5.5}{Functionality}{chapter.5}% 77
+\BOOKMARK [1][-]{section.5.6}{Usage}{chapter.5}% 78
+\BOOKMARK [1][-]{section.5.7}{External Dependencies}{chapter.5}% 79
+\BOOKMARK [1][-]{section.5.8}{Integration}{chapter.5}% 80
+\BOOKMARK [1][-]{section.5.9}{Benefits}{chapter.5}% 81
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 82
+\BOOKMARK [1][-]{section.6.1}{Signature-Based Classifiers for Adversarial Detection}{chapter.6}% 83
+\BOOKMARK [1][-]{section.6.2}{Reduced-Risk Alternatives to Honeypots}{chapter.6}% 84
+\BOOKMARK [1][-]{section.6.3}{Defending Against White-Box Attacks}{chapter.6}% 85
+\BOOKMARK [1][-]{section.6.4}{Conclusions}{chapter.6}% 86
+\BOOKMARK [0][-]{chapter.7}{Appendix A}{}% 87
+\BOOKMARK [1][-]{section.7.1}{Adversarial Honey Source Code}{chapter.7}% 88
+\BOOKMARK [2][-]{subsection.7.1.1}{contentgen.go}{section.7.1}% 89
+\BOOKMARK [2][-]{subsection.7.1.2}{txtemail template}{section.7.1}% 90
+\BOOKMARK [2][-]{subsection.7.1.3}{hbconf.yaml}{section.7.1}% 91
+\BOOKMARK [2][-]{subsection.7.1.4}{honeybits.go }{section.7.1}% 92
+\BOOKMARK [1][-]{section.7.2}{Scenario1}{chapter.7}% 93
+\BOOKMARK [2][-]{subsection.7.2.1}{attachment 1.1 - initializing the Go environment}{section.7.2}% 94
+\BOOKMARK [2][-]{subsection.7.2.2}{attachment 1.2 - running and deploying the tokens}{section.7.2}% 95
+\BOOKMARK [2][-]{subsection.7.2.3}{attachment 1.3 - deploying email token}{section.7.2}% 96
+\BOOKMARK [2][-]{subsection.7.2.4}{attachment 1.4}{section.7.2}% 97
+\BOOKMARK [2][-]{subsection.7.2.5}{attachment 1.5}{section.7.2}% 98
+\BOOKMARK [2][-]{subsection.7.2.6}{attachment 1.6}{section.7.2}% 99
+\BOOKMARK [2][-]{subsection.7.2.7}{attachment 1.7}{section.7.2}% 100
+\BOOKMARK [2][-]{subsection.7.2.8}{attachment 1.8}{section.7.2}% 101
+\BOOKMARK [2][-]{subsection.7.2.9}{attachment 1.9}{section.7.2}% 102
+\BOOKMARK [0][-]{figure.7.9}{Bibliography}{}% 103

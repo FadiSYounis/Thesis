@@ -1,0 +1,226 @@
+
+Skip to content
+
+    Features
+    Business
+    Explore
+    Marketplace
+    Pricing
+
+This repository
+Sign in or Sign up
+
+    Watch 11
+    Star 59
+    Fork 36
+
+linux-audit / audit-userspace
+Code Issues 4 Pull requests 3 Projects 0 Wiki Insights
+Dismiss
+Join GitHub today
+
+GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.
+
+Sign up
+Linux audit userspace repository
+
+    1,695 commits
+    2 branches
+    9 releases
+    9 contributors
+
+    C 80.8%
+    C++ 9.9%
+    Makefile 4.6%
+    Python 1.9%
+    Roff 1.1%
+    M4 1.1%
+    Other 0.6%
+
+C C++ Makefile Python Roff M4 Other
+Clone or download
+Clone with HTTPS
+
+Use Git or checkout with SVN using the web URL.
+Download ZIP
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching Xcode ...
+
+If nothing happens, download Xcode and try again.
+
+Go back
+Launching Visual Studio ...
+
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+
+Go back
+Find file
+Branch: master
+Switch branches/tags
+
+    Branches
+    Tags
+
+2.8_maintenance master
+Nothing to show
+v2.8.3 v2.8.2 v2.8.1 v2.8 v2.7.8 v2.7.7 v2.7.6 v2.7.5 audit-2.7.4
+Nothing to show
+New pull request
+Fetching latest commit…
+Cannot retrieve the latest commit at this time.
+Permalink
+	Failed to load latest commit information.
+	.github 	add an issue template for the GitHub mirror 	Oct 4, 2016
+	audisp 	code cleanups 	Mar 28, 2018
+	auparse 	code cleanups 	Mar 28, 2018
+	bindings 	expose all members of ausparse_type_t to Python 	Dec 30, 2017
+	contrib 	Do capabilities check rather than uid 	Jun 23, 2016
+	docs 	Fix parsing of virtual timestamp fields in ausearch_expression 	Mar 28, 2018
+	init.d 	Allow dumping auditd state for SysVinit systems 	Mar 28, 2018
+	lib 	Add ANOM_LOGIN_SERVICE event support 	Feb 18, 2018
+	m4 	Add audit.m4 file to aid adding support to other projects 	Oct 30, 2015
+	rules 	Adjust backlog_wait_time in rules to the kernel default 	Mar 28, 2018
+	src 	code cleanups 	Mar 28, 2018
+	tools 	fixup FSF address 	Feb 15, 2018
+	.gitignore 	gitignore: ignore normalizer generated files 	Jun 13, 2017
+	AUTHORS 	Import audit >1.7.4 	Jun 17, 2008
+	COPYING 	Import audit >1.7.4 	Jun 17, 2008
+	COPYING.LIB 	Add file for license of associated libraries. 	Feb 18, 2015
+	ChangeLog 	Fix typo 	Mar 28, 2018
+	INSTALL.tmp 	Update build instructions to mention how to do it from github 	Oct 4, 2017
+	Makefile.am 	In auditd, add incremental_asyn flushing mode 	Jan 4, 2016
+	NEWS 	Import audit >1.7.4 	Jun 17, 2008
+	README 	Licensing cleanup 	Feb 18, 2015
+	THANKS 	update thanks 	Apr 12, 2017
+	TODO 	Fix parsing of virtual timestamp fields in ausearch_expression 	Mar 28, 2018
+	audit.spec 	Use SIGCONT to dump auditd internal state 	Mar 28, 2018
+	autogen.sh 	Use cp instead mv 	Jun 10, 2016
+	configure.ac 	Drop support for prelude 	Mar 28, 2018
+README
+
+ This is some background information about the Linux Auditing Framework.
+
+LICENSE
+=======
+The audit daemon is released as GPL'd code. The audit daemon's libraries
+libaudit.* and libauparse.* are released under LGPL so that it may be
+linked with 3rd party software.
+
+BUILDING
+========
+See the README-install File.
+
+USAGE
+=====
+See the man pages for audit, auditctl, audit.rules, ausearch, and aureport.
+
+DISCUSSION
+==========
+Original lkml thread(s): 
+     http://marc.theaimsgroup.com/?t=107815888100001&r=1&w=2 
+     http://marc.theaimsgroup.com/?t=107901570800002&r=1&w=2 
+
+There is a linux audit mail list where any question whether kernel design,
+setup and configuration, or usage can be discussed:
+http://www.redhat.com/mailman/listinfo/linux-audit 
+
+
+DESIGN INFO (Very old)
+=====================
+The main goals were to provide system call auditing with 1) as low
+overhead as possible, and 2) without duplicating functionality that is
+already provided by SELinux (and/or other security infrastructures).
+This framework will work "stand-alone", but is not designed to provide,
+e.g., CAPP functionality without another security component in place.
+
+There are two main parts, one that is always on (generic logging in
+audit.c) and one that you can disable at boot- or run-time
+(per-system-call auditing in auditsc.c).  The patch includes changes to
+security/selinux/avc.c as an example of how system-call auditing can be
+integrated with other code that identifies auditable events.
+
+Logging:
+    1) Uses a netlink socket for communication with user-space.  All
+       messages are logged via the netlink socket if a user-space daemon
+       is listening.  If not, the messages are logged via printk to the
+       syslog daemon (by default).
+    2) Messages can be dropped (optionally) based on message rate or
+       memory use (this isn't fully integrated into the selinux/avc.c
+       part of the patch: the avc.c code that currently does this can be
+       eliminated).
+    3) When some part of the kernel generates part of an audit record,
+       the partial record is sent immediately to user-space, AND the
+       system call "auditable" flag is automatically set for that call
+       -- thereby producing extra information at syscall exit (if
+       syscall auditing is enabled).
+
+System-call auditing:
+    1) At task-creation time, an audit context is allocated and linked
+       off the task structure.
+    2) At syscall entry time, if the audit context exists, information
+       is filled in (syscall number, timestamp; but not arguments).
+    3) During the system call, calls to getname() and path_lookup() are
+       intercepted.  These routines are called when the kernel is
+       actually looking up information that will be used to make the
+       decision about whether the syscall will succeed or fail.  An
+       effort has been made to avoid copying the information that
+       getname generates, since getname is already making a
+       kernel-private copy of the information.  [Note that storing
+       copies of all syscall arguments requires complexity and overhead
+       that arguably isn't needed.  With this patch, for example, if
+       chroot("foo") fails because you are not root, "foo" will not
+       appear in the audit record because the kernel determined the
+       syscall cannot proceed before it ever needed to look up "foo".
+       This approach avoids storing user-supplied information that could
+       be misleading or unreliable (e.g., due to a cooperative
+       shared-memory attack) in favor of reporting information actually
+       used by the kernel.]
+    4) At syscall exit time, if the "auditable" flag has been set (e.g.,
+       because SELinux generated an avc record; or some other part of
+       the kernel detected an auditable event), the syscall-part of the
+       audit record is generated, including file names and inode numbers
+       (if available).  Some of this information is currently
+       complementary to the information that selinux/avc.c generates
+       (e.g., file names and some inode numbers), but some is less
+       complete (e.g., getname doesn't return a fully-qualified path,
+       and this patch does not add the overhead of determining one).
+       [Note that the complete audit record comes to userspace in
+       pieces, which eliminates the need to store messages for
+       arbitrarily long periods inside the kernel.]
+    5) At task-exit time, the audit context is destroyed.
+
+    At steps 1, 2, and 4, simple filtering can be done (e.g., a database
+    role uid might have syscall auditing disabled for performance
+    reasons).  The filtering is simple and could be made more complex.
+    However, I tried to implement as much filtering as possible without
+    adding significant overhead (e.g., d_path()).  In general, the audit
+    framework should rely on some other kernel component (e.g., SELinux)
+    to make the majority of the decisions about what is and is not
+    auditable.
+
+    © 2018 GitHub , Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
+You can't perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session.
+Press h to open a hovercard with more details.

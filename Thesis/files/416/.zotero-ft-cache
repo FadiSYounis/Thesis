@@ -1,0 +1,130 @@
+
+Skip to content
+
+    Features
+    Business
+    Explore
+    Marketplace
+    Pricing
+
+This repository
+Sign in or Sign up
+
+    Watch 22
+    Star 414
+    Fork 42
+
+xordataexchange / crypt
+Code Issues 9 Pull requests 3 Projects 0 Insights
+Dismiss
+Join GitHub today
+
+GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.
+
+Sign up
+Store and retrieve encrypted configs from etcd or consul http://xordataexchange.github.io/crypt/
+
+    67 commits
+    4 branches
+    2 releases
+    9 contributors
+    MIT
+
+    Go 100.0%
+
+Go
+Clone or download
+Clone with HTTPS
+
+Use Git or checkout with SVN using the web URL.
+Download ZIP
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching Xcode ...
+
+If nothing happens, download Xcode and try again.
+
+Go back
+Launching Visual Studio ...
+
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+
+Go back
+Find file
+Branch: master
+Switch branches/tags
+
+    Branches
+    Tags
+
+etcd-watch gh-pages master unencrypted
+Nothing to show
+v0.0.2 v0.0.1
+Nothing to show
+New pull request
+Fetching latest commit…
+Cannot retrieve the latest commit at this time.
+Permalink
+	Failed to load latest commit information.
+	backend 	add *WithContext methods to etcd backend client 	Jun 26, 2017
+	bin/ crypt 	Better perf when decoding lists 	Feb 7, 2015
+	config 	Adding list support 	Feb 4, 2015
+	encoding/ secconf 	Updated go sub-repo import path. 	Nov 11, 2014
+	.gitignore 	update docs 	Oct 18, 2014
+	LICENSE 	MIT License 	Oct 18, 2014
+	README.md 	update README 	Oct 19, 2014
+README.md
+crypt
+
+You can use crypt as a command line tool or as a configuration library:
+
+    crypt cli
+    crypt/config
+
+Demo
+
+Watch Kelsey explain crypt in this quick 5 minute video:
+
+Crypt Demonstration Video
+Generating gpg keys and keyrings
+
+The crypt cli and config package require gpg keyrings.
+Create a key and keyring from a batch file
+
+ vim app.batch  
+
+ %echo Generating a configuration OpenPGP key Key-Type: default Subkey-Type: default Name-Real: app Name-Comment: app configuration key Name-Email: app@example.com Expire-Date: 0 %pubring .pubring.gpg %secring .secring.gpg %commit %echo done  
+
+Run the following command:
+
+ gpg2 --batch --armor --gen-key app.batch  
+
+You should now have two keyrings, .pubring.gpg which contains the public keys, and .secring.gpg which contains the private keys.
+
+    Note the private key is not protected by a passphrase.
+
+    © 2018 GitHub , Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
+You can't perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session.
+Press h to open a hovercard with more details.

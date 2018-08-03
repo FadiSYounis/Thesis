@@ -1,0 +1,52 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1605.07277
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CR
+< prev  |  next >
+new  | recent  | 1605
+Change to browse by:
+cs
+cs.LG
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Nicolas Papernot
+Patrick McDaniel
+Patrick D. McDaniel
+Ian J. Goodfellow
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Cryptography and Security
+Title: Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples
+Authors: Nicolas Papernot , Patrick McDaniel , Ian Goodfellow
+(Submitted on 24 May 2016)
+
+    Abstract: Many machine learning models are vulnerable to adversarial examples: inputs that are specially crafted to cause a machine learning model to produce an incorrect output. Adversarial examples that affect one model often affect another model, even if the two models have different architectures or were trained on different training sets, so long as both models were trained to perform the same task. An attacker may therefore train their own substitute model, craft adversarial examples against the substitute, and transfer them to a victim model, with very little information about the victim. Recent work has further developed a technique that uses the victim model as an oracle to label a synthetic training set for the substitute, so the attacker need not even collect a training set to mount the attack. We extend these recent techniques using reservoir sampling to greatly enhance the efficiency of the training procedure for the substitute model. We introduce new transferability attacks between previously unexplored (substitute, victim) pairs of machine learning model classes, most notably SVMs and decision trees. We demonstrate our attacks on two commercial machine learning classification systems from Amazon (96.19% misclassification rate) and Google (88.94%) using only 800 queries of the victim model, thereby showing that existing machine learning approaches are in general vulnerable to systematic black-box attacks regardless of their structure. 
+
+Subjects: 	Cryptography and Security (cs.CR) ; Learning (cs.LG)
+Cite as: 	arXiv:1605.07277 [cs.CR]
+  	(or arXiv:1605.07277v1 [cs.CR] for this version)
+Submission history
+From: Nicolas Papernot [ view email ]
+[v1] Tue, 24 May 2016 03:27:48 GMT (350kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

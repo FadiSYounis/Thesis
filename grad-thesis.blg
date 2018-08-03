@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: grad-thesis.aux
+The style file: abbrv.bst
+Database file #1: Thesis.bib
+Warning--I didn't find a database entry for "carlini_defensive_2016"
+Warning--I didn't find a database entry for "papernot_practical_2016"
+Warning--to sort, need author or key in noauthor_what_2015
+Warning--empty year in carlini_defensive_nodate
+Warning--empty year in madry_towards_nodate
+You've used 39 entries,
+            2118 wiz_defined-function locations,
+            701 strings with 12096 characters,
+and the built_in function-call counts, 15240 in all, are:
+= -- 1480
+> -- 804
+< -- 22
++ -- 324
+- -- 278
+* -- 1040
+:= -- 2419
+add.period$ -- 129
+call.type$ -- 39
+change.case$ -- 256
+chr.to.int$ -- 0
+cite$ -- 42
+duplicate$ -- 604
+empty$ -- 1115
+format.name$ -- 278
+if$ -- 3272
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 32
+newline$ -- 204
+num.names$ -- 76
+pop$ -- 322
+preamble$ -- 1
+purify$ -- 217
+quote$ -- 0
+skip$ -- 488
+stack$ -- 0
+substring$ -- 747
+swap$ -- 210
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 156
+warning$ -- 3
+while$ -- 136
+width$ -- 41
+write$ -- 444
+(There were 5 warnings)

@@ -1,0 +1,256 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>[1703.04318] Blocking Transferability of Adversarial Examples in Black-Box Learning
+  Systems</title>
+<link rel="shortcut icon" href="https://arxiv.org/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" media="screen" href="arXiv.css">
+<meta name="citation_title" content="Blocking Transferability of Adversarial Examples in Black-Box Learning Systems">
+<meta name="citation_author" content="Hosseini, Hossein">
+<meta name="citation_author" content="Chen, Yize">
+<meta name="citation_author" content="Kannan, Sreeram">
+<meta name="citation_author" content="Zhang, Baosen">
+<meta name="citation_author" content="Poovendran, Radha">
+<meta name="citation_date" content="2017/03/13">
+<meta name="citation_online_date" content="2017/03/13">
+<meta name="citation_pdf_url" content="http://arxiv.org/pdf/1703.04318">
+<meta name="citation_arxiv_id" content="1703.04318">
+<script type="text/javascript" async="" defer="defer" src="piwik.js"></script><script src="mathjaxToggle.js" type="text/javascript"></script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(["setDomains", ["*.arxiv.org"]]);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function()
+{ var u="//webanalytics.library.cornell.edu/"; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', 538]); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); }
+)();
+</script>
+<!-- End Piwik Code -->
+
+
+<script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({
+  messageStyle: 'none',
+  extensions: ['tex2jax.js'],
+  jax: ['input/TeX','output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [['$','$']],
+    processEscapes: true,
+    ignoreClass: '.*',
+    processClass: 'mathjax.*',
+  },
+  TeX: {
+    extensions: ['AMSmath.js', 'AMSsymbols.js', 'noErrors.js'],
+    noErrors: {
+      inlineDelimiters: ['$','$'],
+      multiLine: false,
+      style: {
+        'font-size': 'normal',
+        'border': ''
+      }
+    }
+  }
+});</script><script type="text/javascript" src="MathJax.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style></head>
+<body class="with-cu-identity"><div id="MathJax_Message" style="display: none;"></div>
+
+<noscript><img src="//webanalytics.library.cornell.edu/piwik.php?idsite=538&rec=1" style="border:0;" alt="" /></noscript>
+
+<div id="cu-identity">
+<div id="cu-logo">
+<a id="insignia-link" href="http://www.cornell.edu/"><img src="cul_signature_unstyled.gif" alt="Cornell University" width="283" border="0" height="76"></a>
+<div id="unit-signature-links">
+<a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
+<a id="unit-link" href="http://www.library.cornell.edu/">Library</a>
+</div>
+</div>
+<div id="support-ack">
+<a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br>the Simons Foundation<br> and member institutions</a>
+</div>
+</div>
+<div id="header" class="cs">
+<h1><a href="https://arxiv.org/">arXiv.org</a> &gt; <a href="https://arxiv.org/list/cs/recent">cs</a> &gt; arXiv:1703.04318</h1>
+
+<div id="search">
+<form id="search-arxiv" method="post" action="/search">
+                
+<div class="wrapper-search-arxiv">
+<input class="keyword-field" name="query" placeholder="Search or Article ID inside arXiv" type="text">
+
+<div class="filter-field">
+ <select name="searchtype">
+<option value="all" selected="selected">All papers</option>
+<option value="ti">Titles</option>
+<option value="au">Authors</option>
+<option value="abs">Abstracts</option>
+<option value="ft">Full text</option>
+<option value="help">Help pages</option>
+</select>
+</div>
+<input class="btn-search-arxiv" value="" type="submit">
+<div class="links">(<a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/find">Advanced search</a>)</div>
+</div>
+</form>
+
+<form id="search-semantic" method="get" action="https://www.semanticscholar.org/search" onsubmit="_paq.push(['trackGoal', 6])">
+<div class="wrapper-search-semantic">
+<input class="keyword-field" name="q" placeholder="Broaden your search using" type="text">
+<input class="btn-search-semantic" value="" type="submit">
+</div>
+</form>
+</div>
+</div> 
+
+<div id="content">
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+    <rdf:Description
+        rdf:about="http://arxiv.org/abs/1703.04318"
+        dc:identifier="http://arxiv.org/abs/1703.04318"
+        dc:title="Blocking Transferability of Adversarial Examples in Black-Box Learning
+  Systems"
+        trackback:ping="http://arxiv.org/trackback/1703.04318" />
+    </rdf:RDF>
+-->
+
+<div id="abs">
+<div class="extra-services">
+
+<div class="full-text">
+<span class="descriptor">Full-text links:</span>
+<h2>Download:</h2>
+<ul>
+<li><a href="https://arxiv.org/pdf/1703.04318" accesskey="f">PDF</a></li>
+<li><a href="https://arxiv.org/format/1703.04318">Other formats</a></li>
+</ul>
+<div class="abs-license">(<a href="http://arxiv.org/licenses/nonexclusive-distrib/1.0/" title="Rights to this article">license</a>)</div>
+</div><!--end full-text-->
+
+<div class="browse">
+<h3>Current browse context:</h3>
+<div class="current">cs.LG</div>
+<div class="prevnext"><span class="arrow"><a href="http://arxiv.org/prevnext?site=arxiv.org&amp;id=1703.04318&amp;context=cs.LG&amp;function=prev" accesskey="p" title="previous in cs.LG (accesskey p)">&lt;&nbsp;prev</a></span>&nbsp;|&nbsp;<span class="arrow"><a href="http://arxiv.org/prevnext?site=arxiv.org&amp;id=1703.04318&amp;context=cs.LG&amp;function=next" accesskey="n" title="next in cs.LG (accesskey n)">next&nbsp;&gt;</a></span>
+<br></div>
+<div class="list"><a href="https://arxiv.org/list/cs.LG/new">new</a>&nbsp;| <a href="https://arxiv.org/list/cs.LG/recent">recent</a>&nbsp;| <a href="https://arxiv.org/list/cs.LG/1703">1703</a></div><h3>Change to browse by:</h3><div class="switch">
+<a href="https://arxiv.org/abs/1703.04318?context=cs">cs</a>
+</div>
+
+</div>
+<div class="extra-ref-cite">
+<h3>References &amp; Citations</h3><ul><li><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1703.04318">NASA ADS</a></li>
+</ul>
+
+</div>
+<div class="dblp">
+<h3><a href="http://www.informatik.uni-trier.de/%7Eley/db/">DBLP</a> - CS Bibliography</h3><div class="list">
+<a href="http://www.informatik.uni-trier.de/%7Eley/db/journals/corr/corr1703.html#HosseiniCKZP17" title="listing on DBLP">listing</a> | <a href="http://dblp.uni-trier.de/rec/bibtex/journals/corr/HosseiniCKZP17" title="DBLP bibtex record">bibtex</a>
+</div>
+<div class="list">
+<a href="http://dblp.uni-trier.de/search/author?author=Hossein%20Hosseini" title="DBLP author search">Hossein Hosseini</a><br>
+<a href="http://dblp.uni-trier.de/search/author?author=Yize%20Chen" title="DBLP author search">Yize Chen</a><br>
+<a href="http://dblp.uni-trier.de/search/author?author=Sreeram%20Kannan" title="DBLP author search">Sreeram Kannan</a><br>
+<a href="http://dblp.uni-trier.de/search/author?author=Baosen%20Zhang" title="DBLP author search">Baosen Zhang</a><br>
+<a href="http://dblp.uni-trier.de/search/author?author=Radha%20Poovendran" title="DBLP author search">Radha Poovendran</a><br>
+</div>
+
+</div>
+<div class="bookmarks">
+<div class="what-is-this">
+<h3>Bookmark</h3> (<a href="https://arxiv.org/help/social_bookmarking">what is this?</a>)
+</div>
+<a href="https://arxiv.org/ct?url=http%3A%2F%2Fwww.citeulike.org%2Fposturl%3Furl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1703.04318%26title%3DBlocking%2520Transferability%2520of%2520Adversarial%2520Examples%2520in%2520Black-Box%2520Learning%250A%2520%2520Systems%26authors%3D&amp;v=9f0d259c" title="Bookmark on CiteULike"><img src="citeulike.png" alt="CiteULike logo"></a>
+<a href="https://arxiv.org/ct?url=http%3A%2F%2Fwww.bibsonomy.org%2FBibtexHandler%3FrequTask%3Dupload%26url%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1703.04318%26description%3DBlocking%2520Transferability%2520of%2520Adversarial%2520Examples%2520in%2520Black-Box%2520Learning%250A%2520%2520Systems&amp;v=b15aeadc" title="Bookmark on BibSonomy"><img src="bibsonomy.png" alt="BibSonomy logo"></a>
+<a href="https://arxiv.org/ct?url=https%3A%2F%2Fwww.mendeley.com%2Fimport%2F%3Furl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1703.04318&amp;v=25f8698b" title="Bookmark on Mendeley"><img src="mendeley.png" alt="Mendeley logo"></a>
+<a href="https://arxiv.org/ct?url=https%3A%2F%2Fdel.icio.us%2Fpost%3Furl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1703.04318%26description%3DBlocking%2520Transferability%2520of%2520Adversarial%2520Examples%2520in%2520Black-Box%2520Learning%250A%2520%2520Systems&amp;v=062a78b1" title="Bookmark on del.icio.us"><img src="delicious.png" alt="del.icio.us logo"></a>
+<a href="https://arxiv.org/ct?url=https%3A%2F%2Fdigg.com%2Fsubmit%3Furl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1703.04318%26title%3DBlocking%2520Transferability%2520of%2520Adversarial%2520Examples%2520in%2520Black-Box%2520Learning%250A%2520%2520Systems&amp;v=60b6bfcd" title="Bookmark on Digg"><img src="digg.png" alt="Digg logo"></a>
+<a href="https://arxiv.org/ct?url=https%3A%2F%2Freddit.com%2Fsubmit%3Furl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1703.04318%26title%3DBlocking%2520Transferability%2520of%2520Adversarial%2520Examples%2520in%2520Black-Box%2520Learning%250A%2520%2520Systems&amp;v=5ace76ec" title="Bookmark on Reddit"><img src="reddit.png" alt="Reddit logo"></a>
+<a href="https://arxiv.org/ct?url=http%3A%2F%2Fsciencewise.info%2Fbookmarks%2Fadd%3Furl%3Dhttp%3A%2F%2Farxiv.org%2Fabs%2F1703.04318&amp;v=b3fa797c" title="Bookmark on ScienceWISE"><img src="sciencewise.png" alt="ScienceWISE logo"></a>
+
+</div>
+</div><!--end extra-services-->
+
+<div class="leftcolumn">
+<div class="subheader">
+<h1>Computer Science &gt; Learning</h1>
+</div>
+<h1 class="title mathjax"><span class="descriptor">Title:</span>
+Blocking Transferability of Adversarial Examples in Black-Box Learning  Systems</h1>
+<div class="authors"><span class="descriptor">Authors:</span>
+<a href="https://arxiv.org/find/cs/1/au:+Hosseini_H/0/1/0/all/0/1">Hossein Hosseini</a>, 
+<a href="https://arxiv.org/find/cs/1/au:+Chen_Y/0/1/0/all/0/1">Yize Chen</a>, 
+<a href="https://arxiv.org/find/cs/1/au:+Kannan_S/0/1/0/all/0/1">Sreeram Kannan</a>, 
+<a href="https://arxiv.org/find/cs/1/au:+Zhang_B/0/1/0/all/0/1">Baosen Zhang</a>, 
+<a href="https://arxiv.org/find/cs/1/au:+Poovendran_R/0/1/0/all/0/1">Radha Poovendran</a></div>
+<div class="dateline">(Submitted on 13 Mar 2017)</div>
+<blockquote class="abstract mathjax">
+<span class="descriptor">Abstract:</span> Advances in Machine Learning (ML) have led to its adoption as an integral
+component in many applications, including banking, medical diagnosis, and
+driverless cars. To further broaden the use of ML models, cloud-based services
+offered by Microsoft, Amazon, Google, and others have developed ML-as-a-service
+tools as black-box systems. However, ML classifiers are vulnerable to
+adversarial examples: inputs that are maliciously modified can cause the
+classifier to provide adversary-desired outputs. Moreover, it is known that
+adversarial examples generated on one classifier are likely to cause another
+classifier to make the same mistake, even if the classifiers have different
+architectures or are trained on disjoint datasets. This property, which is
+known as transferability, opens up the possibility of attacking black-box
+systems by generating adversarial examples on a substitute classifier and
+transferring the examples to the target classifier. Therefore, the key to
+protect black-box learning systems against the adversarial examples is to block
+their transferability. To this end, we propose a training method that, as the
+input is more perturbed, the classifier smoothly outputs lower confidence on
+the original label and instead predicts that the input is "invalid". In
+essence, we augment the output class set with a NULL label and train the
+classifier to reject the adversarial examples by classifying them as NULL. In
+experiments, we apply a wide range of attacks based on adversarial examples on
+the black-box systems. We show that a classifier trained with the proposed
+method effectively resists against the adversarial examples, while maintaining
+the accuracy on clean data.
+</blockquote>
+<!--CONTEXT-->
+<div class="metatable">
+<table summary="Additional metadata">
+<tbody><tr>
+<td class="tablecell label">Subjects:
+</td>
+<td class="tablecell subjects"><span class="primary-subject">Learning (cs.LG)</span></td>
+</tr>
+<tr>
+<td class="tablecell label">
+Cite&nbsp;as:
+</td>
+<td class="tablecell arxivid"><a href="https://arxiv.org/abs/1703.04318">arXiv:1703.04318</a> [cs.LG]</td>
+</tr>
+<tr>
+<td class="tablecell label">&nbsp;</td>
+<td class="tablecell arxividv">(or <span class="arxivid"><a href="https://arxiv.org/abs/1703.04318v1">arXiv:1703.04318v1</a> [cs.LG]</span> for this version)</td>
+</tr>
+</tbody></table>
+</div>
+<div class="submission-history">
+<h2>Submission history</h2>
+From: Hossein Hosseini [<a href="https://arxiv.org/show-email/285776e7/1703.04318">view email</a>]
+<br>
+<b>[v1]</b> Mon, 13 Mar 2017 10:28:24 GMT  (2345kb,D)<br>
+</div>
+<div class="endorsers"><a href="http://arxiv.org/auth/show-endorsers/1703.04318">Which authors of this paper are endorsers?</a> | <a id="mathjax_toggle" href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a href="https://arxiv.org/help/mathjax/">What is MathJax?</a>)</div><script type="text/javascript" language="javascript">mathjaxToggle();</script>
+</div><!--end leftcolumn-->
+</div><!--end abs-->
+</div>
+<div id="footer">
+<div class="footer-text">
+<p>Link back to: <a href="http://arxiv.org/">arXiv</a>, <a href="https://arxiv.org/form">form interface</a>, <a href="https://arxiv.org/help/contact">contact</a>.</p>
+</div>
+<div class="social"><a href="https://twitter.com/arxiv"><img src="twitter_logo_blue.png" alt="Twitter" title="Follow arXiv on Twitter"></a></div>
+</div>
+
+
+</body></html>

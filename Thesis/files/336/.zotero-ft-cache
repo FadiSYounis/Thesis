@@ -1,0 +1,215 @@
+
+Loading [MathJax]/extensions/TeX/euler_ieee.js
+
+Skip to Main Content
+Special Notice
+IEEE Xplore is transitioning to HTTPS on 9 April 2018. Customer access via EZproxy will require version 6 or higher with TLS 1.1 or 1.2 enabled.
+Review our EZproxy Upgrade Checklist to ensure uninterrupted access.
+
+    IEEE.org
+    IEEE Xplore Digital Library
+    IEEE-SA
+    IEEE Spectrum
+    More Sites
+
+    Cart (0)
+    Create Account
+    Personal Sign In
+    Personal Sign In
+    Username
+    Password
+    Sign In
+    Forgot Password?
+
+[Access provided by] Access provided by:
+Ryerson University Library
+Sign Out
+X
+
+    Browse
+        Books
+        Conferences
+        Courses
+        Journals & Magazines
+        Standards
+        Topics
+            Aerospace
+            Bioengineering
+            Communication, Networking & Broadcasting
+            Components, Circuits, Devices & Systems
+            Computing & Processing
+            Engineered Materials, Dielectrics & Plasmas
+            Engineering Profession
+            Fields, Waves & Electromagnetics
+            General Topics for Engineers
+            Geoscience
+            Nuclear Engineering
+            Photonics & Electro-Optics
+            Power, Energy, & Industry Applications
+            Robotics & Control Systems
+            Signal Processing & Analysis
+            Transportation
+    My Settings
+        Content Alerts
+        Search Alerts
+        MyXplore App
+        Preferences
+        Purchase History
+        Search History
+        What can I access?
+    Get Help
+        Feedback
+        Technical Support
+        Resources and Help
+
+First Name / Given Name
+Family Name / Last Name / Surname
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Publication Title
+Volume
+Issue
+Start Page
+Advanced Search
+Other Search Options
+
+    Command Search
+    Citation Search
+    Search Alerts
+    Search History
+
+Browse Conferences > Resilience Week (RWS), 2016
+   Back to Results    |    Next >  
+Enabling defensive deception in distributed system environments
+View Document
+180
+Full
+Text Views
+Related Articles
+Audio watermarking quality evaluation: robustness to DA/AD processes
+Technology challenges for building Internet-scale ubiquitous computing
+View All
+5
+Author(s)
+Nathaniel Soule ; Partha Pal ; Shane Clark ; Brian Krisler ; Anthony Macera
+View All Authors
+
+    Abstract
+    Authors
+    Figures
+    References
+    Citations
+    Keywords
+    Metrics
+    Media
+
+Abstract:
+While attackers have used deception to hide their identities, cause surprise, or mislead victims, defensive use of deception has been limited to honeypots and moving target defenses (MTDs). This has left unexplored a powerful defensive strategy namely, active manipulation of the adversary's decision loop. In contrast to the passive approach of honeypots and MTDs, this active approach deliberately interacts with the adversary to cause him to think he is succeeding and expend effort in an alternate reality. The work described in this paper took initial steps to realize active defensive deception in the context of distributed systems and built a prototype that creates an alternate reality in which to trap, learn about, and manipulate adversarial actors without affecting normal and legitimate operations. This prototype, called KAGE, employs Software Defined Networking (SDN), and virtualization to create a malleable substrate in which deception can occur. Deception is necessarily context dependent. In the case of KAGE, deception is tied to the mission purpose served by the distributed system being defended, specifically the services running, and the configuration, scale, and complexity of the environment. Consequently, there is no single deception strategy that will fit all system and mission contexts. KAGE therefore presents a framework through which a wide array of deceptions can be composed from component building blocks. This work-in-progress paper introduces the concept of active defensive cyber deception, discusses the early stage KAGE prototype, and introduces some of the challenges intrinsic to enabling defensive deception in distributed environments.
+Published in: Resilience Week (RWS), 2016
+Date of Conference: 16-18 Aug. 2016
+Date Added to IEEE Xplore : 22 September 2016
+ISBN Information:
+Electronic ISBN: 978-1-5090-2002-7
+Print on Demand(PoD) ISBN: 978-1-5090-2003-4
+INSPEC Accession Number: 16322050
+DOI: 10.1109/RWEEK.2016.7573310
+Publisher: IEEE
+Conference Location: Chicago, IL, USA
+Advertisement
+Contents
+
+    I. Introduction
+    II. Overview
+    III. Architecture
+    IV. Feasibility Demonstration
+    V. Conclusions
+
+    Download PDF
+    Download Citation
+    View References
+    Email
+    Print
+    Request Permissions Request Permissions
+    Export to Collabratec Export to Collabratec
+    Alerts
+
+    Full Text
+    Authors
+    References
+    Keywords
+    Related Articles
+    Back to Top
+
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    View Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Accessibility
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2018 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Purchase Details
+
+    Payment Options
+    Order History
+    View Purchased Documents
+
+Need Help?
+
+    Contact & Support
+
+Other
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Accessibility
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2018 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+US & Canada: +1 800 678 4333
+Worldwide: +1 732 981 0060

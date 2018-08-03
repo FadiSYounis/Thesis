@@ -1,0 +1,53 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1612.00138
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+cs.CV
+< prev  |  next >
+new  | recent  | 1612
+Change to browse by:
+cs
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Andras Rozsa
+Manuel Günther
+Terrance E. Boult
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Computer Vision and Pattern Recognition
+Title: Towards Robust Deep Neural Networks with BANG
+Authors: Andras Rozsa , Manuel Gunther , Terrance E. Boult
+(Submitted on 1 Dec 2016 ( v1 ), last revised 30 Jan 2018 (this version, v3))
+
+    Abstract: Machine learning models, including state-of-the-art deep neural networks, are vulnerable to small perturbations that cause unexpected classification errors. This unexpected lack of robustness raises fundamental questions about their generalization properties and poses a serious concern for practical deployments. As such perturbations can remain imperceptible - the formed adversarial examples demonstrate an inherent inconsistency between vulnerable machine learning models and human perception - some prior work casts this problem as a security issue. Despite the significance of the discovered instabilities and ensuing research, their cause is not well understood and no effective method has been developed to address the problem. In this paper, we present a novel theory to explain why this unpleasant phenomenon exists in deep neural networks. Based on that theory, we introduce a simple, efficient, and effective training approach, Batch Adjusted Network Gradients (BANG), which significantly improves the robustness of machine learning models. While the BANG technique does not rely on any form of data augmentation or the utilization of adversarial images for training, the resultant classifiers are more resistant to adversarial perturbations while maintaining or even enhancing the overall classification performance. 
+
+Comments: 	Accepted to the IEEE Winter Conference on Applications of Computer Vision (WACV), 2018
+Subjects: 	Computer Vision and Pattern Recognition (cs.CV)
+Cite as: 	arXiv:1612.00138 [cs.CV]
+  	(or arXiv:1612.00138v3 [cs.CV] for this version)
+Submission history
+From: Andras Rozsa [ view email ]
+[v1] Thu, 1 Dec 2016 04:49:45 GMT (5166kb,D)
+[v2] Tue, 8 Aug 2017 21:57:46 GMT (5166kb,D)
+[v3] Tue, 30 Jan 2018 20:59:56 GMT (5121kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

@@ -1,0 +1,590 @@
+
+@inproceedings{zantedeschi_efficient_2017,
+	address = {New York, NY, USA},
+	series = {{AISec} '17},
+	title = {Efficient {Defenses} {Against} {Adversarial} {Attacks}},
+	isbn = {978-1-4503-5202-4},
+	url = {http://doi.acm.org/10.1145/3128572.3140449},
+	doi = {10.1145/3128572.3140449},
+	abstract = {Following the recent adoption of deep neural networks (DNN) accross a wide range of applications, adversarial attacks against these models have proven to be an indisputable threat. Adversarial samples are crafted with a deliberate intention of undermining a system. In the case of DNNs, the lack of better understanding of their working has prevented the development of efficient defenses. In this paper, we propose a new defense method based on practical observations which is easy to integrate into models and performs better than state-of-the-art defenses. Our proposed solution is meant to reinforce the structure of a DNN, making its prediction more stable and less likely to be fooled by adversarial samples. We conduct an extensive experimental study proving the efficiency of our method against multiple attacks, comparing it to numerous defenses, both in white-box and black-box setups. Additionally, the implementation of our method brings almost no overhead to the training procedure, while maintaining the prediction performance of the original model on clean samples.},
+	urldate = {2018-04-03},
+	booktitle = {Proceedings of the 10th {ACM} {Workshop} on {Artificial} {Intelligence} and {Security}},
+	publisher = {ACM},
+	author = {Zantedeschi, Valentina and Nicolae, Maria-Irina and Rawat, Ambrish},
+	year = {2017},
+	keywords = {adversarial learning, deep neural network, defenses, model security},
+	pages = {39--49},
+	file = {ACM Full Text PDF:files/316/Zantedeschi et al. - 2017 - Efficient Defenses Against Adversarial Attacks.pdf:application/pdf}
+}
+
+@article{yuan_adversarial_2017,
+	title = {Adversarial {Examples}: {Attacks} and {Defenses} for {Deep} {Learning}},
+	shorttitle = {Adversarial {Examples}},
+	url = {http://arxiv.org/abs/1712.07107},
+	abstract = {With rapid progress and great successes in a wide spectrum of applications, deep learning is being applied in many safety-critical environments. However, deep neural networks have been recently found vulnerable to well-designed input samples, called {\textbackslash}textit\{adversarial examples\}. Adversarial examples are imperceptible to human but can easily fool deep neural networks in the testing/deploying stage. The vulnerability to adversarial examples becomes one of the major risks for applying deep neural networks in safety-critical scenarios. Therefore, the attacks and defenses on adversarial examples draw great attention. In this paper, we review recent findings on adversarial examples against deep neural networks, summarize the methods for generating adversarial examples, and propose a taxonomy of these methods. Under the taxonomy, applications and countermeasures for adversarial examples are investigated. We further elaborate on adversarial examples and explore the challenges and the potential solutions.},
+	urldate = {2018-04-03},
+	journal = {arXiv:1712.07107 [cs, stat]},
+	author = {Yuan, Xiaoyong and He, Pan and Zhu, Qile and Bhat, Rajendra Rana and Li, Xiaolin},
+	month = dec,
+	year = {2017},
+	note = {arXiv: 1712.07107},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Cryptography and Security, Computer Science - Learning, Statistics - Machine Learning},
+	annote = {Comment: 21 pages, 13 figures, Github: https://github.com/chbrian/awesome-adversarial-examples-dl},
+	file = {arXiv\:1712.07107 PDF:files/319/Yuan et al. - 2017 - Adversarial Examples Attacks and Defenses for Dee.pdf:application/pdf;arXiv.org Snapshot:files/320/1712.html:text/html}
+}
+
+@article{xiao_security_2017,
+	title = {Security {Risks} in {Deep} {Learning} {Implementations}},
+	url = {http://arxiv.org/abs/1711.11008},
+	abstract = {Advance in deep learning algorithms overshadows their security risk in software implementations. This paper discloses a set of vulnerabilities in popular deep learning frameworks including Caffe, TensorFlow, and Torch. Contrast to the small code size of deep learning models, these deep learning frameworks are complex and contain heavy dependencies on numerous open source packages. This paper considers the risks caused by these vulnerabilities by studying their impact on common deep learning applications such as voice recognition and image classifications. By exploiting these framework implementations, attackers can launch denial-of-service attacks that crash or hang a deep learning application, or control-flow hijacking attacks that cause either system compromise or recognition evasions. The goal of this paper is to draw attention on the software implementations and call for the community effort to improve the security of deep learning frameworks.},
+	urldate = {2018-04-03},
+	journal = {arXiv:1711.11008 [cs]},
+	author = {Xiao, Qixue and Li, Kang and Zhang, Deyue and Xu, Weilin},
+	month = nov,
+	year = {2017},
+	note = {arXiv: 1711.11008},
+	keywords = {Computer Science - Cryptography and Security},
+	file = {arXiv\:1711.11008 PDF:files/322/Xiao et al. - 2017 - Security Risks in Deep Learning Implementations.pdf:application/pdf;arXiv.org Snapshot:files/323/1711.html:text/html}
+}
+
+@article{tramer_space_2017,
+	title = {The {Space} of {Transferable} {Adversarial} {Examples}},
+	url = {http://arxiv.org/abs/1704.03453},
+	abstract = {Adversarial examples are maliciously perturbed inputs designed to mislead machine learning (ML) models at test-time. They often transfer: the same adversarial example fools more than one model. In this work, we propose novel methods for estimating the previously unknown dimensionality of the space of adversarial inputs. We find that adversarial examples span a contiguous subspace of large ({\textasciitilde}25) dimensionality. Adversarial subspaces with higher dimensionality are more likely to intersect. We find that for two different models, a significant fraction of their subspaces is shared, thus enabling transferability. In the first quantitative analysis of the similarity of different models' decision boundaries, we show that these boundaries are actually close in arbitrary directions, whether adversarial or benign. We conclude by formally studying the limits of transferability. We derive (1) sufficient conditions on the data distribution that imply transferability for simple model classes and (2) examples of scenarios in which transfer does not occur. These findings indicate that it may be possible to design defenses against transfer-based attacks, even for models that are vulnerable to direct attacks.},
+	language = {en},
+	urldate = {2018-04-03},
+	journal = {arXiv:1704.03453 [cs, stat]},
+	author = {Tramèr, Florian and Papernot, Nicolas and Goodfellow, Ian and Boneh, Dan and McDaniel, Patrick},
+	month = apr,
+	year = {2017},
+	note = {arXiv: 1704.03453},
+	keywords = {Computer Science - Cryptography and Security, Computer Science - Learning, Statistics - Machine Learning},
+	annote = {Comment: 15 pages, 7 figures},
+	file = {arXiv\:1704.03453 PDF:files/329/Tramèr et al. - 2017 - The Space of Transferable Adversarial Examples.pdf:application/pdf;arXiv.org Snapshot:files/330/1704.html:text/html}
+}
+
+@inproceedings{suo_research_2014,
+	title = {Research on the application of honeypot technology in intrusion detection system},
+	doi = {10.1109/WARTIA.2014.6976452},
+	abstract = {Detailed introduction of the related knowledge of honeypot and intrusion detection technology. From the adaptability, effectiveness and scalability to a detailed analysis of the current intrusion detection system in the existing problems and the honeypot technology is applied to the advantages of the system in Intrusion Detection System, At the same time put forward a detection model and describes the main functions of the model and the system structure based on the intrusion honeypot technology.},
+	booktitle = {2014 {IEEE} {Workshop} on {Advanced} {Research} and {Technology} in {Industry} {Applications} ({WARTIA})},
+	author = {Suo, Xiangfeng and Han, Xue and Gao, Yunhui},
+	month = sep,
+	year = {2014},
+	keywords = {Adaptation models, Computer hacking, Data models, Honeypot technology, Intrusion detection, intrusion detection system, intrusion honeypot technology, Network, Real-time systems, Safety, security of data},
+	pages = {1030--1032},
+	file = {IEEE Xplore Abstract Record:files/333/6976452.html:text/html;IEEE Xplore Full Text PDF:files/332/Suo et al. - 2014 - Research on the application of honeypot technology.pdf:application/pdf}
+}
+
+@inproceedings{soule_enabling_2016,
+	title = {Enabling defensive deception in distributed system environments},
+	doi = {10.1109/RWEEK.2016.7573310},
+	abstract = {While attackers have used deception to hide their identities, cause surprise, or mislead victims, defensive use of deception has been limited to honeypots and moving target defenses (MTDs). This has left unexplored a powerful defensive strategy namely, active manipulation of the adversary's decision loop. In contrast to the passive approach of honeypots and MTDs, this active approach deliberately interacts with the adversary to cause him to think he is succeeding and expend effort in an alternate reality. The work described in this paper took initial steps to realize active defensive deception in the context of distributed systems and built a prototype that creates an alternate reality in which to trap, learn about, and manipulate adversarial actors without affecting normal and legitimate operations. This prototype, called KAGE, employs Software Defined Networking (SDN), and virtualization to create a malleable substrate in which deception can occur. Deception is necessarily context dependent. In the case of KAGE, deception is tied to the mission purpose served by the distributed system being defended, specifically the services running, and the configuration, scale, and complexity of the environment. Consequently, there is no single deception strategy that will fit all system and mission contexts. KAGE therefore presents a framework through which a wide array of deceptions can be composed from component building blocks. This work-in-progress paper introduces the concept of active defensive cyber deception, discusses the early stage KAGE prototype, and introduces some of the challenges intrinsic to enabling defensive deception in distributed environments.},
+	booktitle = {2016 {Resilience} {Week} ({RWS})},
+	author = {Soule, N. and Pal, P. and Clark, S. and Krisler, B. and Macera, A.},
+	month = aug,
+	year = {2016},
+	keywords = {active defensive cyber deception, adversary decision loop active manipulation, Business, computer network security, Context, deception, distributed system environments, distributed systems, honeypots, KAGE prototype, Monitoring, moving target defenses, MTDs, Prototypes, Reconnaissance, SDN, security, software defined networking, Substrates, Virtualization},
+	pages = {73--76},
+	file = {IEEE Xplore Abstract Record:files/336/7573310.html:text/html;IEEE Xplore Full Text PDF:files/335/Soule et al. - 2016 - Enabling defensive deception in distributed system.pdf:application/pdf}
+}
+
+@misc{smith_goenv:_2018,
+	address = {Github},
+	title = {goenv: {Isolated} development environments for {Go}},
+	copyright = {Apache-2.0},
+	shorttitle = {goenv},
+	url = {https://github.com/crsmithdev/goenv},
+	abstract = {Goenv is a Go package that provides virtualenv-like functionality for Go projects, isolating dependencies into workspaces for safer and simpler management.},
+	urldate = {2018-04-03},
+	publisher = {crsmithdev},
+	author = {Smith, Chris},
+	month = mar,
+	year = {2018},
+	note = {original-date: 2014-07-21},
+	file = {Snapshot:files/338/goenv.html:text/html}
+}
+
+@article{rozsa_towards_2016,
+	title = {Towards {Robust} {Deep} {Neural} {Networks} with {BANG}},
+	url = {http://arxiv.org/abs/1612.00138},
+	abstract = {Machine learning models, including state-of-the-art deep neural networks, are vulnerable to small perturbations that cause unexpected classification errors. This unexpected lack of robustness raises fundamental questions about their generalization properties and poses a serious concern for practical deployments. As such perturbations can remain imperceptible - the formed adversarial examples demonstrate an inherent inconsistency between vulnerable machine learning models and human perception - some prior work casts this problem as a security issue. Despite the significance of the discovered instabilities and ensuing research, their cause is not well understood and no effective method has been developed to address the problem. In this paper, we present a novel theory to explain why this unpleasant phenomenon exists in deep neural networks. Based on that theory, we introduce a simple, efficient, and effective training approach, Batch Adjusted Network Gradients (BANG), which significantly improves the robustness of machine learning models. While the BANG technique does not rely on any form of data augmentation or the utilization of adversarial images for training, the resultant classifiers are more resistant to adversarial perturbations while maintaining or even enhancing the overall classification performance.},
+	urldate = {2018-04-03},
+	journal = {IEEE Winter Conference on Applications of Computer Vision (WACV), 2018},
+	author = {Rozsa, Andras and Gunther, Manuel and Boult, Terrance E.},
+	month = nov,
+	year = {2016},
+	note = {arXiv: 1612.00138},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: Accepted to the IEEE Winter Conference on Applications of Computer Vision (WACV), 2018},
+	file = {arXiv\:1612.00138 PDF:files/341/Rozsa et al. - 2016 - Towards Robust Deep Neural Networks with BANG.pdf:application/pdf;arXiv.org Snapshot:files/342/1612.html:text/html}
+}
+
+@article{rozsa_towards_2016-1,
+	title = {Towards {Robust} {Deep} {Neural} {Networks} with {BANG}},
+	url = {http://arxiv.org/abs/1612.00138},
+	abstract = {Machine learning models, including state-of-the-art deep neural networks, are vulnerable to small perturbations that cause unexpected classification errors. This unexpected lack of robustness raises fundamental questions about their generalization properties and poses a serious concern for practical deployments. As such perturbations can remain imperceptible - the formed adversarial examples demonstrate an inherent inconsistency between vulnerable machine learning models and human perception - some prior work casts this problem as a security issue. Despite the significance of the discovered instabilities and ensuing research, their cause is not well understood and no effective method has been developed to address the problem. In this paper, we present a novel theory to explain why this unpleasant phenomenon exists in deep neural networks. Based on that theory, we introduce a simple, efficient, and effective training approach, Batch Adjusted Network Gradients (BANG), which significantly improves the robustness of machine learning models. While the BANG technique does not rely on any form of data augmentation or the utilization of adversarial images for training, the resultant classifiers are more resistant to adversarial perturbations while maintaining or even enhancing the overall classification performance.},
+	urldate = {2018-04-03},
+	journal = {EE Winter Conference on Applications of Computer Vision (WACV), 2018},
+	author = {Rozsa, Andras and Gunther, Manuel and Boult, Terrance E.},
+	month = nov,
+	year = {2016},
+	note = {arXiv: 1612.00138},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	annote = {Comment: Accepted to the IEEE Winter Conference on Applications of Computer Vision (WACV), 2018},
+	file = {arXiv\:1612.00138 PDF:files/345/Rozsa et al. - 2016 - Towards Robust Deep Neural Networks with BANG.pdf:application/pdf;arXiv.org Snapshot:files/346/1612.html:text/html}
+}
+
+@inproceedings{ribeiro_mlaas:_2015,
+	title = {{MLaaS}: {Machine} {Learning} as a {Service}},
+	shorttitle = {{MLaaS}},
+	doi = {10.1109/ICMLA.2015.152},
+	abstract = {The demand for knowledge extraction has been increasing. With the growing amount of data being generated by global data sources (e.g., social media and mobile apps) and the popularization of context-specific data (e.g., the Internet of Things), companies and researchers need to connect all these data and extract valuable information. Machine learning has been gaining much attention in data mining, leveraging the birth of new solutions. This paper proposes an architecture to create a flexible and scalable machine learning as a service. An open source solution was implemented and presented. As a case study, a forecast of electricity demand was generated using real-world sensor and weather data by running different algorithms at the same time.},
+	booktitle = {2015 {IEEE} 14th {International} {Conference} on {Machine} {Learning} and {Applications} ({ICMLA})},
+	author = {Ribeiro, M. and Grolinger, K. and Capretz, M. A. M.},
+	month = dec,
+	year = {2015},
+	keywords = {Adaptation models, cloud computing, Computer architecture, context-specific data, Data models, electricity demand forecast, global data sources, knowledge acquisition, knowledge extraction, learning (artificial intelligence), load forecasting, Machine learning algorithms, machine learning as a service, Machine Learning as a Service, MLaaS, Platform as a Service, power engineering computing, Prediction, Prediction algorithms, Predictive models, real-world sensor data, Regression, Service Component Architecture, Service Oriented Architecture, Supervised Learning, Training, weather data},
+	pages = {896--902},
+	file = {IEEE Xplore Abstract Record:files/349/7424435.html:text/html;IEEE Xplore Full Text PDF:files/348/Ribeiro et al. - 2015 - MLaaS Machine Learning as a Service.pdf:application/pdf}
+}
+
+@inproceedings{rauti_survey_2017,
+	title = {A {Survey} on {Fake} {Entities} as a {Method} to {Detect} and {Monitor} {Malicious} {Activity}},
+	doi = {10.1109/PDP.2017.34},
+	abstract = {This paper surveys research concentrating on fake entities as a method to detect and monitor malware. A fake entity is a digital entity (such as a file) no one except a malicious attacker should access. When the entity is accessed, the defender immediately knows there is unwanted activity in the system and can start to monitor it. We discuss both faking different entities on one machine and in a network using virtual groups of fake hosts.},
+	booktitle = {2017 25th {Euromicro} {International} {Conference} on {Parallel}, {Distributed} and {Network}-based {Processing} ({PDP})},
+	author = {Rauti, S. and Leppänen, V.},
+	month = mar,
+	year = {2017},
+	keywords = {Business, Computers, Databases, deceiving malware, deception, digital entity, fake entities, fake hosts, invasive software, malicious activity detection method, malicious activity monitoring method, malicious attacker, Malware, malware detection method, malware monitoring method, Monitoring, Security, Servers, virtual groups},
+	pages = {386--390},
+	file = {IEEE Xplore Abstract Record:files/352/7912676.html:text/html;IEEE Xplore Full Text PDF:files/351/Rauti and Leppänen - 2017 - A Survey on Fake Entities as a Method to Detect an.pdf:application/pdf}
+}
+
+@inproceedings{papernot_distillation_2016,
+	title = {Distillation as a {Defense} to {Adversarial} {Perturbations} {Against} {Deep} {Neural} {Networks}},
+	doi = {10.1109/SP.2016.41},
+	abstract = {Deep learning algorithms have been shown to perform extremely well on many classical machine learning problems. However, recent studies have shown that deep learning, like other machine learning techniques, is vulnerable to adversarial samples: inputs crafted to force a deep neural network (DNN) to provide adversary-selected outputs. Such attacks can seriously undermine the security of the system supported by the DNN, sometimes with devastating consequences. For example, autonomous vehicles can be crashed, illicit or illegal content can bypass content filters, or biometric authentication systems can be manipulated to allow improper access. In this work, we introduce a defensive mechanism called defensive distillation to reduce the effectiveness of adversarial samples on DNNs. We analytically investigate the generalizability and robustness properties granted by the use of defensive distillation when training DNNs. We also empirically study the effectiveness of our defense mechanisms on two DNNs placed in adversarial settings. The study shows that defensive distillation can reduce effectiveness of sample creation from 95\% to less than 0.5\% on a studied DNN. Such dramatic gains can be explained by the fact that distillation leads gradients used in adversarial sample creation to be reduced by a factor of 1030. We also find that distillation increases the average minimum number of features that need to be modified to create adversarial samples by about 800\% on one of the DNNs we tested.},
+	booktitle = {2016 {IEEE} {Symposium} on {Security} and {Privacy} ({SP})},
+	author = {Papernot, N. and McDaniel, P. and Wu, X. and Jha, S. and Swami, A.},
+	month = may,
+	year = {2016},
+	keywords = {adversarial perturbations, adversarial sample creation, Automobiles, Computational modeling, Computer architecture, deep learning algorithms, deep neural networks, defensive distillation mechanism, DNN, learning (artificial intelligence), Machine learning, machine learning problems, neural nets, Neural networks, security, Security, security of data, Training},
+	pages = {582--597},
+	file = {IEEE Xplore Abstract Record:files/355/7546524.html:text/html;IEEE Xplore Full Text PDF:files/354/Papernot et al. - 2016 - Distillation as a Defense to Adversarial Perturbat.pdf:application/pdf}
+}
+
+@inproceedings{papernot_limitations_2016,
+	title = {The {Limitations} of {Deep} {Learning} in {Adversarial} {Settings}},
+	doi = {10.1109/EuroSP.2016.36},
+	abstract = {Deep learning takes advantage of large datasets and computationally efficient training algorithms to outperform other approaches at various machine learning tasks. However, imperfections in the training phase of deep neural networks make them vulnerable to adversarial samples: inputs crafted by adversaries with the intent of causing deep neural networks to misclassify. In this work, we formalize the space of adversaries against deep neural networks (DNNs) and introduce a novel class of algorithms to craft adversarial samples based on a precise understanding of the mapping between inputs and outputs of DNNs. In an application to computer vision, we show that our algorithms can reliably produce samples correctly classified by human subjects but misclassified in specific targets by a DNN with a 97\% adversarial success rate while only modifying on average 4.02\% of the input features per sample. We then evaluate the vulnerability of different sample classes to adversarial perturbations by defining a hardness measure. Finally, we describe preliminary work outlining defenses against adversarial samples by defining a predictive measure of distance between a benign input and a target classification.},
+	booktitle = {2016 {IEEE} {European} {Symposium} on {Security} and {Privacy} ({EuroS} {P})},
+	author = {Papernot, N. and McDaniel, P. and Jha, S. and Fredrikson, M. and Celik, Z. B. and Swami, A.},
+	month = mar,
+	year = {2016},
+	keywords = {adversarial samples, adversarial samples:, Biological neural networks, computer vision, deep neural networks, Distortion, DNN, Force, hardness measure, human subjects, image classification, input features, large datasets, learning (artificial intelligence), Machine learning, neural nets, Neurons, target classification, Training, training algorithms, training phase},
+	pages = {372--387},
+	file = {IEEE Xplore Abstract Record:files/358/7467366.html:text/html;IEEE Xplore Full Text PDF:files/357/Papernot et al. - 2016 - The Limitations of Deep Learning in Adversarial Se.pdf:application/pdf}
+}
+
+@inproceedings{papernot_practical_2017,
+	address = {New York, NY, USA},
+	series = {{ASIA} {CCS} '17},
+	title = {Practical {Black}-{Box} {Attacks} {Against} {Machine} {Learning}},
+	isbn = {978-1-4503-4944-4},
+	url = {http://doi.acm.org/10.1145/3052973.3053009},
+	doi = {10.1145/3052973.3053009},
+	abstract = {Machine learning (ML) models, e.g., deep neural networks (DNNs), are vulnerable to adversarial examples: malicious inputs modified to yield erroneous model outputs, while appearing unmodified to human observers. Potential attacks include having malicious content like malware identified as legitimate or controlling vehicle behavior. Yet, all existing adversarial example attacks require knowledge of either the model internals or its training data. We introduce the first practical demonstration of an attacker controlling a remotely hosted DNN with no such knowledge. Indeed, the only capability of our black-box adversary is to observe labels given by the DNN to chosen inputs. Our attack strategy consists in training a local model to substitute for the target DNN, using inputs synthetically generated by an adversary and labeled by the target DNN. We use the local substitute to craft adversarial examples, and find that they are misclassified by the targeted DNN. To perform a real-world and properly-blinded evaluation, we attack a DNN hosted by MetaMind, an online deep learning API. We find that their DNN misclassifies 84.24\% of the adversarial examples crafted with our substitute. We demonstrate the general applicability of our strategy to many ML techniques by conducting the same attack against models hosted by Amazon and Google, using logistic regression substitutes. They yield adversarial examples misclassified by Amazon and Google at rates of 96.19\% and 88.94\%. We also find that this black-box attack strategy is capable of evading defense strategies previously found to make adversarial example crafting harder.},
+	urldate = {2018-04-03},
+	booktitle = {Proceedings of the 2017 {ACM} on {Asia} {Conference} on {Computer} and {Communications} {Security}},
+	publisher = {ACM},
+	author = {Papernot, Nicolas and McDaniel, Patrick and Goodfellow, Ian and Jha, Somesh and Celik, Z. Berkay and Swami, Ananthram},
+	year = {2017},
+	keywords = {adversarial machine learning, black-box attack, machine learning},
+	pages = {506--519},
+	file = {ACM Full Text PDF:files/360/Papernot et al. - 2017 - Practical Black-Box Attacks Against Machine Learni.pdf:application/pdf}
+}
+
+@article{papernot_transferability_2016,
+	title = {Transferability in {Machine} {Learning}: from {Phenomena} to {Black}-{Box} {Attacks} using {Adversarial} {Samples}},
+	shorttitle = {Transferability in {Machine} {Learning}},
+	url = {http://arxiv.org/abs/1605.07277},
+	abstract = {Many machine learning models are vulnerable to adversarial examples: inputs that are specially crafted to cause a machine learning model to produce an incorrect output. Adversarial examples that affect one model often affect another model, even if the two models have different architectures or were trained on different training sets, so long as both models were trained to perform the same task. An attacker may therefore train their own substitute model, craft adversarial examples against the substitute, and transfer them to a victim model, with very little information about the victim. Recent work has further developed a technique that uses the victim model as an oracle to label a synthetic training set for the substitute, so the attacker need not even collect a training set to mount the attack. We extend these recent techniques using reservoir sampling to greatly enhance the efficiency of the training procedure for the substitute model. We introduce new transferability attacks between previously unexplored (substitute, victim) pairs of machine learning model classes, most notably SVMs and decision trees. We demonstrate our attacks on two commercial machine learning classification systems from Amazon (96.19\% misclassification rate) and Google (88.94\%) using only 800 queries of the victim model, thereby showing that existing machine learning approaches are in general vulnerable to systematic black-box attacks regardless of their structure.},
+	urldate = {2018-04-03},
+	journal = {arXiv:1605.07277 [cs]},
+	author = {Papernot, Nicolas and McDaniel, Patrick and Goodfellow, Ian},
+	month = may,
+	year = {2016},
+	note = {arXiv: 1605.07277},
+	keywords = {Computer Science - Cryptography and Security, Computer Science - Learning},
+	file = {arXiv\:1605.07277 PDF:files/362/Papernot et al. - 2016 - Transferability in Machine Learning from Phenomen.pdf:application/pdf;arXiv.org Snapshot:files/363/1605.html:text/html}
+}
+
+@article{papernot_cleverhans_2016,
+	title = {cleverhans v2.0.0: an adversarial machine learning library},
+	shorttitle = {cleverhans v2.0.0},
+	url = {http://arxiv.org/abs/1610.00768},
+	abstract = {{\textbackslash}texttt\{cleverhans\} is a software library that provides standardized reference implementations of {\textbackslash}emph\{adversarial example\} construction techniques and {\textbackslash}emph\{adversarial training\}. The library may be used to develop more robust machine learning models and to provide standardized benchmarks of models' performance in the adversarial setting. Benchmarks constructed without a standardized implementation of adversarial example construction are not comparable to each other, because a good result may indicate a robust model or it may merely indicate a weak implementation of the adversarial example construction procedure. This technical report is structured as follows. Section{\textasciitilde}{\textbackslash}ref\{sec:introduction\} provides an overview of adversarial examples in machine learning and of the {\textbackslash}texttt\{cleverhans\} software. Section{\textasciitilde}{\textbackslash}ref\{sec:core\} presents the core functionalities of the library: namely the attacks based on adversarial examples and defenses to improve the robustness of machine learning models to these attacks. Section{\textasciitilde}{\textbackslash}ref\{sec:benchmark\} describes how to report benchmark results using the library. Section{\textasciitilde}{\textbackslash}ref\{sec:version\} describes the versioning system.},
+	urldate = {2018-04-03},
+	journal = {arXiv:1610.00768 [cs, stat]},
+	author = {Papernot, Nicolas and Carlini, Nicholas and Goodfellow, Ian and Feinman, Reuben and Faghri, Fartash and Matyasko, Alexander and Hambardzumyan, Karen and Juang, Yi-Lin and Kurakin, Alexey and Sheatsley, Ryan and Garg, Abhibhav and Lin, Yen-Chen},
+	month = oct,
+	year = {2016},
+	note = {arXiv: 1610.00768},
+	keywords = {Computer Science - Cryptography and Security, Computer Science - Learning, Statistics - Machine Learning},
+	annote = {Comment: Technical report for https://github.com/openai/cleverhans},
+	file = {arXiv\:1610.00768 PDF:files/366/Papernot et al. - 2016 - cleverhans v2.0.0 an adversarial machine learning.pdf:application/pdf;arXiv.org Snapshot:files/367/1610.html:text/html}
+}
+
+@inproceedings{nguyen_deep_2015,
+	title = {Deep neural networks are easily fooled: {High} confidence predictions for unrecognizable images},
+	shorttitle = {Deep neural networks are easily fooled},
+	doi = {10.1109/CVPR.2015.7298640},
+	abstract = {Deep neural networks (DNNs) have recently been achieving state-of-the-art performance on a variety of pattern-recognition tasks, most notably visual classification problems. Given that DNNs are now able to classify objects in images with near-human-level performance, questions naturally arise as to what differences remain between computer and human vision. A recent study [30] revealed that changing an image (e.g. of a lion) in a way imperceptible to humans can cause a DNN to label the image as something else entirely (e.g. mislabeling a lion a library). Here we show a related result: it is easy to produce images that are completely unrecognizable to humans, but that state-of-the-art DNNs believe to be recognizable objects with 99.99\% confidence (e.g. labeling with certainty that white noise static is a lion). Specifically, we take convolutional neural networks trained to perform well on either the ImageNet or MNIST datasets and then find images with evolutionary algorithms or gradient ascent that DNNs label with high confidence as belonging to each dataset class. It is possible to produce images totally unrecognizable to human eyes that DNNs believe with near certainty are familiar objects, which we call “fooling images” (more generally, fooling examples). Our results shed light on interesting differences between human vision and current DNNs, and raise questions about the generality of DNN computer vision.},
+	booktitle = {2015 {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})},
+	author = {Nguyen, A. and Yosinski, J. and Clune, J.},
+	month = jun,
+	year = {2015},
+	keywords = {Biomedical imaging, computer vision, convolution, convolutional neural networks, deep neural networks, DNNs, evolutionary algorithms, evolutionary computation, fooling images, gradient ascent, image classification, image labeling, ImageNet datasets, Keyboards, MNIST datasets, neural nets, object recognition, pattern-recognition tasks, recognizable objects, unrecognizable images, visual classification problems, Volcanoes},
+	pages = {427--436},
+	file = {IEEE Xplore Abstract Record:files/370/7298640.html:text/html;IEEE Xplore Full Text PDF:files/369/Nguyen et al. - 2015 - Deep neural networks are easily fooled High confi.pdf:application/pdf}
+}
+
+@article{nawrocki_survey_2016,
+	title = {A {Survey} on {Honeypot} {Software} and {Data} {Analysis}},
+	url = {http://arxiv.org/abs/1608.06249},
+	abstract = {In this survey, we give an extensive overview on honeypots. This includes not only honeypot software but also methodologies to analyse honeypot data.},
+	urldate = {2018-04-03},
+	journal = {arXiv:1608.06249 [cs]},
+	author = {Nawrocki, Marcin and Wählisch, Matthias and Schmidt, Thomas C. and Keil, Christian and Schönfelder, Jochen},
+	month = aug,
+	year = {2016},
+	note = {arXiv: 1608.06249},
+	keywords = {C.2.0, C.2.2, C.2.3, C.2.6, Computer Science - Cryptography and Security, Computer Science - Networking and Internet Architecture, D.4.6, K.6.5},
+	file = {arXiv\:1608.06249 PDF:files/372/Nawrocki et al. - 2016 - A Survey on Honeypot Software and Data Analysis.pdf:application/pdf;arXiv.org Snapshot:files/373/1608.html:text/html}
+}
+
+@article{madry_towards_nodate,
+	title = {Towards {Deep} {Learning} {Models} {Resistant} to {Adversarial} {Attacks}},
+	abstract = {Recent work has demonstrated that neural networks are vulnerable to adversarial examples, i.e., inputs that are almost indistinguishable from natural data and yet classiﬁed incorrectly by the network. To address this problem, we study the adversarial robustness of neural networks through the lens of robust optimization. This approach provides a broad and unifying view on much of the prior work on this topic. Its principled nature also enables us to identify general methods for both training and attacking neural networks that are reliable and, in a certain sense, universal. These methods let us train networks with signiﬁcantly improved resistance to a wide range of adversarial attacks. This suggests that adversarially resistant deep learning models might be within our reach after all.},
+	language = {en},
+	journal = {International Conference on Learning Representations (ICLR),2018},
+	author = {Madry, Aleksander and Makelov, Aleksandar and Schmidt, Ludwig and Tsipras, Dimitris and Vladu, Adrian},
+	pages = {10},
+	file = {Madry et al. - Towards Deep Learning Models Resistant to Adversar.pdf:files/377/Madry et al. - Towards Deep Learning Models Resistant to Adversar.pdf:application/pdf}
+}
+
+@article{liu_delving_2017,
+	title = {{DELVING} {INTO} {TRANSFERABLE} {ADVERSARIAL} {EX}- {AMPLES} {AND} {BLACK}-{BOX} {ATTACKS}},
+	abstract = {An intriguing property of deep neural networks is the existence of adversarial examples, which can transfer among different architectures. These transferable adversarial examples may severely hinder deep neural network-based applications. Previous works mostly study the transferability using small scale datasets. In this work, we are the ﬁrst to conduct an extensive study of the transferability over large models and a large scale dataset, and we are also the ﬁrst to study the transferability of targeted adversarial examples with their target labels. We study both non-targeted and targeted adversarial examples, and show that while transferable non-targeted adversarial examples are easy to ﬁnd, targeted adversarial examples generated using existing approaches almost never transfer with their target labels. Therefore, we propose novel ensemble-based approaches to generating transferable adversarial examples. Using such approaches, we observe a large proportion of targeted adversarial examples that are able to transfer with their target labels for the ﬁrst time. We also present some geometric studies to help understanding the transferable adversarial examples. Finally, we show that the adversarial examples generated using ensemble-based approaches can successfully attack Clarifai.com, which is a black-box image classiﬁcation system.},
+	language = {en},
+	journal = {International Conference on Learning Representations, 2017},
+	author = {Liu, Yanpei and Chen, Xinyun and Liu, Chang and Song, Dawn},
+	year = {2017},
+	pages = {14},
+	file = {Liu et al. - 2017 - DELVING INTO TRANSFERABLE ADVERSARIAL EX- AMPLES A.pdf:files/379/Liu et al. - 2017 - DELVING INTO TRANSFERABLE ADVERSARIAL EX- AMPLES A.pdf:application/pdf}
+}
+
+@inproceedings{lihet_how_2015,
+	title = {How to build a honeypot {System} in the cloud},
+	doi = {10.1109/RoEduNet.2015.7311992},
+	abstract = {This article will explain and will act as a guide to implement a cloud based honeypot using the Kippo honeypot application suite. It will also underline the importance of having an honeypot and will illustrate statistical and real data collected during the implemented system used for this article.},
+	booktitle = {2015 14th {RoEduNet} {International} {Conference} - {Networking} in {Education} and {Research} ({RoEduNet} {NER})},
+	author = {Lihet, M. A. and Dadarlat, V.},
+	month = sep,
+	year = {2015},
+	keywords = {cloud, cloud computing, Decision support systems, Honeypot, Honeypot systems in the cloud, information security, Information Security, Information Security Appliances, Kippo, Kippo honeypot application suite, security of data},
+	pages = {190--194},
+	file = {IEEE Xplore Abstract Record:files/383/7311992.html:text/html;IEEE Xplore Full Text PDF:files/382/Lihet and Dadarlat - 2015 - How to build a honeypot System in the cloud.pdf:application/pdf}
+}
+
+@article{kurakin_adversarial_2017,
+	title = {{ADVERSARIAL} {EXAMPLES} {IN} {THE} {PHYSICAL} {WORLD}},
+	abstract = {Most existing machine learning classiﬁers are highly vulnerable to adversarial examples. An adversarial example is a sample of input data which has been modiﬁed very slightly in a way that is intended to cause a machine learning classiﬁer to misclassify it. In many cases, these modiﬁcations can be so subtle that a human observer does not even notice the modiﬁcation at all, yet the classiﬁer still makes a mistake. Adversarial examples pose security concerns because they could be used to perform an attack on machine learning systems, even if the adversary has no access to the underlying model. Up to now, all previous work has assumed a threat model in which the adversary can feed data directly into the machine learning classiﬁer. This is not always the case for systems operating in the physical world, for example those which are using signals from cameras and other sensors as input. This paper shows that even in such physical world scenarios, machine learning systems are vulnerable to adversarial examples. We demonstrate this by feeding adversarial images obtained from a cell-phone camera to an ImageNet Inception classiﬁer and measuring the classiﬁcation accuracy of the system. We ﬁnd that a large fraction of adversarial examples are classiﬁed incorrectly even when perceived through the camera.},
+	language = {en},
+	journal = {International Conference on Learning Representations (ICLR), 2017},
+	author = {Kurakin, Alexey and Goodfellow, Ian J and Bengio, Samy},
+	year = {2017},
+	pages = {14},
+	file = {Kurakin et al. - 2017 - ADVERSARIAL EXAMPLES IN THE PHYSICAL WORLD.pdf:files/384/Kurakin et al. - 2017 - ADVERSARIAL EXAMPLES IN THE PHYSICAL WORLD.pdf:application/pdf}
+}
+
+@inproceedings{kedrowitsch_first_2017,
+	address = {New York, NY, USA},
+	series = {{SafeConfig} '17},
+	title = {A {First} {Look}: {Using} {Linux} {Containers} for {Deceptive} {Honeypots}},
+	isbn = {978-1-4503-5203-1},
+	shorttitle = {A {First} {Look}},
+	url = {http://doi.acm.org/10.1145/3140368.3140371},
+	doi = {10.1145/3140368.3140371},
+	abstract = {The ever-increasing sophistication of malware has made malicious binary collection and analysis an absolute necessity for proactive defenses. Meanwhile, malware authors seek to harden their binaries against analysis by incorporating environment detection techniques, in order to identify if the binary is executing within a virtual environment or in the presence of monitoring tools. For security researchers, it is still an open question regarding how to remove the artifacts from virtual machines to effectively build deceptive "honeypots" for malware collection and analysis. In this paper, we explore a completely different and yet promising approach by using Linux containers. Linux containers, in theory, have minimal virtualization artifacts and are easily deployable on low-power devices. Our work performs the first controlled experiments to compare Linux containers with bare metal and 5 major types of virtual machines. We seek to measure the deception capabilities offered by Linux containers to defeat mainstream virtual environment detection techniques. In addition, we empirically explore the potential weaknesses in Linux containers to help defenders to make more informed design decisions.},
+	urldate = {2018-04-03},
+	booktitle = {Proceedings of the 2017 {Workshop} on {Automated} {Decision} {Making} for {Active} {Cyber} {Defense}},
+	publisher = {ACM},
+	author = {Kedrowitsch, Alexander and Yao, Danfeng (Daphne) and Wang, Gang and Cameron, Kirk},
+	year = {2017},
+	keywords = {deception, honeypots, linux containers, virtual machine},
+	pages = {15--22},
+	file = {ACM Full Text PDF:files/387/Kedrowitsch et al. - 2017 - A First Look Using Linux Containers for Deceptive.pdf:application/pdf}
+}
+
+@article{irvene_honeybot:_2018,
+	title = {{HoneyBot}: {A} {Honeypot} for {Robotic} {Systems}},
+	volume = {106},
+	issn = {0018-9219},
+	shorttitle = {{HoneyBot}},
+	doi = {10.1109/JPROC.2017.2748421},
+	abstract = {Historically, robotics systems have not been built with an emphasis on security. Their main purpose has been to complete a specific objective, such as to deliver the correct dosage of a drug to a patient, perform a swarm algorithm, or safely and autonomously drive humans from point A to point B. As more and more robotic systems become remotely accessible through networks, such as the Internet, they are more vulnerable to various attackers than ever before. To investigate remote attacks on networked robotic systems we have leveraged HoneyPhy, a physics-aware honeypot framework, to create the HoneyBot. The HoneyBot is the first software hybrid interaction honeypot specifically designed for networked robotic systems. By simulating unsafe actions and physically performing safe actions on the HoneyBot we seek to fool attackers into believing their exploits are successful, while logging all the communication to be used for attacker attribution and threat model creation. In this paper, we present the HoneyBot and discuss our proof of concept implementation. Our HoneyBot prototype swaps between physical actuation and using prebuilt models of sensor behavior for simulation at runtime given user input commands.},
+	language = {en},
+	number = {1},
+	journal = {Proceedings of the IEEE},
+	author = {Irvene, C. and Formby, D. and Litchfield, S. and Beyah, R.},
+	month = jan,
+	year = {2018},
+	keywords = {attacker attribution, Communication system security, Computational modeling, computer crime, computer network security, Computer security, computer simulation, control engineering computing, Cyber-physical systems, cyber–physical systems, HoneyBot prototype, HoneyPhy, Internet, invasive software, Medical robotics, mobile robots, networked robotic systems, physical actuation, physics-aware honeypot framework, remote attacks, robot programming, robot sensing systems, Robot sensing systems, robot vision, Safety, sensor behavior, Service robots, software hybrid interaction honeypot, Surgery, system monitoring, systems simulation, threat model creation, user input commands},
+	pages = {61--70},
+	file = {IEEE Xplore Abstract Record:files/390/8051259.html:text/html;IEEE Xplore Full Text PDF:files/389/Irvene et al. - 2018 - HoneyBot A Honeypot for Robotic Systems.pdf:application/pdf}
+}
+
+@article{hosseini_blocking_2017,
+	title = {Blocking {Transferability} of {Adversarial} {Examples} in {Black}-{Box} {Learning} {Systems}},
+	url = {http://arxiv.org/abs/1703.04318},
+	abstract = {Advances in Machine Learning (ML) have led to its adoption as an integral component in many applications, including banking, medical diagnosis, and driverless cars. To further broaden the use of ML models, cloud-based services offered by Microsoft, Amazon, Google, and others have developed ML-as-a-service tools as black-box systems. However, ML classifiers are vulnerable to adversarial examples: inputs that are maliciously modified can cause the classifier to provide adversary-desired outputs. Moreover, it is known that adversarial examples generated on one classifier are likely to cause another classifier to make the same mistake, even if the classifiers have different architectures or are trained on disjoint datasets. This property, which is known as transferability, opens up the possibility of attacking black-box systems by generating adversarial examples on a substitute classifier and transferring the examples to the target classifier. Therefore, the key to protect black-box learning systems against the adversarial examples is to block their transferability. To this end, we propose a training method that, as the input is more perturbed, the classifier smoothly outputs lower confidence on the original label and instead predicts that the input is "invalid". In essence, we augment the output class set with a NULL label and train the classifier to reject the adversarial examples by classifying them as NULL. In experiments, we apply a wide range of attacks based on adversarial examples on the black-box systems. We show that a classifier trained with the proposed method effectively resists against the adversarial examples, while maintaining the accuracy on clean data.},
+	urldate = {2018-04-03},
+	journal = {arXiv:1703.04318 [cs]},
+	author = {Hosseini, Hossein and Chen, Yize and Kannan, Sreeram and Zhang, Baosen and Poovendran, Radha},
+	month = mar,
+	year = {2017},
+	note = {arXiv: 1703.04318},
+	keywords = {Computer Science - Learning},
+	file = {arXiv\:1703.04318 PDF:files/395/Hosseini et al. - 2017 - Blocking Transferability of Adversarial Examples i.pdf:application/pdf;arXiv.org Snapshot:files/396/1703.html:text/html}
+}
+
+@misc{ka_honeybits:_2018,
+	address = {Github},
+	title = {honeybits: {A} simple tool designed to enhance the effectiveness of your traps by spreading breadcrumbs \& honeytokens across your systems to lure the attacker toward your honeypots},
+	copyright = {GPL-3.0},
+	shorttitle = {honeybits},
+	url = {https://github.com/0x4D31/honeybits},
+	abstract = {A simple tool designed to enhance the effectiveness of your traps by spreading breadcrumbs \& honeytokens across your systems to lure the attacker toward your honeypots},
+	urldate = {2018-04-03},
+	author = {Ka, Adel},
+	month = mar,
+	year = {2018},
+	note = {original-date: 2017-03-05},
+	keywords = {breadcrumbs, deception, go, golang, honeybits, honeypot, honeytoken, honeytrap, security, trap},
+	file = {Snapshot:files/398/honeybits.html:text/html}
+}
+
+@inproceedings{guarnizo_siphon:_2017,
+	address = {New York, NY, USA},
+	series = {{CPSS} '17},
+	title = {{SIPHON}: {Towards} {Scalable} {High}-{Interaction} {Physical} {Honeypots}},
+	isbn = {978-1-4503-4956-7},
+	shorttitle = {{SIPHON}},
+	url = {http://doi.acm.org/10.1145/3055186.3055192},
+	doi = {10.1145/3055186.3055192},
+	abstract = {In recent years, the emerging Internet-of-Things (IoT) has led to rising concerns about the security of networked embedded devices. In this work, we propose the SIPHON architecture---a Scalable high-Interaction Honeypot platform for IoT devices. Our architecture leverages IoT devices that are physically at one location and are connected to the Internet through so-called {\textbackslash}emph\{wormholes\} distributed around the world. The resulting architecture allows exposing few physical devices over a large number of geographically distributed IP addresses. We demonstrate the proposed architecture in a large scale experiment with 39 wormhole instances in 16 cities in 9 countries. Based on this setup, five physical IP cameras, one NVR and one IP printer are presented as 85 real IoT devices on the Internet, attracting a daily traffic of 700MB for a period of two months. A preliminary analysis of the collected traffic indicates that devices in some cities attracted significantly more traffic than others (ranging from 600 000 incoming TCP connections for the most popular destination to less than 50 000 for the least popular). We recorded over 400 brute-force login attempts to the web-interface of our devices using a total of 1826 distinct credentials, from which 11 attempts were successful. Moreover, we noted login attempts to Telnet and SSH ports some of which used credentials found in the recently disclosed Mirai malware.},
+	urldate = {2018-04-03},
+	booktitle = {Proceedings of the 3rd {ACM} {Workshop} on {Cyber}-{Physical} {System} {Security}},
+	publisher = {ACM},
+	author = {Guarnizo, Juan David and Tambe, Amit and Bhunia, Suman Sankar and Ochoa, Martin and Tippenhauer, Nils Ole and Shabtai, Asaf and Elovici, Yuval},
+	year = {2017},
+	keywords = {high-interaction honeypot, internet of things, low-interaction honeypot, scalability},
+	pages = {57--68}
+}
+
+@article{goodfellow_explaining_2015,
+	title = {{EXPLAINING} {AND} {HARNESSING} {ADVERSARIAL} {EXAMPLES}},
+	abstract = {Several machine learning models, including neural networks, consistently misclassify adversarial examples—inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high conﬁdence. Early attempts at explaining this phenomenon focused on nonlinearity and overﬁtting. We argue instead that the primary cause of neural networks’ vulnerability to adversarial perturbation is their linear nature. This explanation is supported by new quantitative results while giving the ﬁrst explanation of the most intriguing fact about them: their generalization across architectures and training sets. Moreover, this view yields a simple and fast method of generating adversarial examples. Using this approach to provide examples for adversarial training, we reduce the test set error of a maxout network on the MNIST dataset.},
+	language = {en},
+	journal = {International Conference on Learning Representations, 2017},
+	author = {Goodfellow, Ian J and Shlens, Jonathon and Szegedy, Christian},
+	year = {2015},
+	pages = {11},
+	file = {Goodfellow et al. - 2015 - EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES.pdf:files/400/Goodfellow et al. - 2015 - EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES.pdf:application/pdf}
+}
+
+@misc{francia_viper:_2018,
+	title = {viper: {Go} configuration with fangs},
+	copyright = {MIT},
+	shorttitle = {viper},
+	url = {https://github.com/spf13/viper},
+	abstract = {Viper is a complete configuration solution for Go applications including 12-Factor apps. It is designed to work within an application, and can handle all types of configuration needs and formats.},
+	urldate = {2018-04-03},
+	author = {Francia, Steve},
+	month = apr,
+	year = {2018},
+	note = {original-date: 2014-04-02},
+	file = {Snapshot:files/403/viper.html:text/html}
+}
+
+@inproceedings{egupov_development_2017,
+	title = {Development and implementation of a {Honeypot}-trap},
+	doi = {10.1109/EIConRus.2017.7910572},
+	abstract = {This article observes the possibility of protection network resources from malicious attacks using traps that simulate SSH service. There are overviewed main types of attacks, analyzed existing software solutions, its basic working principles and opportunities for further improvement. In addition, there is described author's solution, which can increase the attractiveness of SSH honeypot working under Ubuntu OS.},
+	booktitle = {2017 {IEEE} {Conference} of {Russian} {Young} {Researchers} in {Electrical} and {Electronic} {Engineering} ({EIConRus})},
+	author = {Egupov, A. A. and Zareshin, S. V. and Yadikin, I. M. and Silnov, D. S.},
+	month = feb,
+	year = {2017},
+	keywords = {computer network security, Computers, confidentiality, Containers, data protection, Honeypot-trap, Honeypot-Trap implementation, Linux, malicious attacks, network resources, network resources protection, Operating systems, Protocols, remote control, security, Security, Servers, software solutions, SSH, SSH honeypot, SSH service, Ubuntu OS},
+	pages = {382--385},
+	file = {IEEE Xplore Abstract Record:files/405/7910572.html:text/html}
+}
+
+@inproceedings{dowling_zigbee_2017,
+	title = {A {ZigBee} honeypot to assess {IoT} cyberattack behaviour},
+	doi = {10.1109/ISSC.2017.7983603},
+	abstract = {Wireless Personal Area Networks (WPAN) allow for the implementation of applications such as home automation, remote control services, near-field technologies and personal health care management. Security is a critical requirement of the standards and protocols for these environments. One suite of layered protocols within WPAN is ZigBee. ZigBee is a low bit rate protocol utilised in Wireless Sensor Networks (WSN). Attacks such as physical, crypto key interception, injection and replay are perpetrated on ZigBee networks. These attacks can be instigated and controlled within the physical ZigBee WSN location or via a gateway. This paper creates a honeypot that simulates a ZigBee gateway. It is designed to assess the presence of ZigBee attack intelligence on a SSH attack vector. It captures all attack traffic for retrospective analysis. It sandboxes attacks of interest to determine if any attempts are targeting ZigBee specifically. Finally it concludes that all captured mass attacks are mainstream DDoS and bot malware, whereas individual attackers where attracted to and interacted with the ZigBee simulated Honeypot.},
+	booktitle = {2017 28th {Irish} {Signals} and {Systems} {Conference} ({ISSC})},
+	author = {Dowling, S. and Schukat, M. and Melvin, H.},
+	month = jun,
+	year = {2017},
+	keywords = {assess IoT Cyberattack Behaviour, Bot malware, Botnet, computer network security, crypto key interception, DDoS, Honeypot, IEEE 802.15 Standard, Internet of Things, invasive software, IoT, Malware, protocols, Security, SSH, SSH attack vector, wireless personal area networks, Wireless personal area networks, wireless sensor networks, Wireless sensor networks, WPAN, WSN, Zigbee, ZigBee, ZigBee attack intelligence, ZigBee honeypot, ZigBee networks, ZigBee simulated Honeypot, ZigBee WSN location},
+	pages = {1--6},
+	file = {IEEE Xplore Abstract Record:files/408/7983603.html:text/html;IEEE Xplore Full Text PDF:files/407/Dowling et al. - 2017 - A ZigBee honeypot to assess IoT cyberattack behavi.pdf:application/pdf}
+}
+
+@inproceedings{carlini_adversarial_2017,
+	address = {New York, NY, USA},
+	series = {{AISec} '17},
+	title = {Adversarial {Examples} {Are} {Not} {Easily} {Detected}: {Bypassing} {Ten} {Detection} {Methods}},
+	isbn = {978-1-4503-5202-4},
+	shorttitle = {Adversarial {Examples} {Are} {Not} {Easily} {Detected}},
+	url = {http://doi.acm.org/10.1145/3128572.3140444},
+	doi = {10.1145/3128572.3140444},
+	abstract = {Neural networks are known to be vulnerable to adversarial examples: inputs that are close to natural inputs but classified incorrectly. In order to better understand the space of adversarial examples, we survey ten recent proposals that are designed for detection and compare their efficacy. We show that all can be defeated by constructing new loss functions. We conclude that adversarial examples are significantly harder to detect than previously appreciated, and the properties believed to be intrinsic to adversarial examples are in fact not. Finally, we propose several simple guidelines for evaluating future proposed defenses.},
+	urldate = {2018-04-03},
+	booktitle = {Proceedings of the 10th {ACM} {Workshop} on {Artificial} {Intelligence} and {Security}},
+	publisher = {ACM},
+	author = {Carlini, Nicholas and Wagner, David},
+	year = {2017},
+	pages = {3--14}
+}
+
+@article{carlini_defensive_nodate,
+	title = {Defensive {Distillation} is {Not} {Robust} to {Adversarial} {Examples}},
+	abstract = {We show that defensive distillation is not secure: it is no more resistant to targeted misclassiﬁcation attacks than unprotected neural networks.},
+	language = {en},
+	journal = {International Conference on Learning Representations (ICLR), 2017},
+	author = {Carlini, Nicholas and Wagner, David},
+	pages = {3},
+	file = {Carlini and Wagner - Defensive Distillation is Not Robust to Adversaria.pdf:files/410/Carlini and Wagner - Defensive Distillation is Not Robust to Adversaria.pdf:application/pdf}
+}
+
+@article{akiyama_honeycirculator:_2018,
+	title = {{HoneyCirculator}: {Distributing} {Credential} {Honeytoken} for {Introspection} of {Web}-based {Attack} {Cycle}},
+	volume = {17},
+	issn = {1615-5262},
+	shorttitle = {{HoneyCirculator}},
+	url = {https://doi.org/10.1007/s10207-017-0361-5},
+	doi = {10.1007/s10207-017-0361-5},
+	abstract = {A web user who falsely accesses a compromised website is usually redirected to an adversary's website and is forced to download malware after being exploited. Additionally, the adversary steals the user's credentials by using information-leaking malware. The adversary may also try to compromise public websites owned by individual users by impersonating the website administrator using the stolen credentials. These compromised websites then become landing sites for drive-by download malware infection. Identifying malicious websites using crawling techniques requires a large amount of resources and time. To monitor the web-based attack cycle for effective detection and prevention, we propose a monitoring system called HoneyCirculator based on a honeytoken, which actively leaks bait credentials and lures adversaries to our decoy server that behaves like a compromised web content management system. To recursively analyze attack phases on the web-based attack cycle, our proposed system involves collecting malware, distributing bait credentials, monitoring fraudulent access, and inspecting compromised web content. It can instantly discover unknown malicious entities without conducting large-scale web crawling because of the direct monitoring behind the compromised web content management system. Our proposed system enables continuous and stable monitoring for about one year. In addition, almost all the malicious websites we discovered had not been previously registered in public blacklists.},
+	number = {2},
+	urldate = {2018-04-03},
+	journal = {Int. J. Inf. Secur.},
+	author = {Akiyama, Mitsuaki and Yagi, Takeshi and Hariu, Takeo and Kadobayashi, Youki},
+	month = apr,
+	year = {2018},
+	keywords = {Client honeypot, Honeytokens, Information leakage, Malware sandbox, Web-based malware},
+	pages = {135--151}
+}
+
+@misc{xor_data_exchange_crypt_2018,
+	title = {crypt},
+	copyright = {MIT},
+	url = {https://github.com/xordataexchange/crypt},
+	abstract = {Store and retrieve encrypted configs from etcd or consul},
+	urldate = {2018-04-03},
+	publisher = {XOR Data Exchange},
+	author = {{XOR Data Exchange}},
+	month = mar,
+	year = {2018},
+	note = {original-date: 2014-10-17T21:08:33Z},
+	file = {Snapshot:files/416/crypt.html:text/html}
+}
+
+@misc{steve_grubb_audit-userspace:_2018,
+	title = {audit-userspace: {Linux} audit userspace repository},
+	shorttitle = {audit-userspace},
+	url = {https://github.com/linux-audit/audit-userspace},
+	abstract = {he main goals were to provide system call auditing with 1) as low
+overhead as possible, and 2) without duplicating functionality that is
+already provided by SELinux (and/or other security infrastructures).
+This framework will work "stand-alone", but is not designed to provide,
+e.g., CAPP functionality without another security component in place.
+
+There are two main parts, one that is always on (generic logging in
+audit.c) and one that you can disable at boot- or run-time
+(per-system-call auditing in auditsc.c).  The patch includes changes to
+security/selinux/avc.c as an example of how system-call auditing can be
+integrated with other code that identifies auditable events.},
+	urldate = {2018-04-03},
+	publisher = {The Linux Audit Project},
+	author = {{Steve, Grubb}},
+	month = mar,
+	year = {2018},
+	note = {original-date: 2016-02-24T18:31:30Z},
+	file = {Snapshot:files/418/audit-userspace.html:text/html}
+}
+
+@misc{noauthor_what_2015,
+	type = {{HTML}},
+	title = {What is {Docker}?},
+	shorttitle = {What is {Docker}?},
+	url = {https://www.docker.com/what-docker},
+	abstract = {Docker is an open platform to build, ship and run distributed applications anywhere.},
+	language = {en},
+	urldate = {2018-04-03},
+	journal = {Docker},
+	month = may,
+	year = {2015},
+	file = {Snapshot:files/420/what-docker.html:text/html}
+}
+
+@misc{robert_griesemer_go:_2018,
+	title = {go: {The} {Go} programming language},
+	shorttitle = {go},
+	url = {https://github.com/golang/go},
+	abstract = {Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.},
+	urldate = {2018-04-03},
+	publisher = {Go},
+	author = {{Robert Griesemer}},
+	month = apr,
+	year = {2018},
+	note = {original-date: 2014-08-19},
+	keywords = {go, language, programming-language},
+	file = {Snapshot:files/422/go.html:text/html}
+}
+
+@inproceedings{huang_adversarial_2011,
+	address = {New York, NY, USA},
+	series = {{AISec} '11},
+	title = {Adversarial {Machine} {Learning}},
+	isbn = {978-1-4503-1003-1},
+	url = {http://doi.acm.org/10.1145/2046684.2046692},
+	doi = {10.1145/2046684.2046692},
+	abstract = {In this paper (expanded from an invited talk at AISEC 2010), we discuss an emerging field of study: adversarial machine learning---the study of effective machine learning techniques against an adversarial opponent. In this paper, we: give a taxonomy for classifying attacks against online machine learning algorithms; discuss application-specific factors that limit an adversary's capabilities; introduce two models for modeling an adversary's capabilities; explore the limits of an adversary's knowledge about the algorithm, feature space, training, and input data; explore vulnerabilities in machine learning algorithms; discuss countermeasures against attacks; introduce the evasion challenge; and discuss privacy-preserving learning techniques.},
+	urldate = {2018-04-03},
+	booktitle = {Proceedings of the 4th {ACM} {Workshop} on {Security} and {Artificial} {Intelligence}},
+	publisher = {ACM},
+	author = {Huang, Ling and Joseph, Anthony D. and Nelson, Blaine and Rubinstein, Benjamin I.P. and Tygar, J. D.},
+	year = {2011},
+	keywords = {adversarial learning, computer security, game theory, intrusion detection, machine learning, security metrics, spam filters, statistical learning},
+	pages = {43--58}
+}
+
+@inproceedings{campbell_survey_2015,
+	title = {A survey of honeypot research: {Trends} and opportunities},
+	shorttitle = {A survey of honeypot research},
+	doi = {10.1109/ICITST.2015.7412090},
+	abstract = {The number of devices connected to computer networks is increasing daily, and so is the number of network-based attacks. A honeypot is a system trap that is set to act against unauthorised use of information systems. The objective of this study was to survey the emergent trends in extant honeypot research with the aims of contributing to the knowledge gaps in the honeypot environment. The relevant literature was identified from a myriad of sources, such as books, journal articles, reports, et cetera. The findings suggest that honeypots are attracting the interest of researchers as a valuable security technique that can be implemented to mitigate network attacks and provides an opportunity to learn more about the nature of these attacks. Consequently a honeypot can be used as a research tool to gather data about network attacks.},
+	booktitle = {2015 10th {International} {Conference} for {Internet} {Technology} and {Secured} {Transactions} ({ICITST})},
+	author = {Campbell, R. M. and Padayachee, K. and Masombuka, T.},
+	month = dec,
+	year = {2015},
+	keywords = {Computer crime, Computer hacking, computer network security, computer network-based attack, Honeypot research, Honeypots, information system, information systems, Internet, Market research, mitigate network attack, Monitoring, Network security, valuable security technique},
+	pages = {208--212},
+	file = {IEEE Xplore Abstract Record:files/428/7412090.html:text/html}
+}

@@ -1,0 +1,263 @@
+
+Loading [MathJax]/extensions/TeX/euler_ieee.js
+
+Skip to Main Content
+Special Notice
+IEEE Xplore is transitioning to HTTPS on 9 April 2018. Customer access via EZproxy will require version 6 or higher with TLS 1.1 or 1.2 enabled.
+Review our EZproxy Upgrade Checklist to ensure uninterrupted access.
+
+    IEEE.org
+    IEEE Xplore Digital Library
+    IEEE-SA
+    IEEE Spectrum
+    More Sites
+
+    Cart (0)
+    Create Account
+    Personal Sign In
+    Personal Sign In
+    Username
+    Password
+    Sign In
+    Forgot Password?
+
+[Access provided by] Access provided by:
+Ryerson University Library
+Sign Out
+X
+
+    Browse
+        Books
+        Conferences
+        Courses
+        Journals & Magazines
+        Standards
+        Topics
+            Aerospace
+            Bioengineering
+            Communication, Networking & Broadcasting
+            Components, Circuits, Devices & Systems
+            Computing & Processing
+            Engineered Materials, Dielectrics & Plasmas
+            Engineering Profession
+            Fields, Waves & Electromagnetics
+            General Topics for Engineers
+            Geoscience
+            Nuclear Engineering
+            Photonics & Electro-Optics
+            Power, Energy, & Industry Applications
+            Robotics & Control Systems
+            Signal Processing & Analysis
+            Transportation
+    My Settings
+        Content Alerts
+        Search Alerts
+        MyXplore App
+        Preferences
+        Purchase History
+        Search History
+        What can I access?
+    Get Help
+        Feedback
+        Technical Support
+        Resources and Help
+
+First Name / Given Name
+Family Name / Last Name / Surname
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Publication Title
+Volume
+Issue
+Start Page
+Advanced Search
+Other Search Options
+
+    Command Search
+    Citation Search
+    Search Alerts
+    Search History
+
+Browse Journals & Magazines > Proceedings of the IEEE > Volume: 106 Issue: 1
+   Back to Results    |    Next >  
+HoneyBot: A Honeypot for Robotic Systems
+View Document
+331
+Full
+Text Views
+Related Articles
+Neural-network approximation of piecewise continuous functions: application to f...
+Global exponential stability of recurrent neural networks for synthesizing linea...
+View All
+4
+Author(s)
+Celine Irvene ; David Formby ; Samuel Litchfield ; Raheem Beyah
+View All Authors
+
+    Abstract
+    Authors
+    Figures
+    References
+    Citations
+    Keywords
+    Metrics
+    Media
+
+Abstract:
+Historically, robotics systems have not been built with an emphasis on security. Their main purpose has been to complete a specific objective, such as to deliver the correct dosage of a drug to a patient, perform a swarm algorithm, or safely and autonomously drive humans from point A to point B. As more and more robotic systems become remotely accessible through networks, such as the Internet, they are more vulnerable to various attackers than ever before. To investigate remote attacks on networked robotic systems we have leveraged HoneyPhy, a physics-aware honeypot framework, to create the HoneyBot. The HoneyBot is the first software hybrid interaction honeypot specifically designed for networked robotic systems. By simulating unsafe actions and physically performing safe actions on the HoneyBot we seek to fool attackers into believing their exploits are successful, while logging all the communication to be used for attacker attribution and threat model creation. In this paper, we present the HoneyBot and discuss our proof of concept implementation. Our HoneyBot prototype swaps between physical actuation and using prebuilt models of sensor behavior for simulation at runtime given user input commands.
+Published in: Proceedings of the IEEE ( Volume: 106 , Issue: 1 , Jan. 2018 )
+Page(s): 61 - 70
+Date of Publication: 26 September 2017
+ISSN Information:
+Print ISSN: 0018-9219
+Electronic ISSN: 1558-2256
+INSPEC Accession Number: 17481904
+DOI: 10.1109/JPROC.2017.2748421
+Publisher: IEEE
+Sponsored by: IEEE
+Funding Agency:
+10.13039/100000001 - National Science Foundation
+Advertisement
+
+    Download PDF
+    Download Citation
+    View References
+    Email
+    Print
+    Request Permissions Request Permissions
+    Export to Collabratec Export to Collabratec
+    Alerts
+
+Authors
+Author image of Celine Irvene
+Celine Irvene
+Department of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA
+Celine Irvene (Member, IEEE) is currently working toward the M.S. degree in the School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA.
+She is a member of the Communications Assurance and Performance (CAP) Group. Currently, her research emphasizes network security for robotic systems and IoT devices.
+Author image of David Formby
+David Formby
+Department of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA
+David Formby (Member, IEEE) received the M.S. and Ph.D. degrees in electrical and computer engineering from Georgia Institute of Technology (Georgia Tech), Atlanta, GA, USA, in 2014 and 2017, respectively.
+He is a Postdoctoral Researcher in the School of Electrical and Computer Engineering at Georgia Tech, and a member of the Communications Assurance and Performance (CAP) group. His research primarily focuses on network security for industrial control system networks.
+Author image of Samuel Litchfield
+Samuel Litchfield
+Department of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA
+Samuel Litchfield (Member, IEEE) is currently working toward the M.S. degree in the School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA.
+He is a member of the Communications Assurance and Performance Group (CAP). His current research interests lie primarily in network and control systems cybersecurity.
+Author image of Raheem Beyah
+Raheem Beyah
+Department of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA
+Raheem Beyah (Senior Member, IEEE) is the Motorola Foundation Professor and Associate Chair for Strategic Initiatives and Innovation in the School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA, where he leads the Communications Assurance and Performance Group (CAP).
+Dr. Beyah received the National Science Foundation CAREER award in 2009 and was selected for DARPA’s Computer Science Study Panel in 2010. He is a member of the American Association for the Advancement of Science (AAAS), the American Society for Engineering Education (ASEE), a lifetime member of the National Society of Black Engineers (NSBE), and a Distinguished Member of the Association for Computing Machinery (ACM).
+Keywords
+
+    IEEE Keywords
+    Robot sensing systems , Computational modeling , Service robots , Cyber-physical systems , Medical robotics , Surgery , Computer security , Safety
+    INSPEC: Controlled Indexing
+    computer crime , computer network security , control engineering computing , Internet , invasive software , mobile robots , robot vision , system monitoring
+    INSPEC: Non-Controlled Indexing
+    remote attacks , networked robotic systems , physics-aware honeypot framework , software hybrid interaction honeypot , attacker attribution , threat model creation , HoneyPhy , HoneyBot prototype , physical actuation , sensor behavior , user input commands
+    Author Keywords
+    Communication system security , computer simulation , cyber–physical systems , robot programming , robot sensing systems , systems simulation
+
+Related Articles
+Neural-network approximation of piecewise continuous functions: application to friction compensation
+R.R. Selmic; F.L. Lewis
+Global exponential stability of recurrent neural networks for synthesizing linear feedback control systems via pole assignment
+Yunong Zhang; Jun Wang
+New transport services for next-generation SONET/SDH systems
+D. Cavendish; K. Murakami; S.-H. Yun; O. Matsuda; M. Nishihara
+Custom implant design for patients with cranial defects
+Ming-Yih Lee; Chong-Ching Chang; Chao-Chun Lin; Lun-Jou Lo; Yu-Ray Chen
+OpenRAN: a new architecture for mobile wireless Internet radio access networks
+J. Kempf; P. Yegani
+Kinematic modeling for the assessment of wheelchair user's stability
+D. Pavec; C.-E. Aubin; R. Aissaoui; F. Parent; J. Dansereau
+An Internet-based system for the commerce of medical devices. A portal for improving communication between healthcare professionals and the medical device industry
+S. Palamas; D. Kalivas; O. Panou-Diamandi
+Structured cabling comes of age
+C. Frazer
+Guest editorial - architectures and protocols for wireless mobile internet
+W.W. Lu
+A site for sore eyes?
+P. Clapham
+
+    Authors
+    References
+    Keywords
+    Related Articles
+    Back to Top
+
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    View Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Accessibility
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2018 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Purchase Details
+
+    Payment Options
+    Order History
+    View Purchased Documents
+
+Need Help?
+
+    Contact & Support
+
+Other
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Accessibility
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2018 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+US & Canada: +1 800 678 4333
+Worldwide: +1 732 981 0060

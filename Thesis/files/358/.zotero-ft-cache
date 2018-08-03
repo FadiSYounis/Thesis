@@ -1,0 +1,212 @@
+
+Loading [MathJax]/extensions/TeX/euler_ieee.js
+
+Skip to Main Content
+Special Notice
+IEEE Xplore is transitioning to HTTPS on 9 April 2018. Customer access via EZproxy will require version 6 or higher with TLS 1.1 or 1.2 enabled.
+Review our EZproxy Upgrade Checklist to ensure uninterrupted access.
+
+    IEEE.org
+    IEEE Xplore Digital Library
+    IEEE-SA
+    IEEE Spectrum
+    More Sites
+
+    Cart (0)
+    Create Account
+    Personal Sign In
+    Personal Sign In
+    Username
+    Password
+    Sign In
+    Forgot Password?
+
+[Access provided by] Access provided by:
+Ryerson University Library
+Sign Out
+X
+
+    Browse
+        Books
+        Conferences
+        Courses
+        Journals & Magazines
+        Standards
+        Topics
+            Aerospace
+            Bioengineering
+            Communication, Networking & Broadcasting
+            Components, Circuits, Devices & Systems
+            Computing & Processing
+            Engineered Materials, Dielectrics & Plasmas
+            Engineering Profession
+            Fields, Waves & Electromagnetics
+            General Topics for Engineers
+            Geoscience
+            Nuclear Engineering
+            Photonics & Electro-Optics
+            Power, Energy, & Industry Applications
+            Robotics & Control Systems
+            Signal Processing & Analysis
+            Transportation
+    My Settings
+        Content Alerts
+        Search Alerts
+        MyXplore App
+        Preferences
+        Purchase History
+        Search History
+        What can I access?
+    Get Help
+        Feedback
+        Technical Support
+        Resources and Help
+
+First Name / Given Name
+Family Name / Last Name / Surname
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Enter keyword or title
+Publication Title
+Volume
+Issue
+Start Page
+Advanced Search
+Other Search Options
+
+    Command Search
+    Citation Search
+    Search Alerts
+    Search History
+
+Browse Conferences > Security and Privacy (EuroS&P...
+  < Previous    |    Back to Results    |    Next >  
+The Limitations of Deep Learning in Adversarial Settings
+View Document
+35
+Paper
+Citations
+1339
+Full
+Text Views
+Related Articles
+Haptic object recognition using a multi-fingered dextrous hand
+A feasible motion-planning algorithm for a mobile robot based on a quadtree repr...
+View All
+6
+Author(s)
+Nicolas Papernot ; Patrick McDaniel ; Somesh Jha ; Matt Fredrikson ; Z. Berkay Celik ; Ananthram Swami
+View All Authors
+
+    Abstract
+    Authors
+    Figures
+    References
+    Citations
+    Keywords
+    Metrics
+    Media
+
+Abstract:
+Deep learning takes advantage of large datasets and computationally efficient training algorithms to outperform other approaches at various machine learning tasks. However, imperfections in the training phase of deep neural networks make them vulnerable to adversarial samples: inputs crafted by adversaries with the intent of causing deep neural networks to misclassify. In this work, we formalize the space of adversaries against deep neural networks (DNNs) and introduce a novel class of algorithms to craft adversarial samples based on a precise understanding of the mapping between inputs and outputs of DNNs. In an application to computer vision, we show that our algorithms can reliably produce samples correctly classified by human subjects but misclassified in specific targets by a DNN with a 97% adversarial success rate while only modifying on average 4.02% of the input features per sample. We then evaluate the vulnerability of different sample classes to adversarial perturbations by defining a hardness measure. Finally, we describe preliminary work outlining defenses against adversarial samples by defining a predictive measure of distance between a benign input and a target classification.
+Published in: Security and Privacy (EuroS&P), 2016 IEEE European Symposium on
+Date of Conference: 21-24 March 2016
+Date Added to IEEE Xplore : 12 May 2016
+ISBN Information:
+Electronic ISBN: 978-1-5090-1752-2
+Print ISBN: 978-1-5090-1751-5
+INSPEC Accession Number: 15987992
+DOI: 10.1109/EuroSP.2016.36
+Publisher: IEEE
+Conference Location: Saarbrucken, Germany
+Advertisement
+
+    Download PDF
+    Download Citation
+    View References
+    Email
+    Print
+    Request Permissions Request Permissions
+    Export to Collabratec Export to Collabratec
+    Alerts
+
+    Authors
+    References
+    Citations
+    Keywords
+    Related Articles
+    Back to Top
+
+NEXT
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Purchase Details
+
+    Payment Options
+    Order History
+    View Purchased Documents
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Need Help?
+
+    US & Canada: +1 800 678 4333
+    Worldwide: +1 732 981 0060
+    Contact & Support
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Accessibility
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2018 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+IEEE Account
+
+    Change Username/Password
+    Update Address
+
+Profile Information
+
+    Communications Preferences
+    Profession and Education
+    Technical Interests
+
+Purchase Details
+
+    Payment Options
+    Order History
+    View Purchased Documents
+
+Need Help?
+
+    Contact & Support
+
+Other
+
+    About IEEE Xplore
+    Contact Us
+    Help
+    Accessibility
+    Terms of Use
+    Nondiscrimination Policy
+    Sitemap
+    Privacy & Opting Out of Cookies
+
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2018 IEEE - All rights reserved. Use of this web site signifies your agreement to the terms and conditions.
+US & Canada: +1 800 678 4333
+Worldwide: +1 732 981 0060

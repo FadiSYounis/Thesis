@@ -1,0 +1,59 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > cs > arXiv:1610.00768
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    PostScript
+    Other formats
+
+( license )
+Current browse context:
+cs.LG
+< prev  |  next >
+new  | recent  | 1610
+Change to browse by:
+cs
+cs.CR
+stat
+stat.ML
+References & Citations
+
+    NASA ADS
+
+DBLP - CS Bibliography
+listing | bibtex
+Ian J. Goodfellow
+Nicolas Papernot
+Patrick D. McDaniel
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Computer Science > Learning
+Title: cleverhans v2.0.0: an adversarial machine learning library
+Authors: Nicolas Papernot , Nicholas Carlini , Ian Goodfellow , Reuben Feinman , Fartash Faghri , Alexander Matyasko , Karen Hambardzumyan , Yi-Lin Juang , Alexey Kurakin , Ryan Sheatsley , Abhibhav Garg , Yen-Chen Lin
+(Submitted on 3 Oct 2016 ( v1 ), last revised 5 Oct 2017 (this version, v4))
+
+    Abstract: \texttt{cleverhans} is a software library that provides standardized reference implementations of \emph{adversarial example} construction techniques and \emph{adversarial training}. The library may be used to develop more robust machine learning models and to provide standardized benchmarks of models' performance in the adversarial setting. Benchmarks constructed without a standardized implementation of adversarial example construction are not comparable to each other, because a good result may indicate a robust model or it may merely indicate a weak implementation of the adversarial example construction procedure.
+    This technical report is structured as follows. Section~ \ref{sec:introduction} provides an overview of adversarial examples in machine learning and of the \texttt{cleverhans} software. Section~ \ref{sec:core} presents the core functionalities of the library: namely the attacks based on adversarial examples and defenses to improve the robustness of machine learning models to these attacks. Section~ \ref{sec:benchmark} describes how to report benchmark results using the library. Section~ \ref{sec:version} describes the versioning system. 
+
+Comments: 	Technical report for this https URL
+Subjects: 	Learning (cs.LG) ; Cryptography and Security (cs.CR); Machine Learning (stat.ML)
+Cite as: 	arXiv:1610.00768 [cs.LG]
+  	(or arXiv:1610.00768v4 [cs.LG] for this version)
+Submission history
+From: Ian Goodfellow [ view email ]
+[v1] Mon, 3 Oct 2016 22:04:07 GMT (5kb)
+[v2] Wed, 5 Oct 2016 13:54:04 GMT (5kb)
+[v3] Wed, 14 Dec 2016 10:47:15 GMT (7kb)
+[v4] Thu, 5 Oct 2017 17:27:32 GMT (7kb)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

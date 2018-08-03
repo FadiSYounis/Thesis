@@ -1,0 +1,52 @@
+
+Cornell University
+Cornell University Library
+We gratefully acknowledge support from
+the Simons Foundation
+and member institutions
+arXiv.org > stat > arXiv:1704.03453
+( Help | Advanced search )
+Full-text links:
+Download:
+
+    PDF
+    Other formats
+
+( license )
+Current browse context:
+stat.ML
+< prev  |  next >
+new  | recent  | 1704
+Change to browse by:
+cs
+cs.CR
+cs.LG
+stat
+References & Citations
+
+    NASA ADS
+
+Bookmark
+( what is this? )
+CiteULike logo BibSonomy logo Mendeley logo del.icio.us logo Digg logo Reddit logo ScienceWISE logo
+Statistics > Machine Learning
+Title: The Space of Transferable Adversarial Examples
+Authors: Florian Tramèr , Nicolas Papernot , Ian Goodfellow , Dan Boneh , Patrick McDaniel
+(Submitted on 11 Apr 2017 ( v1 ), last revised 23 May 2017 (this version, v2))
+
+    Abstract: Adversarial examples are maliciously perturbed inputs designed to mislead machine learning (ML) models at test-time. They often transfer: the same adversarial example fools more than one model.
+    In this work, we propose novel methods for estimating the previously unknown dimensionality of the space of adversarial inputs. We find that adversarial examples span a contiguous subspace of large (~25) dimensionality. Adversarial subspaces with higher dimensionality are more likely to intersect. We find that for two different models, a significant fraction of their subspaces is shared, thus enabling transferability.
+    In the first quantitative analysis of the similarity of different models' decision boundaries, we show that these boundaries are actually close in arbitrary directions, whether adversarial or benign. We conclude by formally studying the limits of transferability. We derive (1) sufficient conditions on the data distribution that imply transferability for simple model classes and (2) examples of scenarios in which transfer does not occur. These findings indicate that it may be possible to design defenses against transfer-based attacks, even for models that are vulnerable to direct attacks. 
+
+Comments: 	15 pages, 7 figures
+Subjects: 	Machine Learning (stat.ML) ; Cryptography and Security (cs.CR); Learning (cs.LG)
+Cite as: 	arXiv:1704.03453 [stat.ML]
+  	(or arXiv:1704.03453v2 [stat.ML] for this version)
+Submission history
+From: Florian Tramèr [ view email ]
+[v1] Tue, 11 Apr 2017 17:59:12 GMT (319kb,D)
+[v2] Tue, 23 May 2017 18:14:30 GMT (316kb,D)
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+Link back to: arXiv , form interface , contact .
+Twitter

@@ -1,0 +1,33 @@
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:14.342:95) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:14.342:95) : arch=x86_64 syscall=close success=yes exit=0 a0=0x4 a1=0x0 a2=0x0 a3=0x7f2874d4d9d0 items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:14.342:96) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:14.342:96) : arch=x86_64 syscall=fstat success=yes exit=0 a0=0x1 a1=0x7ffe80c0cdd0 a2=0x7ffe80c0cdd0 a3=0x40223c items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:14.342:97) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:14.342:97) : arch=x86_64 syscall=brk success=yes exit=27144192 a0=0x0 a1=0x7f2874905b20 a2=0x7f2874905b78 a3=0x7f2874905b78 items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:14.342:98) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:14.342:98) : arch=x86_64 syscall=brk success=yes exit=27279360 a0=0x1a04000 a1=0x7f2874905b20 a2=0x19e3000 a3=0x7f2874905b78 items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:14.346:99) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:14.346:99) : arch=x86_64 syscall=write success=yes exit=25 a0=0x1 a1=0x19e3010 a2=0x19 a3=0x4 items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:14.346:100) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:14.346:100) : arch=x86_64 syscall=read success=yes exit=1 a0=0x3 a1=0x7ffe80c0d580 a2=0x1 a3=0x37b items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:15.346:101) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:15.346:101) : arch=x86_64 syscall=close success=yes exit=0 a0=0x3 a1=0x7ffe80c0d580 a2=0x1 a3=0x37b items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:15.346:102) : proctitle=autrace /tmp 
+type=PATH msg=audit(02/12/2018 13:23:15.346:102) : item=0 name=/tmp inode=524406 dev=08:01 mode=dir,sticky,777 ouid=root ogid=root rdev=00:00 nametype=NORMAL 
+type=CWD msg=audit(02/12/2018 13:23:15.346:102) :  cwd=/home/scenario1 
+type=SYSCALL msg=audit(02/12/2018 13:23:15.346:102) : arch=x86_64 syscall=execve success=no exit=-13(Permission denied) a0=0x7ffe80c0e92e a1=0x7ffe80c0d6a0 a2=0x7ffe80c0d6b0 a3=0x5b3 items=1 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:15.346:103) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:15.346:103) : arch=x86_64 syscall=write success=yes exit=20 a0=0x2 a1=0x7ffe80c0aed0 a2=0x14 a3=0x4 items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+----
+type=PROCTITLE msg=audit(02/12/2018 13:23:15.346:104) : proctitle=autrace /tmp 
+type=SYSCALL msg=audit(02/12/2018 13:23:15.346:104) : arch=x86_64 syscall=exit_group a0=0x1 a1=0x3c a2=0x1 a3=0x7ffe80c0d4d0 items=0 ppid=1074 pid=1076 auid=scenario1 uid=root gid=root euid=root suid=root fsuid=root egid=root sgid=root fsgid=root tty=pts0 ses=1 comm=autrace exe=/sbin/autrace key=(null) 
+

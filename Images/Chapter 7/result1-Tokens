@@ -1,0 +1,209 @@
+----
+time->Thu Feb  8 12:59:47 2018
+type=USER_CMD msg=audit(1518123587.449:11): pid=3557 uid=1000 auid=1000 ses=3 msg='cwd="/home/test" cmd=617564697463746C202D6120657869742C616C77617973202D4620706174683D2F686F6D652F74657374202D46207065726D3D72776178 terminal=pts/0 res=success'
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.028:18): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.028:18): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.028:18): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.028:18):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.028:18): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420175de0 a2=80241 a3=1a4 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.024:17): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.024:17): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.024:17): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.024:17):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.024:17): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420175d60 a2=80242 a3=1b6 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.028:19): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.028:19): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.028:19): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.028:19):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.028:19): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c4201884c0 a2=80242 a3=1b6 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.028:20): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.028:20): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.028:20): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.028:20):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.028:20): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420188540 a2=80241 a3=1a4 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.028:21): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.028:21): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.028:21): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.028:21):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.028:21): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420188580 a2=80242 a3=1b6 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.028:22): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.028:22): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.028:22): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.028:22):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.028:22): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420188600 a2=80241 a3=1a4 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.028:23): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.028:23): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.028:23): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.028:23):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.028:23): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420188640 a2=80242 a3=1b6 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.028:24): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.028:24): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.028:24): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.028:24):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.028:24): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c4201886c0 a2=80241 a3=1a4 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.032:25): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.032:25): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.032:25): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.032:25):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.032:25): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420188700 a2=80242 a3=1b6 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.032:26): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.032:26): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.032:26): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.032:26):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.032:26): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420188780 a2=80241 a3=1a4 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.032:27): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.032:27): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.032:27): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.032:27):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.032:27): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c4201887c0 a2=80242 a3=1b6 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:08:56 2018
+type=PROCTITLE msg=audit(1518124136.032:28): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124136.032:28): item=1 name="/home/test/.bash_history" nametype=CREATE
+type=PATH msg=audit(1518124136.032:28): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124136.032:28):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124136.032:28): arch=c000003e syscall=257 success=no exit=-13 a0=ffffffffffffff9c a1=c420188840 a2=80241 a3=1a4 items=2 ppid=2420 pid=3591 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:09:09 2018
+type=PROCTITLE msg=audit(1518124149.597:34): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124149.597:34): item=1 name="/home/test/.bash_history" inode=932855 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1518124149.597:34): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124149.597:34):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124149.597:34): arch=c000003e syscall=257 success=yes exit=3 a0=ffffffffffffff9c a1=c42017c600 a2=80242 a3=1b6 items=2 ppid=3599 pid=3600 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:09:09 2018
+type=PROCTITLE msg=audit(1518124149.597:35): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124149.597:35): item=1 name="/home/test/.bash_history" inode=932855 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518124149.597:35): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124149.597:35):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124149.597:35): arch=c000003e syscall=257 success=yes exit=4 a0=ffffffffffffff9c a1=c42017c6c0 a2=80241 a3=1a4 items=2 ppid=3599 pid=3600 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:09:09 2018
+type=PROCTITLE msg=audit(1518124149.597:36): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124149.597:36): item=1 name="/home/test/.bash_history" inode=932855 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518124149.597:36): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124149.597:36):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124149.597:36): arch=c000003e syscall=257 success=yes exit=4 a0=ffffffffffffff9c a1=c42017ce20 a2=80241 a3=1a4 items=2 ppid=3599 pid=3600 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:09:09 2018
+type=PROCTITLE msg=audit(1518124149.597:37): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124149.597:37): item=1 name="/home/test/.bash_history" inode=932855 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518124149.597:37): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124149.597:37):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124149.597:37): arch=c000003e syscall=257 success=yes exit=4 a0=ffffffffffffff9c a1=c42017cec0 a2=80241 a3=1a4 items=2 ppid=3599 pid=3600 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:09:09 2018
+type=PROCTITLE msg=audit(1518124149.597:38): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124149.597:38): item=1 name="/home/test/.bash_history" inode=932855 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518124149.597:38): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124149.597:38):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124149.597:38): arch=c000003e syscall=257 success=yes exit=4 a0=ffffffffffffff9c a1=c42017cf60 a2=80241 a3=1a4 items=2 ppid=3599 pid=3600 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:09:09 2018
+type=PROCTITLE msg=audit(1518124149.597:39): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124149.597:39): item=1 name="/home/test/.bash_history" inode=932855 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518124149.597:39): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124149.597:39):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124149.597:39): arch=c000003e syscall=257 success=yes exit=4 a0=ffffffffffffff9c a1=c42017d000 a2=80241 a3=1a4 items=2 ppid=3599 pid=3600 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:09:09 2018
+type=PROCTITLE msg=audit(1518124149.597:40): proctitle="./adversarial-honeytokens"
+type=PATH msg=audit(1518124149.597:40): item=1 name="/home/test/.bash_history" inode=932855 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518124149.597:40): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518124149.597:40):  cwd="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens"
+type=SYSCALL msg=audit(1518124149.597:40): arch=c000003e syscall=257 success=yes exit=4 a0=ffffffffffffff9c a1=c42017d0a0 a2=80241 a3=1a4 items=2 ppid=3599 pid=3600 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=3 comm="adversarial-hon" exe="/home/scenario1/adversarial-honeytokens/adversarial-honeytokens/adversarial-honeytokens" key=(null)
+----
+time->Thu Feb  8 13:47:26 2018
+type=PROCTITLE msg=audit(1518126446.139:60): proctitle=6C73002D2D636F6C6F723D6175746F
+type=PATH msg=audit(1518126446.139:60): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126446.139:60):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126446.139:60): arch=c000003e syscall=2 success=yes exit=3 a0=1221590 a1=90800 a2=2 a3=502 items=1 ppid=2420 pid=3664 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="ls" exe="/bin/ls" key=(null)
+----
+time->Thu Feb  8 13:47:29 2018
+type=PROCTITLE msg=audit(1518126449.427:61): proctitle=6C73002D2D636F6C6F723D6175746F002D61
+type=PATH msg=audit(1518126449.427:61): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126449.427:61):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126449.427:61): arch=c000003e syscall=2 success=yes exit=3 a0=82a590 a1=90800 a2=2 a3=502 items=1 ppid=2420 pid=3665 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="ls" exe="/bin/ls" key=(null)
+----
+time->Thu Feb  8 13:47:37 2018
+type=PROCTITLE msg=audit(1518126457.691:62): proctitle="(null)"
+type=PATH msg=audit(1518126457.691:62): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126457.691:62):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126457.691:62): arch=c000003e syscall=2 success=yes exit=3 a0=2199b88 a1=90800 a2=2193df4 a3=20 items=1 ppid=2420 pid=3666 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:37 2018
+type=PROCTITLE msg=audit(1518126457.695:63): proctitle="(null)"
+type=PATH msg=audit(1518126457.695:63): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126457.695:63):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126457.695:63): arch=c000003e syscall=2 success=yes exit=3 a0=218cb08 a1=90800 a2=2199b94 a3=20 items=1 ppid=2420 pid=3667 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:38 2018
+type=PROCTITLE msg=audit(1518126458.703:64): proctitle="(null)"
+type=PATH msg=audit(1518126458.703:64): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126458.703:64):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126458.703:64): arch=c000003e syscall=2 success=yes exit=3 a0=2165808 a1=90800 a2=2181614 a3=20 items=1 ppid=2420 pid=3668 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:38 2018
+type=PROCTITLE msg=audit(1518126458.703:65): proctitle="(null)"
+type=PATH msg=audit(1518126458.703:65): item=0 name="/home/test/" inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126458.703:65):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126458.703:65): arch=c000003e syscall=2 success=yes exit=3 a0=2191008 a1=90800 a2=21837f4 a3=20 items=1 ppid=2420 pid=3669 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:47 2018
+type=PROCTITLE msg=audit(1518126467.911:67): proctitle="(null)"
+type=PATH msg=audit(1518126467.911:67): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126467.911:67):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126467.911:67): arch=c000003e syscall=2 success=yes exit=3 a0=21887e8 a1=90800 a2=2188908 a3=0 items=1 ppid=2420 pid=3677 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:47 2018
+type=PROCTITLE msg=audit(1518126467.903:66): proctitle="(null)"
+type=PATH msg=audit(1518126467.903:66): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126467.903:66):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126467.903:66): arch=c000003e syscall=2 success=yes exit=3 a0=2188678 a1=90800 a2=2188798 a3=0 items=1 ppid=2420 pid=3676 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:50 2018
+type=PROCTITLE msg=audit(1518126470.255:71): proctitle="(null)"
+type=PATH msg=audit(1518126470.255:71): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126470.255:71):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126470.255:71): arch=c000003e syscall=2 success=yes exit=3 a0=2188518 a1=90800 a2=218c92b a3=0 items=1 ppid=2420 pid=3681 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:48 2018
+type=PROCTITLE msg=audit(1518126468.891:68): proctitle="(null)"
+type=PATH msg=audit(1518126468.891:68): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126468.891:68):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126468.891:68): arch=c000003e syscall=2 success=yes exit=3 a0=2188868 a1=90800 a2=2188ce9 a3=0 items=1 ppid=2420 pid=3678 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:48 2018
+type=PROCTITLE msg=audit(1518126468.891:69): proctitle="(null)"
+type=PATH msg=audit(1518126468.891:69): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126468.891:69):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126468.891:69): arch=c000003e syscall=2 success=yes exit=3 a0=21888f8 a1=90800 a2=21881e9 a3=0 items=1 ppid=2420 pid=3679 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Thu Feb  8 13:47:50 2018
+type=PROCTITLE msg=audit(1518126470.255:70): proctitle="(null)"
+type=PATH msg=audit(1518126470.255:70): item=0 name="." inode=917980 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126470.255:70):  cwd="/home/test"
+type=SYSCALL msg=audit(1518126470.255:70): arch=c000003e syscall=2 success=yes exit=3 a0=2188868 a1=90800 a2=2187e6b a3=0 items=1 ppid=2420 pid=3680 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="bash" exe="/bin/bash" key=(null)
+

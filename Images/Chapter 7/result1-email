@@ -1,0 +1,48 @@
+----
+time->Thu Feb  8 13:48:53 2018
+type=PROCTITLE msg=audit(1518126533.951:72): proctitle=63617400656D61696C2E747874
+type=PATH msg=audit(1518126533.951:72): item=0 name="email.txt" inode=524476 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126533.951:72):  cwd="/tmp"
+type=SYSCALL msg=audit(1518126533.951:72): arch=c000003e syscall=2 success=yes exit=3 a0=7fff8a48f74e a1=0 a2=20000 a3=69d items=1 ppid=2420 pid=3687 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="cat" exe="/bin/cat" key="honeyfile"
+----
+time->Thu Feb  8 13:48:57 2018
+type=PROCTITLE msg=audit(1518126537.451:73): proctitle=7069636F00656D61696C2E747874
+type=PATH msg=audit(1518126537.451:73): item=0 name="/tmp/email.txt" inode=524476 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1518126537.451:73):  cwd="/tmp"
+type=SYSCALL msg=audit(1518126537.451:73): arch=c000003e syscall=2 success=yes exit=3 a0=16d43e0 a1=0 a2=8000 a3=4b1 items=1 ppid=2420 pid=3690 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="pico" exe="/bin/nano" key="honeyfile"
+----
+time->Thu Feb  8 13:48:57 2018
+type=PROCTITLE msg=audit(1518126537.451:74): proctitle=7069636F00656D61696C2E747874
+type=PATH msg=audit(1518126537.451:74): item=1 name="/tmp/email.txt" inode=524476 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518126537.451:74): item=0 name="/tmp/" inode=524406 dev=08:01 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518126537.451:74):  cwd="/tmp"
+type=SYSCALL msg=audit(1518126537.451:74): arch=c000003e syscall=2 success=yes exit=3 a0=16d44f0 a1=441 a2=1b6 a3=690 items=2 ppid=2420 pid=3690 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="pico" exe="/bin/nano" key="honeyfile"
+----
+time->Thu Feb  8 13:49:58 2018
+type=PROCTITLE msg=audit(1518126598.876:75): proctitle=7069636F00656D61696C2E747874
+type=PATH msg=audit(1518126598.876:75): item=1 name="email.txt" inode=524476 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1518126598.876:75): item=0 name="/tmp" inode=524406 dev=08:01 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1518126598.876:75):  cwd="/tmp"
+type=SYSCALL msg=audit(1518126598.876:75): arch=c000003e syscall=2 success=yes exit=3 a0=17d22a0 a1=241 a2=1b6 a3=4b4 items=2 ppid=2420 pid=3690 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=3 comm="pico" exe="/bin/nano" key="honeyfile"
+----
+time->Thu Feb  8 14:05:38 2018
+type=USER_CMD msg=audit(1518127538.367:78): pid=3702 uid=1000 auid=1000 ses=3 msg='cwd="/tmp" cmd=6175736561726368202D66202F686F6D652F74657374 terminal=pts/0 res=success'
+----
+time->Thu Feb  8 14:06:04 2018
+type=USER_CMD msg=audit(1518127564.044:83): pid=3704 uid=1000 auid=1000 ses=3 msg='cwd="/tmp" cmd=6175736561726368202D66202F686F6D652F74657374 terminal=pts/0 res=success'
+----
+time->Thu Feb  8 14:06:12 2018
+type=USER_CMD msg=audit(1518127572.876:88): pid=3706 uid=1000 auid=1000 ses=3 msg='cwd="/tmp" cmd=6175736561726368202D66202F746D70 terminal=pts/0 res=success'
+----
+time->Thu Feb  8 14:06:17 2018
+type=USER_CMD msg=audit(1518127577.588:93): pid=3708 uid=1000 auid=1000 ses=3 msg='cwd="/tmp" cmd=6175736561726368202D66202F686F6D652F74657374 terminal=pts/0 res=success'
+----
+time->Thu Feb  8 14:06:26 2018
+type=USER_CMD msg=audit(1518127586.496:98): pid=3710 uid=1000 auid=1000 ses=3 msg='cwd="/tmp" cmd=6175736561726368202D66202F746D70 terminal=pts/0 res=success'
+----
+time->Thu Feb  8 14:19:24 2018
+type=USER_CMD msg=audit(1518128364.118:109): pid=3734 uid=1000 auid=1000 ses=3 msg='cwd="/tmp" cmd=6175736561726368202D66202F686F6D652F74657374 terminal=pts/0 res=success'
+----
+time->Thu Feb  8 14:20:11 2018
+type=USER_CMD msg=audit(1518128411.383:114): pid=3736 uid=1000 auid=1000 ses=3 msg='cwd="/tmp" cmd=6175736561726368202D66202F746D70 terminal=pts/0 res=success'
+

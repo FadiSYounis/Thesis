@@ -1,0 +1,142 @@
+
+Skip to content
+
+    Features
+    Business
+    Explore
+    Marketplace
+    Pricing
+
+This repository
+Sign in or Sign up
+
+    Watch 2,820
+    Star 39,835
+    Fork 5,411
+
+golang / go
+Code Issues 3,276 Pull requests 14 Wiki Insights
+Dismiss
+Join GitHub today
+
+GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.
+
+Sign up
+The Go programming language https://golang.org
+programming-language language go
+
+    35,976 commits
+    29 branches
+    207 releases
+    1,035 contributors
+
+    Go 87.8%
+    Assembly 6.3%
+    HTML 5.3%
+    C 0.4%
+    Shell 0.1%
+    Perl 0.1%
+
+Go Assembly HTML C Shell Perl
+Clone or download
+Clone with HTTPS
+
+Use Git or checkout with SVN using the web URL.
+Download ZIP
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching Xcode ...
+
+If nothing happens, download Xcode and try again.
+
+Go back
+Launching Visual Studio ...
+
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+
+Go back
+Find file
+Branch: master
+Switch branches/tags
+
+    Branches
+    Tags
+
+dev.boringcrypto.go1.8 dev.boringcrypto.go1.9 dev.boringcrypto.go1.10 dev.boringcrypto dev.cc dev.debug dev.garbage dev.gcfe dev.inline dev.power64 dev.ssa dev.tls dev.typealias master release-branch.go1 release-branch.go1.1 release-branch.go1.2 release-branch.go1.3 release-branch.go1.4 release-branch.go1.5 release-branch.go1.6 release-branch.go1.7 release-branch.go1.8 release-branch.go1.9 release-branch.go1.10 release-branch.r57 release-branch.r58 release-branch.r59 release-branch.r60
+Nothing to show
+weekly.2012-03-27 weekly.2012-03-22 weekly.2012-03-13 weekly.2012-03-04 weekly.2012-02-22 weekly.2012-02-14 weekly.2012-02-07 weekly.2012-01-27 weekly.2012-01-20 weekly.2012-01-15 weekly.2011-12-22 weekly.2011-12-14 weekly.2011-12-06 weekly.2011-12-02 weekly.2011-12-01 weekly.2011-11-18 weekly.2011-11-09 weekly.2011-11-08 weekly.2011-11-02 weekly.2011-11-01 weekly.2011-10-26 weekly.2011-10-25 weekly.2011-10-18 weekly.2011-10-06 weekly.2011-09-21 weekly.2011-09-16 weekly.2011-09-07 weekly.2011-09-01 weekly.2011-08-17 weekly.2011-08-10 weekly.2011-07-29 weekly.2011-07-19 weekly.2011-07-07 weekly.2011-06-23 weekly.2011-06-16 weekly.2011-06-09 weekly.2011-06-02 weekly.2011-05-22 weekly.2011-04-27 weekly.2011-04-13 weekly.2011-04-04 weekly.2011-03-28 weekly.2011-03-15 weekly.2011-03-07.1 weekly.2011-03-07 weekly.2011-02-24 weekly.2011-02-15 weekly.2011-02-01.1 weekly.2011-02-01 weekly.2011-01-20 weekly.2011-01-19 weekly.2011-01-12 weekly.2011-01-06 weekly.2010-12-22 weekly.2010-12-15.1 weekly.2010-12-15 weekly.2010-12-08 weekly.2010-12-02 weekly.2010-11-23 weekly.2010-11-10 weekly.2010-11-02 weekly.2010-10-27 weekly.2010-10-20 weekly.2010-10-13.1 weekly.2010-10-13 weekly.2010-09-29 weekly.2010-09-22 weekly.2010-09-15 weekly.2010-09-06 weekly.2010-08-25 weekly.2010-08-11 weekly.2010-08-04 weekly.2010-07-29 weekly.2010-07-14 weekly.2010-07-01 weekly.2010-06-21 weekly.2010-06-09 weekly.2010-05-27 weekly.2010-05-04 weekly.2010-04-27 weekly.2010-04-13 weekly.2010-03-30 weekly.2010-03-22 weekly.2010-03-15 weekly.2010-03-04 weekly.2010-02-23 weekly.2010-02-17 weekly.2010-02-04 weekly.2010-01-27 weekly.2010-01-13 weekly.2010-01-05 weekly.2009-12-22 weekly.2009-12-09 weekly.2009-12-07 weekly.2009-11-17 weekly.2009-11-12 weekly.2009-11-10.1 weekly.2009-11-10 weekly.2009-11-06 weekly
+Nothing to show
+New pull request
+Fetching latest commit…
+Cannot retrieve the latest commit at this time.
+Permalink
+	Failed to load latest commit information.
+	.github 	github: update Pull Request template 	Feb 20, 2018
+	api 	api: add exception for os.ModeType value 	Mar 29, 2018
+	doc 	doc: update 1.9.5 release notes to include net/http/pprof 	Mar 28, 2018
+	lib/ time 	all: use HTTPS for iana.org links 	Feb 13, 2018
+	misc 	misc/wasm: add scripts for running WebAssembly binaries 	Mar 30, 2018
+	src 	cmd/compile: stack-allocate values worklist in schedule 	Apr 3, 2018
+	test 	cmd/compile: make DCE remove nodes after terminating if 	Apr 3, 2018
+	.gitattributes 	.gitattributes: prevent all magic line ending changes 	Dec 12, 2014
+	.gitignore 	.gitignore: ignore src/cmd/dist/dist 	Oct 28, 2017
+	AUTHORS 	A+C: update my name and spelling 	Feb 20, 2018
+	CONTRIBUTING.md 	all: restore changes from faulty merge/revert 	Feb 12, 2018
+	CONTRIBUTORS 	C: add Filippo Valsorda's @golang.org email 	Mar 12, 2018
+	LICENSE 	doc: revert copyright date to 2009 	Jun 1, 2016
+	PATENTS 	LICENSE: separate, change PATENTS text 	Dec 6, 2010
+	README.md 	all: restore changes from faulty merge/revert 	Feb 12, 2018
+	favicon.ico 	website: recreate 16px and 32px favicon 	Aug 25, 2016
+	robots.txt 	godoc: serve robots.txt raw 	Feb 18, 2011
+README.md
+The Go Programming Language
+
+Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
+Gopher image Gopher image by Renee French , licensed under Creative Commons 3.0 Attributions license .
+
+Our canonical Git repository is located at https://go.googlesource.com/go . There is a mirror of the repository at https://github.com/golang/go .
+
+Unless otherwise noted, the Go source files are distributed under the BSD-style license found in the LICENSE file.
+Download and Install
+Binary Distributions
+
+Official binary distributions are available at https://golang.org/dl/ .
+
+After downloading a binary release, visit https://golang.org/doc/install or load doc/install.html in your web browser for installation instructions.
+Install From Source
+
+If a binary distribution is not available for your combination of operating system and architecture, visit https://golang.org/doc/install/source or load doc/install-source.html in your web browser for source installation instructions.
+Contributing
+
+Go is the work of hundreds of contributors. We appreciate your help!
+
+To contribute, please read the contribution guidelines: https://golang.org/doc/contribute.html
+
+Note that the Go project uses the issue tracker for bug reports and proposals only. See https://golang.org/wiki/Questions for a list of places to ask questions about the Go language.
+
+    © 2018 GitHub , Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
+You can't perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session.
+Press h to open a hovercard with more details.

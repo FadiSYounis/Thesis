@@ -1,0 +1,160 @@
+
+Skip to content
+
+    Features
+    Business
+    Explore
+    Marketplace
+    Pricing
+
+This repository
+Sign in or Sign up
+
+    Watch 10
+    Star 150
+    Fork 10
+
+crsmithdev / goenv
+Code Issues 2 Pull requests 4 Projects 0 Insights
+Dismiss
+Join GitHub today
+
+GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.
+
+Sign up
+Isolated development environments for Go
+
+    46 commits
+    1 branch
+    0 releases
+    2 contributors
+    Apache-2.0
+
+    Go 94.9%
+    Makefile 5.1%
+
+Go Makefile
+Clone or download
+Clone with HTTPS
+
+Use Git or checkout with SVN using the web URL.
+Download ZIP
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching GitHub Desktop ...
+
+If nothing happens, download GitHub Desktop and try again.
+
+Go back
+Launching Xcode ...
+
+If nothing happens, download Xcode and try again.
+
+Go back
+Launching Visual Studio ...
+
+If nothing happens, download the GitHub extension for Visual Studio and try again.
+
+Go back
+Find file
+Branch: master
+Switch branches/tags
+
+    Branches
+    Tags
+
+master
+Nothing to show
+Nothing to show
+New pull request
+Fetching latest commit…
+Cannot retrieve the latest commit at this time.
+Permalink
+	Failed to load latest commit information.
+	.gitignore 	tests, makefile 	Mar 6, 2015
+	.travis.yml 	travis fix 	Mar 6, 2015
+	LICENSE 	Initial commit 	Jul 21, 2014
+	Makefile 	tests, makefile 	Mar 6, 2015
+	README.md 	Fix typo in readme 	Mar 12, 2015
+	goenv.go 	flags, refactoring 	Mar 3, 2015
+	help.go 	help update 	Mar 6, 2015
+	init.go 	tests, makefile 	Mar 6, 2015
+	init_test.go 	more tests 	Mar 6, 2015
+README.md
+goenv
+
+Travis GoDoc
+What?
+
+Goenv is a Go package that provides virtualenv-like functionality for Go projects, isolating dependencies into workspaces for safer and simpler management.
+Why?
+
+Go's package management expects that all go source files and packages will exist under a single system directory, GOPATH. This makes it easy to install and find packages, but means that any projects being worked on will share the same GOPATH, which can cause issues if different versions of packages are required and make it difficult to create isolated, reproducible builds.
+Features
+
+    Similar functionality to Python's virtualenv and virtualenvwrapper.
+    Separates development directory from import path - e.g., develop in ~/myproject , but import from github.com/me/myproject
+    Isolates dependencies from other projects.
+    Does not interfere with any go command functionality.
+    Written in Go, installable with go get .
+
+Quick start
+
+First, ensure your PATH includes the /bin directory in your global GOPATH , with something like:
+
+ PATH=PATH:$GOPATH/bin  
+
+Install this package:
+
+ go get github.com/crsmithdev/goenv  
+
+Within your project directory, create a goenv:
+
+ goenv github.com/me/myproject  
+
+Activate the goenv:
+
+ . goenv/activate  
+
+Install packages with go get or other dependency managment tools.
+
+ go get github.com/hoisie/redis  
+
+When finished, deactivate the goenv:
+
+ deactivate  
+
+Commands
+Init
+
+ Usage: goenv init [-g][-s][-p][-n] [import path] Init initializes a goenv and creates an initialization script that activates it. This script creates, if needed, a GOPATH directory structure, symlinks the project into that structure at the specified input path, and then alters the current session's GOPATH environment variable to point to it. The goenv can be deactivated with 'deactivate'. Init supports the following options: -n the name of the environment, defaulting to the name of the current working directory. -g the GOPATH to create, defaulting to ~/.goenv/<name> -p the project path, defaulting to the current working directory. -s the full path to the initialization script, defaulting to ./goenv/activate.  
+
+Help
+
+ Usage: goenv help [command] Help gets detailed usage information for a command.  
+
+Todo
+
+    destroy command
+    ???
+
+    © 2018 GitHub , Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
+You can't perform that action at this time.
+You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session.
+Press h to open a hovercard with more details.
