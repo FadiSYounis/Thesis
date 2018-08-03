@@ -18,7 +18,7 @@ _Contact:_ Fadi Younis ([@FadiSYounis](https://www.linkedin.com/in/fadiyounis/),
 # FAQ
 
 ### Hey, How do I view your thesis?
-Click on [`thesis.pdf` up there ^ or here](thesis.pdf). Github should do the rest.
+Click on [`grad-thesis.pdf` up there ^ or here](grad-thesis.pdf). Github should do the rest.
 
 ### Did you built this template yourself, or did you borrow it?
 I did not built the template myself, I borrowed it. It was retrived from here (https://github.com/deedy/Deedy-Resume)
