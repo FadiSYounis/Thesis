@@ -6,6 +6,7 @@ Using Honeypots In A Decentralized Framework To Defend Against Adversarial Machi
 
 M.Sc. dissertation, Fadi Younis, July 2018. Defended on April 17th, 2018. 
 
+# Resources
 Conference Paper:_ https://goo.gl/WfBUcg (draft)<br/>
 Thesis Defense Slides:_ https://www.slideshare.net/slideshow/embed_code/key/BGNkstb3bfzlVC
 
@@ -29,12 +30,12 @@ June 2017 - April 5th 2018
 
 ---
 
-Copyright
+# Copyright
 
 The work herein is Copyright 2017--2018 Fadi Younis and Ryerson University. No rights are given to reproduce or modify this work.
 
 
-Short Summary: 
+# Short Summary: 
 
 The market demand for online machine-learning services is increasing, and so to
 have are the threats to them. Adversarial inputs represent a new threat to Machine-
@@ -49,7 +50,7 @@ attacker from correctly learning the labels and approximating the architecture o
 black-box system; 2) luring the attacker away, towards a decoy model, using HoneyTo-
 kens; and 3) creating infeasible computational work for the adversary.
 
-Tools Used:
+# Tools Used:
 GoLang, Bash, 3rd party software 
 
 -----
