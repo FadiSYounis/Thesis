@@ -7,6 +7,7 @@ Using Honeypots In A Decentralized Framework To Defend Against Adversarial Machi
 M.Sc. dissertation, Fadi Younis, July 2018. Defended on April 17th, 2018. 
 
 Conference Paper:_ https://goo.gl/WfBUcg (draft)
+Thesis Defense Slides:_ https://www.slideshare.net/slideshow/embed_code/key/BGNkstb3bfzlVC
 
 _Mirrors:_ 
 - https://goo.gl/KMqdzb
@@ -20,8 +21,11 @@ _Contact:_ Fadi Younis ([@FadiSYounis](https://www.linkedin.com/in/fadiyounis/),
 ### Hey, How do I view your thesis?
 Click on [`grad-thesis.pdf` up there ^ or here](grad-thesis.pdf). Github should do the rest.
 
-### Did you built this template yourself, or did you borrow it?
-I did not built the template myself, I borrowed it. It was retrived from here (https://github.com/deedy/Deedy-Resume)
+### Which template did you use?
+The Ryerson University Grad Student Template. It was retrived from here (https://phymbie.physics.ryerson.ca/howto/)
+
+### How long did it take you to research, build and write your thesis?
+June 2017 - April 5th 2018
 
 ---
 
