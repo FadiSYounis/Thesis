@@ -2,11 +2,11 @@
 My now-completed academic thesis, lo and behold!
 
 Using Honeypots In A Decentralized Framework To Defend Against Adversarial Machine-Learning Attacks
-============================
+===================================================================================================
 
 M.Sc. dissertation, Fadi Younis, July 2018. Defended on April 17th, 2018. 
 
-Conference Paper:_ https://goo.gl/WfBUcg (draft)
+Conference Paper:_ https://goo.gl/WfBUcg (draft)<br/>
 Thesis Defense Slides:_ https://www.slideshare.net/slideshow/embed_code/key/BGNkstb3bfzlVC
 
 _Mirrors:_ 
