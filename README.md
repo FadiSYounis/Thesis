@@ -1,5 +1,4 @@
 # Thesis
-My now-completed academic thesis, lo and behold!
 
 Using Honeypots In A Decentralized Framework To Defend Against Adversarial Machine-Learning Attacks
 ===================================================================================================
