@@ -42,12 +42,16 @@ Learning-as-a-Services (MLaaSs). Meticulously crafted malicious inputs can be us
 mislead and confuse the learning model, even in cases where the adversary only has
 access to input and output labels. As a result, there has been increased interest in
 defence techniques to combat these types of attacks.
+
 In this thesis, we propose a network of high-interaction honeypots as a decentral-
 ized defence framework that prevents an adversary from corrupting the learning model,
-primarily through the use of deception. We accomplish our aim by 1) preventing the
-attacker from correctly learning the labels and approximating the architecture of the
-black-box system; 2) luring the attacker away, towards a decoy model, using HoneyTo-
-kens; and 3) creating infeasible computational work for the adversary.
+primarily through the use of deception. We accomplish our aim by:
+
+1) preventing the attacker from correctly learning the labels and approximating the architecture of the
+black-box system
+2) luring the attacker away, towards a decoy model, using HoneyTo-
+kens
+3) creating infeasible computational work for the adversary.
 
 # Tools Used:
 GoLang, Bash, 3rd party software 
